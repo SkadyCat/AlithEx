@@ -1,0 +1,213 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-29T04:29:18.783Z",
+  "nextId": 8,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "ProgressDemoRoot",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "bgColor": "rgba(14,22,20,1)",
+      "borderColor": "#224038",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {},
+      "children": [
+        {
+          "id": 2,
+          "label": "Title",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 36,
+          "w": 420,
+          "h": 40,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "ProgressBar Demo",
+            "textColor": "#8be0b8",
+            "fontSize": 24,
+            "bold": true,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        },
+        {
+          "id": 3,
+          "label": "HPLabel",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 116,
+          "w": 220,
+          "h": 28,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "HP 72%",
+            "textColor": "#dbeee3",
+            "fontSize": 16,
+            "bold": true,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        },
+        {
+          "id": 4,
+          "label": "HPBar",
+          "widgetType": "ProgressBar",
+          "x": 48,
+          "y": 150,
+          "w": 420,
+          "h": 26,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "percent": 0.72,
+            "fillColor": "#56cfba",
+            "barColor": "#2a3440"
+          },
+          "children": []
+        },
+        {
+          "id": 5,
+          "label": "ManaLabel",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 210,
+          "w": 220,
+          "h": 28,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Mana 45%",
+            "textColor": "#dbeee3",
+            "fontSize": 16,
+            "bold": true,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        },
+        {
+          "id": 6,
+          "label": "ManaBar",
+          "widgetType": "ProgressBar",
+          "x": 48,
+          "y": 244,
+          "w": 420,
+          "h": 26,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "percent": 0.45,
+            "fillColor": "#5c88ff",
+            "barColor": "#2a3440"
+          },
+          "children": []
+        },
+        {
+          "id": 7,
+          "label": "Hint",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 304,
+          "w": 520,
+          "h": 32,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "用于演示 ProgressBar 的 percent、fillColor 和 barColor。",
+            "textColor": "#9ab7a8",
+            "fontSize": 14,
+            "bold": false,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

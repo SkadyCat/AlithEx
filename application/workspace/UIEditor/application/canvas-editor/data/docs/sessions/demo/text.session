@@ -1,0 +1,127 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-29T04:29:18.783Z",
+  "nextId": 5,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "TextDemoRoot",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "bgColor": "rgba(20,16,28,1)",
+      "borderColor": "#352848",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {},
+      "children": [
+        {
+          "id": 2,
+          "label": "Title",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 36,
+          "w": 420,
+          "h": 40,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Text Demo",
+            "textColor": "#f0c97a",
+            "fontSize": 24,
+            "bold": true,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        },
+        {
+          "id": 3,
+          "label": "BodyText",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 110,
+          "w": 680,
+          "h": 120,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "这是一个用于展示 TextBlock 的示例会话。你可以继续在这个基础上追加标题、说明文案、数值标签等文本控件。",
+            "textColor": "#f5f7ff",
+            "fontSize": 18,
+            "bold": false,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        },
+        {
+          "id": 4,
+          "label": "Caption",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 258,
+          "w": 520,
+          "h": 32,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "支持字号、颜色、对齐和自动换行。",
+            "textColor": "#93a4c8",
+            "fontSize": 14,
+            "bold": false,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

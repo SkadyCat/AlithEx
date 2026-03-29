@@ -1,0 +1,176 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-29T04:52:37.136Z",
+  "nextId": 7,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "ButtonDemoRoot",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "bgColor": "rgba(13,18,32,1)",
+      "borderColor": "#1f2d4d",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {},
+      "children": [
+        {
+          "id": 2,
+          "label": "Title",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 36,
+          "w": 420,
+          "h": 40,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Button Demo",
+            "textColor": "#f2cb7b",
+            "fontSize": 24,
+            "bold": true,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          }
+        },
+        {
+          "id": 3,
+          "label": "Hint",
+          "widgetType": "TextBlock",
+          "x": 48,
+          "y": 86,
+          "w": 560,
+          "h": 56,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Overlay 内子控件坐标应相对 Overlay 本身；按钮背景和文字都从 0,0 开始，由各自控件盒子负责内部对齐。",
+            "textColor": "#c7d3ea",
+            "fontSize": 16,
+            "bold": false,
+            "textAlign": "left",
+            "autoWrap": true,
+            "italic": false,
+            "autoFit": false
+          }
+        },
+        {
+          "id": 4,
+          "label": "PrimaryButtonOverlay",
+          "widgetType": "Overlay",
+          "x": 48,
+          "y": 170,
+          "w": 220,
+          "h": 64,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "PrimaryButton",
+      "widgetType": "Button",
+      "x": 0,
+      "y": 0,
+      "w": 220,
+      "h": 64,
+      "bgColor": "rgba(48,88,156,0.95)",
+      "borderColor": "#88b4ff",
+      "borderWidth": 1,
+      "borderRadius": 10,
+      "boxShadow": "0 6px 18px rgba(0,0,0,0.25)",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "",
+        "textColor": "#ffffff",
+        "fontSize": 16,
+        "bold": true,
+        "textAlign": "center"
+      },
+      "children": [
+        {
+          "id": 6,
+          "label": "PrimaryButtonText",
+          "widgetType": "TextBlock",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 64,
+          "bgColor": "rgba(0,0,0,0)",
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Click Me",
+            "textColor": "#ffffff",
+            "fontSize": 16,
+            "bold": true,
+            "textAlign": "center",
+            "autoWrap": false,
+            "italic": false,
+            "autoFit": false
+          }
+        }
+      ]
+    }
+  ]
+}

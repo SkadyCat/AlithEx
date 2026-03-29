@@ -92,3 +92,35 @@
 [2026.03.29-12:12:22] [DONE] Completed task 'msg-2026-03-29T03-58-18-193Z.md' and moved it to processed.
 [2026.03.29-12:12:37] [QUEUE_EMPTY] Queue is empty; wrote session export 'session-2026-03-29-04-09-58.md'.
 [2026.03.29-12:12:37] [WAIT] Waiting for new Markdown tasks via wait-for-session-doc.bat 30 continuous.
+[2026.03.29-12:23:12] [TASK_DETECTED] Found task file 'msg-2026-03-29T04-22-36-254Z.md' in sessions queue.
+[2026.03.29-12:23:12] [TASK_START] Started task 'msg-2026-03-29T04-22-36-254Z.md'; moved from sessions to inprocess.
+[2026.03.29-12:23:21] [ACTION] Searching active workspace for 'skills' references for task 'msg-2026-03-29T04-22-36-254Z.md'.
+[2026.03.29-12:23:57] [ACTION] Created delivery note 'doc\\msg-2026-03-29T04-22-36-254Z_doc.md' for task 'msg-2026-03-29T04-22-36-254Z.md'.
+[2026.03.29-12:23:57] [DONE] Completed task 'msg-2026-03-29T04-22-36-254Z.md' and moved it to processed.
+[2026.03.29-12:24:05] [QUEUE_EMPTY] Queue is empty after processing 'msg-2026-03-29T04-22-36-254Z.md'; updated session export 'session-2026-03-29-04-09-58.md'.
+[2026.03.29-12:24:05] [WAIT] Waiting for new Markdown tasks via wait-for-session-doc.bat 30 continuous.
+[2026.03.29-12:29:52] [TASK_DETECTED] Found task file 'msg-2026-03-29T04-29-18-783Z.md' in sessions queue.
+[2026.03.29-12:29:52] [TASK_START] Started task 'msg-2026-03-29T04-29-18-783Z.md'; moved from sessions to inprocess.
+[2026.03.29-12:30:02] [ACTION] Inspecting existing canvas-editor session files before creating demo sessions.
+[2026.03.29-12:30:55] [ACTION] Created demo session folder and files: application\\canvas-editor\\data\\docs\\sessions\\demo\\button.session, text.session, progressbar.session.
+[2026.03.29-12:31:06] [VERIFY] Verified demo sessions are readable via canvas-editor docs API.
+[2026.03.29-12:31:34] [ACTION] Created delivery note 'doc\\msg-2026-03-29T04-29-18-783Z_doc.md' for task 'msg-2026-03-29T04-29-18-783Z.md'.
+[2026.03.29-12:31:34] [DONE] Completed task 'msg-2026-03-29T04-29-18-783Z.md' and moved it to processed.
+[2026.03.29-12:31:40] [QUEUE_EMPTY] Queue is empty after processing 'msg-2026-03-29T04-29-18-783Z.md'; updated session export 'session-2026-03-29-04-09-58.md'.
+[2026.03.29-12:31:40] [WAIT] Waiting for new Markdown tasks via wait-for-session-doc.bat 30 continuous.
+[2026.03.29-12:42:26] [TASK_DETECTED] Found task file 'msg-2026-03-29T04-42-11-263Z.md' in sessions queue.
+[2026.03.29-12:42:26] [TASK_START] Started task 'msg-2026-03-29T04-42-11-263Z.md'; moved from sessions to inprocess.
+[2026.03.29-12:42:33] [ACTION] Inspecting Overlay usage before rewriting demo\\button.session.
+[2026.03.29-12:43:19] [VERIFY] Verified rewritten demo\\button.session via docs API with status 200.
+[2026.03.29-12:43:43] [ACTION] Created delivery note 'doc\\msg-2026-03-29T04-42-11-263Z_doc.md' for task 'msg-2026-03-29T04-42-11-263Z.md'.
+[2026.03.29-12:43:43] [DONE] Completed task 'msg-2026-03-29T04-42-11-263Z.md' and moved it to processed.
+[2026.03.29-12:43:50] [QUEUE_EMPTY] Queue is empty after processing 'msg-2026-03-29T04-42-11-263Z.md'; updated session export 'session-2026-03-29-04-09-58.md'.
+[2026.03.29-12:43:50] [WAIT] Waiting for new Markdown tasks via wait-for-session-doc.bat 30 continuous.
+[2026.03.29-12:47:07] [TASK_DETECTED] Found task file 'msg-2026-03-29T04-46-43-023Z.md' in sessions queue.
+[2026.03.29-12:47:07] [TASK_START] Started task 'msg-2026-03-29T04-46-43-023Z.md'; moved from sessions to inprocess.
+[2026.03.29-12:47:20] [ACTION] Inspecting overlay child positioning after question about relative coordinates in demo\\button.session.
+[2026.03.29-12:48:02] [VERIFY] Verified demo\\button.session text child uses relative coordinates x=0, y=0 with HTTP 200.
+[2026.03.29-12:48:28] [ACTION] Created delivery note 'doc\\msg-2026-03-29T04-46-43-023Z_doc.md' for task 'msg-2026-03-29T04-46-43-023Z.md'.
+[2026.03.29-12:48:28] [DONE] Completed task 'msg-2026-03-29T04-46-43-023Z.md' and moved it to processed.
+[2026.03.29-12:48:41] [QUEUE_EMPTY] Queue is empty after processing 'msg-2026-03-29T04-46-43-023Z.md'; updated session export 'session-2026-03-29-04-09-58.md'.
+[2026.03.29-12:48:41] [WAIT] Waiting for new Markdown tasks via wait-for-session-doc.bat 30 continuous.
