@@ -1,0 +1,2798 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-22T15:33:46.888Z",
+  "nextId": 1000,
+  "boxes": [
+    {
+      "y": 0,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 622,
+      "borderRadius": 0,
+      "borderWidth": 2,
+      "borderColor": "#4a3010",
+      "boxShadow": "",
+      "bgColor": "#0a0703",
+      "w": 960,
+      "label": "BagWidget",
+      "x": 0,
+      "id": "bagWidget",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "y": 0,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "h": 36,
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "borderColor": "#4a3010",
+          "boxShadow": "0 2px 8px rgba(0,0,0,0.8)",
+          "bgColor": "#0d0802",
+          "w": 960,
+          "label": "TitleBar",
+          "x": 0,
+          "id": "titleBar",
+          "widgetType": "CanvasPanel",
+          "opacity": 1,
+          "children": [
+            {
+              "y": 8,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 16,
+                "text": "INVENTORY",
+                "autoWrap": true,
+                "textAlign": "center",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 20,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 200,
+              "label": "TitleText",
+              "x": 380,
+              "id": "titleText",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 0,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 36,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(212,168,75,0.05)",
+              "w": 200,
+              "label": "DecorLeft",
+              "x": 0,
+              "id": "decorLeft",
+              "widgetType": "CanvasPanel",
+              "opacity": 1,
+              "children": [
+                {
+                  "y": 10,
+                  "widgetProps": {
+                    "italic": false,
+                    "textColor": "#c8b48a",
+                    "fontSize": 12,
+                    "text": "Adventurer",
+                    "autoWrap": true,
+                    "textAlign": "left",
+                    "bold": false,
+                    "autoFit": false
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "h": 16,
+                  "borderRadius": 0,
+                  "borderWidth": 0,
+                  "borderColor": "rgba(0,0,0,0)",
+                  "boxShadow": "",
+                  "bgColor": "rgba(0,0,0,0)",
+                  "w": 180,
+                  "label": "CharName",
+                  "x": 10,
+                  "id": "charName",
+                  "widgetType": "TextBlock",
+                  "opacity": 1
+                }
+              ]
+            },
+            {
+              "y": 0,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 36,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(212,168,75,0.05)",
+              "w": 200,
+              "label": "DecorRight",
+              "x": 760,
+              "id": "decorRight",
+              "widgetType": "CanvasPanel",
+              "opacity": 1,
+              "children": [
+                {
+                  "y": 6,
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "h": 24,
+                  "borderRadius": 12,
+                  "borderWidth": 1,
+                  "borderColor": "#8a3030",
+                  "boxShadow": "",
+                  "bgColor": "#3a1010",
+                  "w": 24,
+                  "label": "CloseBtn",
+                  "x": 930,
+                  "id": "closeBtn",
+                  "widgetType": "CanvasPanel",
+                  "opacity": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "y": 36,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "h": 534,
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "borderColor": "#4a3010",
+          "boxShadow": "",
+          "bgColor": "#110c04",
+          "w": 200,
+          "label": "StatPanel",
+          "x": 0,
+          "id": "statPanel",
+          "widgetType": "CanvasPanel",
+          "opacity": 1,
+          "children": [
+            {
+              "y": 42,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 12,
+                "text": "CHARACTER",
+                "autoWrap": true,
+                "textAlign": "center",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 20,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 180,
+              "label": "StatTitle",
+              "x": 10,
+              "id": "statTitle",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 66,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 180,
+              "label": "StatDiv0",
+              "x": 10,
+              "id": "statDiv0",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            },
+            {
+              "y": 72,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#e05050",
+                "fontSize": 11,
+                "text": "Strength",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 90,
+              "label": "strLabel",
+              "x": 10,
+              "id": "strLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 72,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "18",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "strValue",
+              "x": 140,
+              "id": "strValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 92,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#50c050",
+                "fontSize": 11,
+                "text": "Dexterity",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 90,
+              "label": "dexLabel",
+              "x": 10,
+              "id": "dexLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 92,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "14",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "dexValue",
+              "x": 140,
+              "id": "dexValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 112,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#5090e0",
+                "fontSize": 11,
+                "text": "Intelligence",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 90,
+              "label": "intLabel",
+              "x": 10,
+              "id": "intLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 112,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "12",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "intValue",
+              "x": 140,
+              "id": "intValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 132,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#e0a030",
+                "fontSize": 11,
+                "text": "Vitality",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 90,
+              "label": "vitLabel",
+              "x": 10,
+              "id": "vitLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 132,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "20",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 16,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "vitValue",
+              "x": 140,
+              "id": "vitValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 154,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 180,
+              "label": "StatDiv1",
+              "x": 10,
+              "id": "statDiv1",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            },
+            {
+              "y": 160,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#e04040",
+                "fontSize": 11,
+                "text": "HP",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 40,
+              "label": "hpLabel",
+              "x": 10,
+              "id": "hpLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 160,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "240 / 300",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 100,
+              "label": "hpValue",
+              "x": 90,
+              "id": "hpValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 174,
+              "widgetProps": {
+                "percent": 0.8,
+                "barColor": "#2c1010",
+                "fillColor": "#e04040"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 10,
+              "borderRadius": 2,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#2c1010",
+              "w": 180,
+              "label": "hpBar",
+              "x": 10,
+              "id": "hpBar",
+              "widgetType": "ProgressBar",
+              "opacity": 1
+            },
+            {
+              "y": 188,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#4060e0",
+                "fontSize": 11,
+                "text": "MP",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 40,
+              "label": "mpLabel",
+              "x": 10,
+              "id": "mpLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 196,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "120 / 160",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 100,
+              "label": "mpValue",
+              "x": 90,
+              "id": "mpValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 214,
+              "widgetProps": {
+                "percent": 0.75,
+                "barColor": "#0d1020",
+                "fillColor": "#4060e0"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 10,
+              "borderRadius": 2,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#0d1020",
+              "w": 180,
+              "label": "mpBar",
+              "x": 10,
+              "id": "mpBar",
+              "widgetType": "ProgressBar",
+              "opacity": 1
+            },
+            {
+              "y": 232,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 180,
+              "label": "StatDiv2",
+              "x": 10,
+              "id": "statDiv2",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            },
+            {
+              "y": 238,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Weight",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 70,
+              "label": "wtLabel",
+              "x": 10,
+              "id": "wtLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 238,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "45 / 100",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 80,
+              "label": "wtValue",
+              "x": 110,
+              "id": "wtValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 256,
+              "widgetProps": {
+                "percent": 0.45,
+                "barColor": "#1a1408",
+                "fillColor": "#8b6914"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 10,
+              "borderRadius": 2,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#1a1408",
+              "w": 180,
+              "label": "wtBar",
+              "x": 10,
+              "id": "wtBar",
+              "widgetType": "ProgressBar",
+              "opacity": 1
+            },
+            {
+              "y": 272,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Armor",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 80,
+              "label": "armorLabel",
+              "x": 10,
+              "id": "armorLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 272,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "248",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 80,
+              "label": "armorValue",
+              "x": 110,
+              "id": "armorValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 292,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Gold",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "goldLabel",
+              "x": 10,
+              "id": "goldLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 292,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "12,450",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 120,
+              "label": "goldValue",
+              "x": 70,
+              "id": "goldValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 314,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 180,
+              "label": "StatDiv3",
+              "x": 10,
+              "id": "statDiv3",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            },
+            {
+              "y": 320,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Level",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "lvLabel",
+              "x": 10,
+              "id": "lvLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 320,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "24",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 40,
+              "label": "lvValue",
+              "x": 70,
+              "id": "lvValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 340,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#8a6040",
+                "fontSize": 11,
+                "text": "EXP",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 50,
+              "label": "expLabel",
+              "x": 10,
+              "id": "expLabel",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 340,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 10,
+                "text": "8,450 / 12,000",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 120,
+              "label": "expValue",
+              "x": 70,
+              "id": "expValue",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 358,
+              "widgetProps": {
+                "percent": 0.7,
+                "barColor": "#0a1510",
+                "fillColor": "#56cfba"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 10,
+              "borderRadius": 2,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#0a1510",
+              "w": 180,
+              "label": "expBar",
+              "x": 10,
+              "id": "expBar",
+              "widgetType": "ProgressBar",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "y": 36,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "h": 534,
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "borderColor": "#4a3010",
+          "boxShadow": "",
+          "bgColor": "#0f0c07",
+          "w": 280,
+          "label": "PaperdollPanel",
+          "x": 200,
+          "id": "paperdollPanel",
+          "widgetType": "CanvasPanel",
+          "opacity": 1,
+          "children": [
+            {
+              "id": "paperdollBody",
+              "label": "paperdollBody",
+              "nodeName": "paperdollBody",
+              "x": 270,
+              "y": 80,
+              "w": 140,
+              "h": 280,
+              "bgColor": "transparent",
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "opacity": 1,
+              "boxShadow": "",
+              "widgetType": "Image",
+              "widgetProps": {
+                "imagePath": "/assets/icons/paperdoll_body.svg",
+                "tintColor": "#8a6040",
+                "imageDrawType": "Normal"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              }
+            },
+            {
+              "y": 42,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 12,
+                "text": "EQUIPMENT",
+                "autoWrap": true,
+                "textAlign": "center",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 20,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 280,
+              "label": "EquipTitle",
+              "x": 200,
+              "id": "equipTitle",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 66,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 260,
+              "label": "EquipDiv",
+              "x": 210,
+              "id": "equipDiv",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "y": 36,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "h": 534,
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "borderColor": "#4a3010",
+          "boxShadow": "",
+          "bgColor": "#110c04",
+          "w": 480,
+          "label": "InvPanel",
+          "x": 480,
+          "id": "invPanel",
+          "widgetType": "CanvasPanel",
+          "opacity": 1,
+          "children": [
+            {
+              "y": 42,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 12,
+                "text": "BACKPACK",
+                "autoWrap": true,
+                "textAlign": "center",
+                "bold": true,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 20,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 460,
+              "label": "InvTitle",
+              "x": 490,
+              "id": "invTitle",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 64,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#8a6040",
+                "fontSize": 10,
+                "text": "Items: 12 / 49",
+                "autoWrap": true,
+                "textAlign": "center",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 460,
+              "label": "InvCount",
+              "x": 490,
+              "id": "invCount",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 84,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "#4a3010",
+              "w": 480,
+              "label": "InvDivider",
+              "x": 480,
+              "id": "invDivider",
+              "widgetType": "CanvasPanel",
+              "opacity": 1
+            },
+            {
+              "y": 90,
+              "widgetProps": {
+                "entryWidth": 62,
+                "entryClass": "bagItem_entry",
+                "entryHeight": 62,
+                "gridPreviewNum": 49,
+                "placeHolder": {
+                  "y": 4,
+                  "x": 4
+                }
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 472,
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "borderColor": "#3a2808",
+              "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.7)",
+              "bgColor": "rgba(0,0,0,0.3)",
+              "w": 472,
+              "label": "InvGrid",
+              "x": 482,
+              "id": "invGrid",
+              "widgetType": "TileView",
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "y": 570,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "h": 52,
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "borderColor": "#6a4820",
+          "boxShadow": "inset 0 1px 0 rgba(212,168,75,0.2)",
+          "bgColor": "#110c04",
+          "w": 960,
+          "label": "BeltPanel",
+          "x": 0,
+          "id": "beltPanel",
+          "widgetType": "CanvasPanel",
+          "opacity": 1,
+          "children": [
+            {
+              "y": 574,
+              "widgetProps": {
+                "entryWidth": 66,
+                "entryClass": "beltSlot_entry",
+                "entryHeight": 44,
+                "gridPreviewNum": 8,
+                "placeHolder": {
+                  "y": 0,
+                  "x": 8
+                }
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 44,
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "borderColor": "#7c5a20",
+              "boxShadow": "inset 0 1px 6px rgba(0,0,0,0.7)",
+              "bgColor": "rgba(10,7,3,0.7)",
+              "w": 592,
+              "label": "BeltQuick",
+              "x": 4,
+              "id": "beltQuick",
+              "widgetType": "TileView",
+              "opacity": 1
+            },
+            {
+              "y": 582,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Gold:",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 70,
+              "label": "BeltGoldLbl",
+              "x": 608,
+              "id": "beltGoldLbl",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 582,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "12,450",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 80,
+              "label": "BeltGoldVal",
+              "x": 680,
+              "id": "beltGoldVal",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 582,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#d4a84b",
+                "fontSize": 11,
+                "text": "Weight:",
+                "autoWrap": true,
+                "textAlign": "right",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 70,
+              "label": "BeltWtLbl",
+              "x": 764,
+              "id": "beltWtLbl",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            },
+            {
+              "y": 582,
+              "widgetProps": {
+                "italic": false,
+                "textColor": "#c8b48a",
+                "fontSize": 11,
+                "text": "45/100",
+                "autoWrap": true,
+                "textAlign": "left",
+                "bold": false,
+                "autoFit": false
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "h": 14,
+              "borderRadius": 0,
+              "borderWidth": 0,
+              "borderColor": "rgba(0,0,0,0)",
+              "boxShadow": "",
+              "bgColor": "rgba(0,0,0,0)",
+              "w": 80,
+              "label": "BeltWtVal",
+              "x": 836,
+              "id": "beltWtVal",
+              "widgetType": "TextBlock",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "y": 74,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Head",
+      "x": 310,
+      "id": "headSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "headSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 310,
+          "y": 74,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "headSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 318,
+          "y": 82,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/head.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "headSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 311,
+          "y": 123,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "头盔",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 74,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Neck",
+      "x": 380,
+      "id": "neckSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "neckSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 380,
+          "y": 74,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "neckSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 388,
+          "y": 82,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/amulet.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "neckSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 381,
+          "y": 123,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "项链",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 154,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Weapon",
+      "x": 240,
+      "id": "weaponSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "weaponSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 240,
+          "y": 154,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "weaponSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 248,
+          "y": 162,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/weapon.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "weaponSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 241,
+          "y": 203,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "武器",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 154,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Chest",
+      "x": 310,
+      "id": "chestSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "chestSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 310,
+          "y": 154,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "chestSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 318,
+          "y": 162,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/chest.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "chestSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 311,
+          "y": 203,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "胸甲",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 154,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Offhand",
+      "x": 380,
+      "id": "offhandSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "offhandSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 380,
+          "y": 154,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "offhandSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 388,
+          "y": 162,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/shield.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "offhandSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 381,
+          "y": 203,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "副手",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 234,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Gloves",
+      "x": 240,
+      "id": "gloveSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "gloveSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 240,
+          "y": 234,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "gloveSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 248,
+          "y": 242,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/gloves.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "gloveSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 241,
+          "y": 283,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "手套",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 234,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "EquipBelt",
+      "x": 310,
+      "id": "equipBeltSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "equipBeltSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 310,
+          "y": 234,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "equipBeltSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 318,
+          "y": 242,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/belt.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "equipBeltSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 311,
+          "y": 283,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "腰带",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 234,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Ring-L",
+      "x": 380,
+      "id": "ringLSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "ringLSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 380,
+          "y": 234,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "ringLSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 388,
+          "y": 242,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/ring.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "ringLSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 381,
+          "y": 283,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "左戒",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 314,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Ring-R",
+      "x": 240,
+      "id": "ringRSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "ringRSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 240,
+          "y": 314,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "ringRSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 248,
+          "y": 322,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/ring.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "ringRSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 241,
+          "y": 363,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "右戒",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 314,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Legs",
+      "x": 310,
+      "id": "legSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "legSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 310,
+          "y": 314,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "legSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 318,
+          "y": 322,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/legs.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "legSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 311,
+          "y": 363,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "腿甲",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 314,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Amulet",
+      "x": 380,
+      "id": "amuletSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "amuletSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 380,
+          "y": 314,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "amuletSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 388,
+          "y": 322,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/amulet.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "amuletSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 381,
+          "y": 363,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "护符",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    },
+    {
+      "y": 394,
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "h": 60,
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "borderColor": "#5a4020",
+      "boxShadow": "inset 0 2px 8px rgba(0,0,0,0.8)",
+      "bgColor": "#0d0a05",
+      "w": 60,
+      "label": "Boots",
+      "x": 310,
+      "id": "bootSlot",
+      "widgetType": "CanvasPanel",
+      "opacity": 1,
+      "children": [
+        {
+          "id": "bootSlot_bg",
+          "label": "SlotBg",
+          "widgetType": "Border",
+          "x": 310,
+          "y": 394,
+          "w": 60,
+          "h": 60,
+          "borderColor": "#4a3010",
+          "bgColor": "rgba(20,12,6,0.85)",
+          "borderWidth": 1,
+          "borderRadius": 2,
+          "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.5)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "id": "bootSlot_icon",
+          "label": "Icon",
+          "widgetType": "Image",
+          "x": 318,
+          "y": 402,
+          "w": 44,
+          "h": 44,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "imagePath": "/assets/icons/slots/boots.svg",
+            "tintColor": "#ffffff",
+            "imageDrawType": "Normal"
+          }
+        },
+        {
+          "id": "bootSlot_label",
+          "label": "SlotLabel",
+          "widgetType": "TextBlock",
+          "x": 311,
+          "y": 443,
+          "w": 58,
+          "h": 10,
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "靴子",
+            "fontSize": 9,
+            "textColor": "rgba(140,110,55,0.75)",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": false,
+            "autoFit": false
+          }
+        }
+      ]
+    }
+  ]
+}

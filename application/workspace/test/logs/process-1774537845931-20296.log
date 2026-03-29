@@ -1,0 +1,39 @@
+2026-03-26T15:10:46.618Z [DEBUG] ExP request: GET https://telemetry.individual.githubcopilot.com/telemetry?tas-endpoint=githubdevdiv
+2026-03-26T15:10:46.619Z [DEBUG] ExP headers: {"User-Agent":"copilot-cli","X-ExP-SDK-Version":"1","X-VSCode-ExtensionName":"CopilotCLI","X-MSEdge-ClientId":"02139292-5d86-4bcf-a4fa-4b7a928c8d01","x-exp-parameters":"copilottrackingid=7289869c1a271584c2d342c24f7af9d9,github_copilotcli_cliversion=1.0.11.9999,github_copilotcli_prerelease=0,github_copilotcli_audience=external,github_copilotcli_experimentationoptin=0,extensionname=CopilotCLI,github_copilotcli_firstlaunchat=1773187200,github_copilotcli_copilotplan=individual_pro"}
+2026-03-26T15:10:46.620Z [DEBUG] OpenTelemetry not enabled (resolveOtelConfig returned null)
+2026-03-26T15:10:46.645Z [DEBUG] No auth info available, skipping custom agents load
+2026-03-26T15:10:46.646Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: copilot_user_info)
+2026-03-26T15:10:46.648Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: session_start)
+2026-03-26T15:10:46.649Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: memory_usage)
+2026-03-26T15:10:46.649Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: first_launch)
+2026-03-26T15:10:46.649Z [INFO] Starting Copilot CLI: 1.0.11
+2026-03-26T15:10:46.649Z [INFO] Node.js version: v24.11.1
+2026-03-26T15:10:46.649Z [DEBUG] [remoteHosts] Starting remote host detection for cwd=G:\GameExPro3\AILab\workspace\test, featureFlagEnabled=false
+2026-03-26T15:10:46.649Z [DEBUG] [remoteHosts] Feature flag ADO_DETECTION is disabled, skipping detection
+2026-03-26T15:10:46.654Z [INFO] Workspace initialized: 79d9ff65-f29b-4355-8ab1-502a0e8c2c1f (checkpoints: 0)
+2026-03-26T15:10:47.426Z [INFO] No update needed, current version is 1.0.11, fetched latest release is v1.0.11
+2026-03-26T15:10:48.632Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: exp_context_fetch)
+2026-03-26T15:11:16.625Z [DEBUG] [telemetry-queue] Flushing 5 events (13439 B → 1999 B gzipped)
+2026-03-26T15:50:11.046Z [DEBUG] [shutdown] Starting shutdown with 7 disposables
+2026-03-26T15:50:11.046Z [DEBUG] [shutdown] Starting dispose: Session.abort+shutdown
+2026-03-26T15:50:11.047Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: session_shutdown)
+2026-03-26T15:50:11.047Z [DEBUG] Sending telemetry event: copilot-cli/cli.telemetry (kind: memory_usage)
+2026-03-26T15:50:11.047Z [DEBUG] [shutdown] Completed dispose: Session.abort+shutdown (1ms)
+2026-03-26T15:50:11.047Z [DEBUG] [shutdown] Starting dispose: closeAllDatabases
+2026-03-26T15:50:11.047Z [DEBUG] [shutdown] Starting dispose: closeSessionStore
+2026-03-26T15:50:11.047Z [DEBUG] [shutdown] Starting dispose: seaInUseLockCleanup
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Starting dispose: LSPClientFactory.shutdownAll
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Starting dispose: ZNe
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Starting dispose: autoUpdate
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Starting dispose: pk
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Completed dispose: closeSessionStore (1ms)
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Completed dispose: closeAllDatabases (1ms)
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Completed dispose: autoUpdate (0ms)
+2026-03-26T15:50:11.048Z [DEBUG] [shutdown] Completed dispose: LSPClientFactory.shutdownAll (1ms)
+2026-03-26T15:50:11.050Z [DEBUG] [telemetry-queue] Flushing 2 events (6324 B → 1605 B gzipped)
+2026-03-26T15:50:11.052Z [DEBUG] [shutdown] Completed dispose: seaInUseLockCleanup (5ms)
+2026-03-26T15:50:11.052Z [DEBUG] [shutdown] Completed dispose: pk (4ms)
+2026-03-26T15:50:13.922Z [DEBUG] [shutdown] Completed dispose: ZNe (2874ms)
+2026-03-26T15:50:13.922Z [DEBUG] [shutdown] Starting dispose: logger
+2026-03-26T15:50:13.923Z [DEBUG] [shutdown] Completed dispose: logger (1ms)
+2026-03-26T15:50:13.923Z [DEBUG] [shutdown] Shutdown complete

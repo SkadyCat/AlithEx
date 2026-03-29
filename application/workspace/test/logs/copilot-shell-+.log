@@ -1,0 +1,4 @@
+[INFO] Starting Copilot CLI with shell output redirected to "logs\copilot-shell-+.log".
+[INFO] Command line: copilot --allow-all --model=gpt-5.4 --log-dir=logs --log-level=all --version
+GitHub Copilot CLI 1.0.11.
+Run 'copilot update' to check for updates.

@@ -1,0 +1,32 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-28T12:40:08.198Z",
+  "nextId": 1000,
+  "boxes": [
+    {
+      "borderColor": "rgba(0,0,0,0)",
+      "opacity": 1,
+      "y": 0,
+      "id": "itemRoot",
+      "anchor": {
+        "maxX": 0,
+        "minY": 0,
+        "maxY": 0,
+        "minX": 0
+      },
+      "widgetProps": {
+        "widthOverride": 62,
+        "heightOverride": 62
+      },
+      "w": 62,
+      "bgColor": "rgba(0,0,0,0)",
+      "x": 0,
+      "h": 62,
+      "widgetType": "SizeBox",
+      "borderRadius": 0,
+      "boxShadow": "",
+      "label": "BagItemEntry",
+      "borderWidth": 0
+    }
+  ]
+}

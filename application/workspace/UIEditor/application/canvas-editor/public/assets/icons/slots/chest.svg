@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#0c0e14"/>
+      <stop offset="100%" stop-color="#020304"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="40%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#b8c0d0"/>
+      <stop offset="35%" stop-color="#7080a0"/>
+      <stop offset="75%" stop-color="#384050"/>
+      <stop offset="100%" stop-color="#1e2838"/>
+    </radialGradient>
+    <linearGradient id="abs" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8090b0"/>
+      <stop offset="50%" stop-color="#a0b0c8"/>
+      <stop offset="100%" stop-color="#506070"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0b840"/>
+      <stop offset="50%" stop-color="#f8d860"/>
+      <stop offset="100%" stop-color="#8a6010"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="0.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Main breastplate body -->
+  <path d="M16,18 Q16,10 32,8 Q48,10 48,18 L50,46 Q50,54 32,56 Q14,54 14,46 Z" fill="url(#plate)"/>
+  <!-- Pectoral definition left -->
+  <path d="M16,18 Q16,26 28,30 Q24,22 24,18Z" fill="white" opacity="0.12"/>
+  <!-- Pectoral definition right -->
+  <path d="M48,18 Q48,26 36,30 Q40,22 40,18Z" fill="white" opacity="0.12"/>
+  <!-- Center ridge -->
+  <path d="M32,8 L32,56" stroke="#c0c8e0" stroke-width="1.5" opacity="0.4"/>
+  <path d="M32,8 L32,56" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+  <!-- Chest highlight (big specular) -->
+  <ellipse cx="28" cy="18" rx="7" ry="5" fill="white" opacity="0.2" filter="url(#soft)"/>
+  <!-- Abdominal plates -->
+  <path d="M18,38 Q32,36 46,38" fill="none" stroke="#2a3448" stroke-width="1.5"/>
+  <path d="M18,42 Q32,40 46,42" fill="none" stroke="#2a3448" stroke-width="1.5"/>
+  <path d="M32,36 L32,54" stroke="#2a3448" stroke-width="1.5"/>
+  <!-- Abs highlight -->
+  <rect x="17" y="36" width="14" height="4" rx="0" fill="url(#abs)" opacity="0.3"/>
+  <rect x="33" y="36" width="14" height="4" rx="0" fill="url(#abs)" opacity="0.3"/>
+  <!-- Pauldron hints -->
+  <path d="M16,18 Q10,20 9,28 Q12,32 16,30 L16,22Z" fill="url(#plate)"/>
+  <path d="M48,18 Q54,20 55,28 Q52,32 48,30 L48,22Z" fill="url(#plate)"/>
+  <path d="M9,22 Q10,26 12,28" fill="none" stroke="#8090b0" stroke-width="0.8" opacity="0.5"/>
+  <path d="M55,22 Q54,26 52,28" fill="none" stroke="#8090b0" stroke-width="0.8" opacity="0.5"/>
+  <!-- Gold collar/gorget -->
+  <path d="M18,18 Q32,12 46,18" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+  <path d="M18,18 Q32,12 46,18" fill="none" stroke="#fff8b0" stroke-width="0.7" opacity="0.5"/>
+  <!-- Gold waist trim -->
+  <path d="M14,46 Q32,44 50,46" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <!-- Central emblem (sun/rune) -->
+  <circle cx="32" cy="24" r="5" fill="none" stroke="url(#gold)" stroke-width="1.2"/>
+  <circle cx="32" cy="24" r="2" fill="url(#gold)" opacity="0.7"/>
+  <!-- Buckles/rivets on sides -->
+  <circle cx="20" cy="28" r="1.5" fill="url(#gold)"/>
+  <circle cx="44" cy="28" r="1.5" fill="url(#gold)"/>
+</svg>

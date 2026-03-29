@@ -1,0 +1,1279 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-13T06:53:29.107Z",
+  "nextId": 54,
+  "boxes": [
+    {
+      "isEntryClass": true,
+      "borderColor": "#c9a84c",
+      "borderWidth": 2,
+      "id": 1,
+      "h": 472,
+      "w": 320,
+      "label": "Bag (CanvasPanel)",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "maxY": 0,
+        "maxX": 0,
+        "minY": 0
+      },
+      "widgetType": "CanvasPanel",
+      "bgColor": "rgba(15,12,8,0.92)",
+      "y": 20,
+      "x": 10,
+      "children": [
+        {
+          "isEntryClass": false,
+          "borderColor": "#c9a84c",
+          "borderWidth": 1,
+          "id": 2,
+          "h": 44,
+          "w": 320,
+          "label": "TitleBar (CanvasPanel)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "CanvasPanel",
+          "bgColor": "rgba(30,20,5,0.95)",
+          "y": 20,
+          "x": 10,
+          "children": [
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 3,
+              "widgetProps": {
+                "text": "背 包",
+                "align": "left",
+                "bold": true,
+                "color": "#e8c97a",
+                "fontSize": 16,
+                "textColor": "#fff",
+                "textAlign": "center",
+                "italic": false,
+                "autoWrap": true
+              },
+              "h": 26,
+              "w": 200,
+              "label": "背包 (TextBlock)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "TextBlock",
+              "bgColor": "transparent",
+              "y": 30,
+              "x": 26
+            },
+            {
+              "isEntryClass": false,
+              "borderColor": "#8b5c2a",
+              "borderWidth": 1,
+              "id": 4,
+              "widgetProps": {
+                "text": "✕",
+                "align": "center",
+                "color": "#f0a070",
+                "fontSize": 14,
+                "textColor": "#fff",
+                "textAlign": "center",
+                "bold": false,
+                "italic": false,
+                "autoWrap": true
+              },
+              "h": 26,
+              "w": 26,
+              "label": "BtnClose (TextBlock)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "TextBlock",
+              "bgColor": "rgba(100,40,20,0.50)",
+              "y": 30,
+              "x": 300
+            }
+          ]
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#4a3d2a",
+          "borderWidth": 1,
+          "id": 5,
+          "widgetProps": {
+            "gridPreviewNum": 20,
+            "entryHeight": 68,
+            "placeHolder": {
+              "x": 8,
+              "y": 8
+            },
+            "entryWidth": 68
+          },
+          "h": 396,
+          "w": 296,
+          "label": "ItemGrid (TileView)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TileView",
+          "bgColor": "rgba(25,18,8,0.80)",
+          "y": 70,
+          "x": 14,
+          "children": [
+            {
+              "isEntryClass": false,
+              "borderColor": "#c9a84c",
+              "borderWidth": 1,
+              "id": 6,
+              "h": 68,
+              "w": 68,
+              "label": "EntryClass (CanvasPanel)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "CanvasPanel",
+              "bgColor": "rgba(40,30,15,0.60)",
+              "y": 78,
+              "x": 22,
+              "children": [
+                {
+                  "isEntryClass": false,
+                  "borderColor": "rgba(100,80,40,0.3)",
+                  "borderWidth": 1,
+                  "id": 7,
+                  "widgetProps": {
+                    "stretch": "ScaleToFit",
+                    "imageSrc": "",
+                    "tint": "#ffffff",
+                    "imagePath": "",
+                    "tintColor": "#ffffff",
+                    "imageDrawType": "Normal"
+                  },
+                  "h": 52,
+                  "w": 52,
+                  "label": "Icon (Image)",
+                  "opacity": 1,
+                  "anchor": {
+                    "minX": 0,
+                    "maxY": 0,
+                    "maxX": 0,
+                    "minY": 0
+                  },
+                  "widgetType": "Image",
+                  "bgColor": "transparent",
+                  "y": 83,
+                  "x": 27
+                },
+                {
+                  "isEntryClass": false,
+                  "borderColor": "transparent",
+                  "borderWidth": 0,
+                  "id": 8,
+                  "widgetProps": {
+                    "text": "",
+                    "align": "right",
+                    "color": "#e8c97a",
+                    "fontSize": 11,
+                    "textColor": "#fff",
+                    "textAlign": "center",
+                    "bold": false,
+                    "italic": false,
+                    "autoWrap": true
+                  },
+                  "h": 16,
+                  "w": 20,
+                  "label": "Count (TextBlock)",
+                  "opacity": 1,
+                  "anchor": {
+                    "minX": 0,
+                    "maxY": 0,
+                    "maxX": 0,
+                    "minY": 0
+                  },
+                  "widgetType": "TextBlock",
+                  "bgColor": "transparent",
+                  "y": 126,
+                  "x": 68
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isEntryClass": false,
+      "borderColor": "#6b5a3e",
+      "borderWidth": 2,
+      "id": 9,
+      "h": 472,
+      "w": 200,
+      "label": "EquipPanel (CanvasPanel)",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "maxY": 0,
+        "maxX": 0,
+        "minY": 0
+      },
+      "widgetType": "CanvasPanel",
+      "bgColor": "rgba(15,12,8,0.90)",
+      "y": 20,
+      "x": 340,
+      "children": [
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 10,
+          "widgetProps": {
+            "text": "装 备",
+            "align": "center",
+            "bold": true,
+            "color": "#c9a84c",
+            "fontSize": 14,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 196,
+          "label": "EquipTitle (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 24,
+          "x": 342
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 11,
+          "description": "头盔槽",
+          "h": 60,
+          "w": 60,
+          "label": "HeadSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 56,
+          "x": 390,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 12,
+          "description": "护甲槽",
+          "h": 80,
+          "w": 60,
+          "label": "ChestSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 128,
+          "x": 390,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 13,
+          "description": "腿甲槽",
+          "h": 60,
+          "w": 60,
+          "label": "LegsSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 220,
+          "x": 390,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 14,
+          "description": "主手武器槽",
+          "h": 68,
+          "w": 52,
+          "label": "WeaponSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 132,
+          "x": 344,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 15,
+          "description": "副手/盾牌槽",
+          "h": 68,
+          "w": 52,
+          "label": "ShieldSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 132,
+          "x": 444,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 16,
+          "description": "戒指槽1",
+          "h": 36,
+          "w": 36,
+          "label": "Ring1Slot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 224,
+          "x": 348,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 17,
+          "description": "戒指槽2",
+          "h": 36,
+          "w": 36,
+          "label": "Ring2Slot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 224,
+          "x": 456,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 18,
+          "description": "项链槽",
+          "h": 28,
+          "w": 28,
+          "label": "AmuletSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 58,
+          "x": 406,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 19,
+          "description": "手套槽",
+          "h": 52,
+          "w": 52,
+          "label": "GlovesSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 292,
+          "x": 344,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 20,
+          "description": "靴子槽",
+          "h": 52,
+          "w": 52,
+          "label": "BootsSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 292,
+          "x": 444,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#4a3d2a",
+          "borderWidth": 0,
+          "id": 21,
+          "h": 1,
+          "w": 152,
+          "label": "EquipDiv (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "#4a3d2a",
+          "y": 360,
+          "x": 344,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 22,
+          "widgetProps": {
+            "text": "腰带槽",
+            "align": "center",
+            "color": "#8a7a5a",
+            "fontSize": 12,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 152,
+          "label": "BeltLabel (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 370,
+          "x": 344
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#5a4a2a",
+          "borderWidth": 1,
+          "id": 23,
+          "description": "腰带槽",
+          "h": 28,
+          "w": 102,
+          "label": "BeltSlot (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(30,22,10,0.70)",
+          "y": 396,
+          "x": 369,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 24,
+          "widgetProps": {
+            "text": "Lv.45  放逐者",
+            "align": "center",
+            "color": "#b89a5a",
+            "fontSize": 12,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 152,
+          "label": "CharLevel (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 432,
+          "x": 344
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 25,
+          "widgetProps": {
+            "text": "力量型  放逐者",
+            "align": "center",
+            "color": "#7a6a4a",
+            "fontSize": 11,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 152,
+          "label": "CharClass (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 456,
+          "x": 344
+        }
+      ]
+    },
+    {
+      "isEntryClass": false,
+      "borderColor": "#6b5a3e",
+      "borderWidth": 2,
+      "id": 27,
+      "h": 472,
+      "w": 196,
+      "label": "StatPanel (Border)",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "maxY": 0,
+        "maxX": 0,
+        "minY": 0
+      },
+      "widgetType": "Border",
+      "bgColor": "rgba(15,12,8,0.92)",
+      "y": 20,
+      "x": 550,
+      "widgetProps": {
+        "content": ""
+      },
+      "children": [
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 28,
+          "widgetProps": {
+            "text": "角色属性",
+            "align": "center",
+            "bold": true,
+            "color": "#c9a84c",
+            "fontSize": 13,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 20,
+          "w": 192,
+          "label": "StatTitle (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 24,
+          "x": 552
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 29,
+          "h": 36,
+          "w": 188,
+          "label": "GoldRow (CanvasPanel)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "CanvasPanel",
+          "bgColor": "transparent",
+          "y": 50,
+          "x": 554,
+          "children": [
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 30,
+              "widgetProps": {
+                "stretch": "ScaleToFit",
+                "imageSrc": "",
+                "tint": "#f0c040",
+                "imagePath": "",
+                "tintColor": "#ffffff",
+                "imageDrawType": "Normal"
+              },
+              "h": 28,
+              "w": 28,
+              "label": "GoldIcon (Image)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "Image",
+              "bgColor": "transparent",
+              "y": 54,
+              "x": 558
+            },
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 31,
+              "widgetProps": {
+                "text": "12,450 金币",
+                "align": "left",
+                "color": "#e8c060",
+                "fontSize": 13,
+                "textColor": "#fff",
+                "textAlign": "center",
+                "bold": false,
+                "italic": false,
+                "autoWrap": true
+              },
+              "h": 22,
+              "w": 148,
+              "label": "GoldText (TextBlock)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "TextBlock",
+              "bgColor": "transparent",
+              "y": 58,
+              "x": 590
+            }
+          ]
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#4a3d2a",
+          "borderWidth": 0,
+          "id": 32,
+          "h": 1,
+          "w": 188,
+          "label": "Divider1 (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "#4a3d2a",
+          "y": 92,
+          "x": 554,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 33,
+          "widgetProps": {
+            "text": "力量：82",
+            "align": "left",
+            "color": "#e08050",
+            "fontSize": 13,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "STR_Row (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 100,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 34,
+          "widgetProps": {
+            "text": "敏捷：54",
+            "align": "left",
+            "color": "#50c878",
+            "fontSize": 13,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "DEX_Row (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 128,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 35,
+          "widgetProps": {
+            "text": "智慧：38",
+            "align": "left",
+            "color": "#6090e0",
+            "fontSize": 13,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "INT_Row (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 156,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 36,
+          "widgetProps": {
+            "text": "体力：120",
+            "align": "left",
+            "color": "#e06060",
+            "fontSize": 13,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "VIT_Row (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 184,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#4a3d2a",
+          "borderWidth": 0,
+          "id": 37,
+          "h": 1,
+          "w": 188,
+          "label": "Divider2 (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "#4a3d2a",
+          "y": 212,
+          "x": 554,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 38,
+          "widgetProps": {
+            "text": "物理伤害",
+            "align": "left",
+            "color": "#8a7a5a",
+            "fontSize": 12,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "DmgLabel (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 220,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 39,
+          "widgetProps": {
+            "text": "185 - 312",
+            "align": "left",
+            "bold": true,
+            "color": "#f0c080",
+            "fontSize": 16,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 28,
+          "w": 188,
+          "label": "DmgVal (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 246,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 40,
+          "widgetProps": {
+            "text": "护甲",
+            "align": "left",
+            "color": "#8a7a5a",
+            "fontSize": 12,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "DefLabel (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 280,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 41,
+          "widgetProps": {
+            "text": "1,240",
+            "align": "left",
+            "bold": true,
+            "color": "#80b0e0",
+            "fontSize": 16,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 28,
+          "w": 188,
+          "label": "DefVal (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 306,
+          "x": 554
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#4a3d2a",
+          "borderWidth": 0,
+          "id": 42,
+          "h": 1,
+          "w": 188,
+          "label": "Divider3 (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "#4a3d2a",
+          "y": 340,
+          "x": 554,
+          "widgetProps": {
+            "content": ""
+          }
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#3a3020",
+          "borderWidth": 1,
+          "id": 43,
+          "h": 96,
+          "w": 188,
+          "label": "ItemDescBG (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(20,15,8,0.85)",
+          "y": 350,
+          "x": 554,
+          "widgetProps": {
+            "content": ""
+          },
+          "children": [
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 44,
+              "widgetProps": {
+                "text": "燃烧之剑",
+                "align": "left",
+                "bold": true,
+                "color": "#ff9030",
+                "fontSize": 14,
+                "textColor": "#fff",
+                "textAlign": "center",
+                "italic": false,
+                "autoWrap": true
+              },
+              "h": 22,
+              "w": 180,
+              "label": "ItemDescName (TextBlock)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "TextBlock",
+              "bgColor": "transparent",
+              "y": 354,
+              "x": 558
+            },
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 45,
+              "widgetProps": {
+                "text": "附魔：+48% 火焰伤害。选中物品后在此显示详细说明。",
+                "wrap": true,
+                "align": "left",
+                "color": "#b89060",
+                "fontSize": 11,
+                "textColor": "#fff",
+                "textAlign": "center",
+                "bold": false,
+                "italic": false,
+                "autoWrap": true
+              },
+              "h": 62,
+              "w": 180,
+              "label": "ItemDescText (TextBlock)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "TextBlock",
+              "bgColor": "transparent",
+              "y": 380,
+              "x": 558
+            }
+          ]
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "#3a3020",
+          "borderWidth": 1,
+          "id": 46,
+          "h": 22,
+          "w": 188,
+          "label": "WeightBG (Border)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "Border",
+          "bgColor": "rgba(20,15,8,0.70)",
+          "y": 454,
+          "x": 554,
+          "widgetProps": {
+            "content": ""
+          },
+          "children": [
+            {
+              "isEntryClass": false,
+              "borderColor": "transparent",
+              "borderWidth": 0,
+              "id": 47,
+              "h": 22,
+              "w": 94,
+              "label": "WeightFill (Border)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "maxY": 0,
+                "maxX": 0,
+                "minY": 0
+              },
+              "widgetType": "Border",
+              "bgColor": "#6b4a10",
+              "y": 454,
+              "x": 554,
+              "widgetProps": {
+                "content": ""
+              }
+            }
+          ]
+        },
+        {
+          "isEntryClass": false,
+          "borderColor": "transparent",
+          "borderWidth": 0,
+          "id": 48,
+          "widgetProps": {
+            "text": "重量：47 / 100",
+            "align": "center",
+            "color": "#c8a860",
+            "fontSize": 12,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          },
+          "h": 22,
+          "w": 188,
+          "label": "WeightLabel (TextBlock)",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0
+          },
+          "widgetType": "TextBlock",
+          "bgColor": "transparent",
+          "y": 454,
+          "x": 554
+        }
+      ]
+    }
+  ]
+}

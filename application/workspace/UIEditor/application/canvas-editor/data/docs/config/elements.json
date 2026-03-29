@@ -1,0 +1,386 @@
+{
+  "controls": [
+    {
+      "type": "TextBlock",
+      "label": "TextBlock",
+      "label_zh": "文本块",
+      "icon": "📝",
+      "group": "文本",
+      "color": "#e8c06b",
+      "bg": "rgba(232,192,107,0.05)",
+      "render": { "type": "text", "src": "text", "size": "fontSize", "color": "textColor", "align": "textAlign", "bold": "bold", "italic": "italic", "wrap": "autoWrap", "autoFit": "autoFit" },
+      "props": [
+        { "key": "text",      "label": "文本内容", "type": "textarea", "default": "文本" },
+        { "key": "fontSize",  "label": "字号",     "type": "number",   "default": 14, "min": 6, "max": 200, "step": 1 },
+        { "key": "textColor", "label": "文字颜色", "type": "color",    "default": "#fff" },
+        { "key": "textAlign", "label": "对齐",     "type": "select",   "default": "center", "options": ["left","center","right"] },
+        { "key": "bold",      "label": "粗体",     "type": "checkbox", "default": false },
+        { "key": "italic",    "label": "斜体",     "type": "checkbox", "default": false },
+        { "key": "autoWrap",  "label": "自动换行", "type": "checkbox", "default": true },
+        { "key": "autoFit",   "label": "字体自适应", "type": "checkbox", "default": false }
+      ]
+    },
+    {
+      "type": "Button",
+      "label": "Button",
+      "label_zh": "按钮",
+      "icon": "🔘",
+      "group": "按钮",
+      "color": "#6bb5e8",
+      "bg": "rgba(107,181,232,0.07)",
+      "render": { "type": "text", "src": "text", "size": "fontSize", "color": "textColor", "align": "textAlign", "bold": "bold" },
+      "props": [
+        { "key": "text",      "label": "按钮文字", "type": "text",    "default": "Button" },
+        { "key": "fontSize",  "label": "字号",     "type": "number",  "default": 14, "min": 8, "max": 72, "step": 1 },
+        { "key": "textColor", "label": "文字颜色", "type": "color",   "default": "#fff" },
+        { "key": "textAlign", "label": "对齐",     "type": "select",  "default": "center", "options": ["left","center","right"] },
+        { "key": "bold",      "label": "粗体",     "type": "checkbox","default": false }
+      ]
+    },
+    {
+      "type": "Image",
+      "label": "Image",
+      "label_zh": "图片",
+      "icon": "🖼️",
+      "group": "图片",
+      "color": "#6be89a",
+      "bg": "rgba(107,232,154,0.05)",
+      "render": { "type": "image", "src": "imagePath", "tint": "tintColor" },
+      "props": [
+        { "key": "imagePath",    "label": "图片路径", "type": "text",   "default": "" },
+        { "key": "tintColor",    "label": "着色",     "type": "color",  "default": "#ffffff" },
+        { "key": "imageDrawType","label": "绘制模式", "type": "select", "default": "Normal", "options": ["FullyTransparent","Normal","ColorAndOpacity"] }
+      ]
+    },
+    {
+      "type": "ProgressBar",
+      "label": "ProgressBar",
+      "label_zh": "进度条",
+      "icon": "📊",
+      "group": "反馈",
+      "color": "#e86b6b",
+      "bg": "rgba(232,107,107,0.05)",
+      "render": { "type": "progress", "src": "percent", "fill": "fillColor", "bar": "barColor" },
+      "props": [
+        { "key": "percent",   "label": "进度值", "type": "range",  "default": 0.5, "min": 0, "max": 1, "step": 0.01 },
+        { "key": "fillColor", "label": "填充色", "type": "color",  "default": "#56cfba" },
+        { "key": "barColor",  "label": "轨道色", "type": "color",  "default": "#333344" }
+      ]
+    },
+    {
+      "type": "Slider",
+      "label": "Slider",
+      "label_zh": "滑块",
+      "icon": "🎚️",
+      "group": "反馈",
+      "color": "#e86b6b",
+      "bg": "rgba(232,107,107,0.05)",
+      "render": { "type": "slider", "src": "value", "min": "minValue", "max": "maxValue" },
+      "props": [
+        { "key": "value",    "label": "当前值", "type": "range",  "default": 0, "min": 0, "max": 1, "step": 0.01 },
+        { "key": "minValue", "label": "最小值", "type": "number", "default": 0 },
+        { "key": "maxValue", "label": "最大值", "type": "number", "default": 1 }
+      ]
+    },
+    {
+      "type": "EditableText",
+      "label": "EditableText",
+      "label_zh": "可编辑文本",
+      "icon": "✏️",
+      "group": "输入",
+      "color": "#b06be8",
+      "bg": "rgba(176,107,232,0.05)",
+      "render": { "type": "input", "src": "hintText", "size": "fontSize", "color": "textColor" },
+      "props": [
+        { "key": "hintText",  "label": "占位文字", "type": "text",   "default": "Enter text..." },
+        { "key": "fontSize",  "label": "字号",     "type": "number", "default": 12, "min": 6, "max": 72, "step": 1 },
+        { "key": "textColor", "label": "文字颜色", "type": "color",  "default": "#aaaaaa" }
+      ]
+    },
+    {
+      "type": "EditableTextBox",
+      "label": "EditableTextBox",
+      "label_zh": "多行文本输入",
+      "icon": "🖊️",
+      "group": "输入",
+      "color": "#b06be8",
+      "bg": "rgba(176,107,232,0.05)",
+      "render": { "type": "input", "src": "hintText", "size": "fontSize", "color": "textColor" },
+      "props": [
+        { "key": "hintText",  "label": "占位文字", "type": "textarea", "default": "Enter text..." },
+        { "key": "fontSize",  "label": "字号",     "type": "number",   "default": 12, "min": 6, "max": 72, "step": 1 },
+        { "key": "textColor", "label": "文字颜色", "type": "color",    "default": "#aaaaaa" }
+      ]
+    },
+    {
+      "type": "CheckBox",
+      "label": "CheckBox",
+      "label_zh": "复选框",
+      "icon": "☑️",
+      "group": "输入",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "render": { "type": "checkbox", "src": "checked", "label": "label" },
+      "props": [
+        { "key": "checked", "label": "选中状态", "type": "boolean", "default": false },
+        { "key": "label",   "label": "标签文字", "type": "text",    "default": "CheckBox" }
+      ]
+    },
+    {
+      "type": "SpinBox",
+      "label": "SpinBox",
+      "label_zh": "数字旋转框",
+      "icon": "🔢",
+      "group": "输入",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "render": { "type": "spinbox", "src": "value" },
+      "props": [
+        { "key": "value",    "label": "当前值", "type": "number", "default": 0 },
+        { "key": "minValue", "label": "最小值", "type": "number", "default": 0 },
+        { "key": "maxValue", "label": "最大值", "type": "number", "default": 100 },
+        { "key": "step",     "label": "步长",   "type": "number", "default": 1 }
+      ]
+    },
+    {
+      "type": "ComboBox",
+      "label": "ComboBox",
+      "label_zh": "下拉框",
+      "icon": "📦",
+      "group": "输入",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "render": { "type": "combo", "src": "selectedOption" },
+      "props": [
+        { "key": "selectedOption", "label": "当前选项", "type": "text",     "default": "Option 1" },
+        { "key": "options",        "label": "选项列表", "type": "textarea", "default": "Option 1\nOption 2\nOption 3" }
+      ]
+    },
+    {
+      "type": "TextBox",
+      "label": "TextBox",
+      "label_zh": "只读文本框",
+      "icon": "📋",
+      "group": "文本",
+      "color": "#e8c06b",
+      "bg": "rgba(232,192,107,0.05)",
+      "render": { "type": "input", "src": "hintText", "size": "fontSize", "color": "textColor" },
+      "props": [
+        { "key": "hintText",  "label": "显示文字", "type": "text",   "default": "Text..." },
+        { "key": "fontSize",  "label": "字号",     "type": "number", "default": 12, "min": 6, "max": 72, "step": 1 },
+        { "key": "textColor", "label": "文字颜色", "type": "color",  "default": "#aaaaaa" }
+      ]
+    }
+  ],
+  "containers": [
+    {
+      "type": "CanvasPanel",
+      "label": "CanvasPanel",
+      "label_zh": "画布面板",
+      "icon": "🎨",
+      "group": "容器",
+      "color": "#888",
+      "bg": "rgba(128,128,128,0.04)"
+    },
+    {
+      "type": "Border",
+      "label": "Border",
+      "label_zh": "边框容器",
+      "icon": "🔲",
+      "group": "容器",
+      "color": "#e8a020",
+      "bg": "rgba(232,160,32,0.06)",
+      "props": [
+        { "key": "content", "label": "内容标注", "type": "text", "default": "" }
+      ]
+    },
+    {
+      "type": "HorizontalBox",
+      "label": "HorizontalBox",
+      "label_zh": "水平布局",
+      "icon": "↔️",
+      "group": "容器",
+      "color": "#56cfba",
+      "bg": "rgba(86,207,186,0.05)"
+    },
+    {
+      "type": "VerticalBox",
+      "label": "VerticalBox",
+      "label_zh": "垂直布局",
+      "icon": "↕️",
+      "group": "容器",
+      "color": "#56cfba",
+      "bg": "rgba(86,207,186,0.05)"
+    },
+    {
+      "type": "GridPanel",
+      "label": "GridPanel",
+      "label_zh": "网格面板",
+      "icon": "⊞",
+      "group": "容器",
+      "color": "#cf8a56",
+      "bg": "rgba(207,138,86,0.05)",
+      "props": [
+        { "key": "columnFill", "label": "列数", "type": "number", "default": 2, "step": 1 }
+      ]
+    },
+    {
+      "type": "ScrollBox",
+      "label": "ScrollBox",
+      "label_zh": "滚动容器",
+      "icon": "📜",
+      "group": "容器",
+      "color": "#6bc5e8",
+      "bg": "rgba(107,197,232,0.05)"
+    },
+    {
+      "type": "SizeBox",
+      "label": "SizeBox",
+      "label_zh": "固定尺寸盒",
+      "icon": "📐",
+      "group": "容器",
+      "color": "#a0a0a0",
+      "bg": "rgba(160,160,160,0.04)",
+      "props": [
+        { "key": "widthOverride",  "label": "宽度", "type": "number", "default": 200, "step": 1 },
+        { "key": "heightOverride", "label": "高度", "type": "number", "default": 100, "step": 1 }
+      ]
+    },
+    {
+      "type": "Overlay",
+      "label": "Overlay",
+      "label_zh": "叠层容器",
+      "icon": "🪟",
+      "group": "容器",
+      "color": "#a0a0a0",
+      "bg": "rgba(160,160,160,0.04)"
+    },
+    {
+      "type": "TileView",
+      "label": "TileView",
+      "label_zh": "平铺视图",
+      "icon": "🔲",
+      "group": "列表",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "props": [
+        { "key": "entryWidth",     "label": "格宽",       "type": "number", "default": 60,  "min": 10, "step": 1 },
+        { "key": "entryHeight",    "label": "格高",       "type": "number", "default": 60,  "min": 10, "step": 1 },
+        { "key": "gridPreviewNum", "label": "预览数量",   "type": "number", "default": 4,   "min": 1,  "step": 1 },
+        { "key": "entryClass",     "label": "EntryClass", "type": "text",   "default": "" }
+      ]
+    },
+    {
+      "type": "ListView",
+      "label": "ListView",
+      "label_zh": "列表视图",
+      "icon": "📋",
+      "group": "列表",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "props": [
+        { "key": "entryWidth",     "label": "行宽",       "type": "number", "default": 200, "min": 10, "step": 1 },
+        { "key": "entryHeight",    "label": "行高",       "type": "number", "default": 40,  "min": 10, "step": 1 },
+        { "key": "gridPreviewNum", "label": "预览数量",   "type": "number", "default": 4,   "min": 1,  "step": 1 },
+        { "key": "entryClass",     "label": "EntryClass", "type": "text",   "default": "" }
+      ]
+    },
+    {
+      "type": "TreeView",
+      "label": "TreeView",
+      "label_zh": "树形视图",
+      "icon": "🌳",
+      "group": "列表",
+      "color": "#7c6af7",
+      "bg": "rgba(124,106,247,0.06)",
+      "props": [
+        { "key": "entryWidth",  "label": "行宽", "type": "number", "default": 200, "min": 10, "step": 1 },
+        { "key": "entryHeight", "label": "行高", "type": "number", "default": 32,  "min": 10, "step": 1 }
+      ]
+    },
+    {
+      "type": "UniformGridPanel",
+      "label": "UniformGridPanel",
+      "label_zh": "均匀网格",
+      "icon": "⊟",
+      "group": "容器",
+      "color": "#cf8a56",
+      "bg": "rgba(207,138,86,0.05)",
+      "props": [
+        { "key": "slotPadding", "label": "格间距", "type": "number", "default": 0, "step": 1 }
+      ]
+    },
+    {
+      "type": "WrapBox",
+      "label": "WrapBox",
+      "label_zh": "流式布局",
+      "icon": "🔳",
+      "group": "容器",
+      "color": "#cf8a56",
+      "bg": "rgba(207,138,86,0.05)",
+      "props": [
+        { "key": "innerSlotPadding", "label": "内间距", "type": "number", "default": 0, "step": 1 }
+      ]
+    },
+    {
+      "type": "ScaleBox",
+      "label": "ScaleBox",
+      "label_zh": "缩放容器",
+      "icon": "🔍",
+      "group": "容器",
+      "color": "#a0a0a0",
+      "bg": "rgba(160,160,160,0.04)",
+      "props": [
+        { "key": "stretchType", "label": "缩放模式", "type": "select", "default": "ScaleToFit", "options": ["ScaleToFit","ScaleToFitX","ScaleToFitY","UserSpecified"] }
+      ]
+    },
+    {
+      "type": "SkillList",
+      "label": "SkillList",
+      "label_zh": "技能列表",
+      "icon": "⚔️",
+      "group": "游戏UI",
+      "color": "#d4a030",
+      "bg": "rgba(212,160,48,0.05)",
+      "props": [
+        {
+          "key": "typeIconTexture",
+          "label": "TypeIcon 贴图名",
+          "type": "text",
+          "default": "T_UI_EG_RaiderDen_WeaponCustomization",
+          "hint": "对应 DA_WeaponScreenData.weaponTypes[n].typeIcon 或 skillList.TypeIcon.defaultTexture"
+        },
+        {
+          "key": "typeIconPath",
+          "label": "TypeIcon 路径",
+          "type": "text",
+          "default": "/assets/icons/slots/weapon.svg",
+          "hint": "本地预览路径，对应 DA_WeaponScreenData.skillList.TypeIcon.defaultPath"
+        },
+        {
+          "key": "dataAsset",
+          "label": "数据资产",
+          "type": "text",
+          "default": "DA_WeaponScreenData",
+          "hint": "驱动此控件的数据资产名，TypeIcon 读取自该数据资产"
+        },
+        {
+          "key": "weaponTypeId",
+          "label": "武器类型 ID",
+          "type": "select",
+          "default": "Sword",
+          "options": ["Sword","Staff","Bow","Shield","Dagger","Axe","Wand","Hammer"],
+          "hint": "选择后 TypeIcon 自动同步为 DA_WeaponScreenData.weaponTypes[id].typeIcon"
+        },
+        {
+          "key": "maxEntries",
+          "label": "最大技能数",
+          "type": "number",
+          "default": 8,
+          "hint": "对应 DA_WeaponScreenData.skillList.maxEntries"
+        }
+      ],
+      "render": { "type": "image", "src": "typeIconPath" }
+    }
+  ]
+}

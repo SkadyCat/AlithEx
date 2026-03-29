@@ -1,0 +1,17 @@
+{
+  "name": "alith",
+  "version": "2.0.0",
+  "description": "alith — 智能体协作工作台，任务队列与模型运行管理服务。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js"
+  },
+  "keywords": ["workspace", "agent", "alith", "copilot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

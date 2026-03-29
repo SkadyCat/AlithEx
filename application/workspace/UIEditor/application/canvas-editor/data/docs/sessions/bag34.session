@@ -1,0 +1,2476 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-17T15:55:50.185Z",
+  "nextId": 91,
+  "boxes": [
+    {
+      "id": 89,
+      "label": "Win_BagPanel",
+      "x": 550,
+      "y": 150,
+      "w": 820,
+      "h": 780,
+      "borderColor": "#3a2e55",
+      "bgColor": "#0d0b14",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": "Border",
+      "widgetProps": {},
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "isEntryClass": false,
+      "children": [
+        {
+          "id": 8,
+          "label": "Win_TitleBar",
+          "x": 550,
+          "y": 150,
+          "w": 820,
+          "h": 44,
+          "borderColor": "#2e2448",
+          "bgColor": "#14121e",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 2,
+              "label": "Title_BtnBack",
+              "x": 566,
+              "y": 158,
+              "w": 28,
+              "h": 28,
+              "borderColor": "#2e2448",
+              "bgColor": "#09080f",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 1,
+                  "label": "Title_BtnBack_Ico",
+                  "x": 568,
+                  "y": 163,
+                  "w": 24,
+                  "h": 16,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "◀",
+                    "textColor": "#5a4e7a",
+                    "fontSize": 12,
+                    "align": "center",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "label": "Title_BagLabel",
+              "x": 606,
+              "y": 161,
+              "w": 120,
+              "h": 22,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "背  包",
+                "textColor": "#c8b0ff",
+                "fontSize": 17,
+                "align": "left",
+                "bold": false,
+                "italic": false,
+                "wrap": false,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 4,
+              "label": "Title_GameLabel",
+              "x": 734,
+              "y": 167,
+              "w": 120,
+              "h": 14,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "INVENTORY",
+                "textColor": "#3e3460",
+                "fontSize": 9,
+                "align": "left",
+                "bold": false,
+                "italic": false,
+                "wrap": false,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 5,
+              "label": "Title_MetaText",
+              "x": 1150,
+              "y": 165,
+              "w": 170,
+              "h": 16,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "负重 67.3/100 KG   ⚙ 1,347",
+                "textColor": "#4a4060",
+                "fontSize": 10,
+                "align": "left",
+                "bold": false,
+                "italic": false,
+                "wrap": false,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 7,
+              "label": "Title_BtnClose",
+              "x": 1330,
+              "y": 160,
+              "w": 24,
+              "h": 24,
+              "borderColor": "#2e2448",
+              "bgColor": "transparent",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 6,
+                  "label": "Title_BtnClose_Ico",
+                  "x": 1332,
+                  "y": 162,
+                  "w": 20,
+                  "h": 14,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "✕",
+                    "textColor": "#4a3870",
+                    "fontSize": 10,
+                    "align": "center",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "label": "Win_LeftPanel",
+          "x": 550,
+          "y": 194,
+          "w": 240,
+          "h": 736,
+          "borderColor": "#1e1830",
+          "bgColor": "#0e0c18",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "CanvasPanel",
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 42,
+              "label": "Doll_Zone",
+              "x": 562,
+              "y": 206,
+              "w": 216,
+              "h": 490,
+              "borderColor": "#1e1830",
+              "bgColor": "#0a0910",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "CanvasPanel",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 11,
+                  "label": "Eq_Head",
+                  "x": 658,
+                  "y": 218,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 9,
+                      "label": "Eq_Head_Icon",
+                      "x": 662,
+                      "y": 222,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "⛑️",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 10,
+                      "label": "Eq_Head_Label",
+                      "x": 660,
+                      "y": 252,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "头盔",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "label": "Eq_Neck",
+                  "x": 712,
+                  "y": 218,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 12,
+                      "label": "Eq_Neck_Icon",
+                      "x": 716,
+                      "y": 222,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "📿",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 13,
+                      "label": "Eq_Neck_Label",
+                      "x": 714,
+                      "y": 252,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "项链",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 17,
+                  "label": "Eq_LSho",
+                  "x": 582,
+                  "y": 278,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 15,
+                      "label": "Eq_LSho_Icon",
+                      "x": 586,
+                      "y": 282,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🗡️",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 16,
+                      "label": "Eq_LSho_Label",
+                      "x": 584,
+                      "y": 312,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "左肩",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 20,
+                  "label": "Eq_RSho",
+                  "x": 734,
+                  "y": 278,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 18,
+                      "label": "Eq_RSho_Icon",
+                      "x": 738,
+                      "y": 282,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🛡️",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 19,
+                      "label": "Eq_RSho_Label",
+                      "x": 736,
+                      "y": 312,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "右肩",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 23,
+                  "label": "Eq_Chest",
+                  "x": 658,
+                  "y": 280,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 21,
+                      "label": "Eq_Chest_Icon",
+                      "x": 662,
+                      "y": 284,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "👕",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 22,
+                      "label": "Eq_Chest_Label",
+                      "x": 660,
+                      "y": 314,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "胸甲",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 26,
+                  "label": "Eq_LHand",
+                  "x": 582,
+                  "y": 346,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 24,
+                      "label": "Eq_LHand_Icon",
+                      "x": 586,
+                      "y": 350,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🧤",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 25,
+                      "label": "Eq_LHand_Label",
+                      "x": 584,
+                      "y": 380,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "左手",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 29,
+                  "label": "Eq_RHand",
+                  "x": 734,
+                  "y": 346,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 27,
+                      "label": "Eq_RHand_Icon",
+                      "x": 738,
+                      "y": 350,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 28,
+                      "label": "Eq_RHand_Label",
+                      "x": 736,
+                      "y": 380,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "右手",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 32,
+                  "label": "Eq_Ring1",
+                  "x": 582,
+                  "y": 406,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 30,
+                      "label": "Eq_Ring1_Icon",
+                      "x": 586,
+                      "y": 410,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "💍",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 31,
+                      "label": "Eq_Ring1_Label",
+                      "x": 584,
+                      "y": 440,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "戒指",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 35,
+                  "label": "Eq_Ring2",
+                  "x": 734,
+                  "y": 406,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 33,
+                      "label": "Eq_Ring2_Icon",
+                      "x": 738,
+                      "y": 410,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 34,
+                      "label": "Eq_Ring2_Label",
+                      "x": 736,
+                      "y": 440,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "戒指",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 38,
+                  "label": "Eq_Belt",
+                  "x": 658,
+                  "y": 408,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 36,
+                      "label": "Eq_Belt_Icon",
+                      "x": 662,
+                      "y": 412,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "👗",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 37,
+                      "label": "Eq_Belt_Label",
+                      "x": 660,
+                      "y": 442,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "腰带",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 41,
+                  "label": "Eq_Legs",
+                  "x": 658,
+                  "y": 468,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#252030",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 39,
+                      "label": "Eq_Legs_Icon",
+                      "x": 662,
+                      "y": 472,
+                      "w": 40,
+                      "h": 34,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "👖",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 20,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 40,
+                      "label": "Eq_Legs_Label",
+                      "x": 660,
+                      "y": 502,
+                      "w": 44,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "护腿",
+                        "textColor": "#3a3055",
+                        "fontSize": 7,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 58,
+              "label": "Char_Info",
+              "x": 562,
+              "y": 708,
+              "w": 216,
+              "h": 210,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "VerticalBox",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 45,
+                  "label": "Stat_Life",
+                  "x": 562,
+                  "y": 708,
+                  "w": 216,
+                  "h": 42,
+                  "borderColor": "#13111e",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "HorizontalBox",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 43,
+                      "label": "Stat_Life_Key",
+                      "x": 562,
+                      "y": 708,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "生命",
+                        "textColor": "#4a4060",
+                        "fontSize": 9,
+                        "align": "left",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 44,
+                      "label": "Stat_Life_Val",
+                      "x": 670,
+                      "y": 708,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "842 / 1200",
+                        "textColor": "#9a80c0",
+                        "fontSize": 9,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 48,
+                  "label": "Stat_Mana",
+                  "x": 562,
+                  "y": 750,
+                  "w": 216,
+                  "h": 42,
+                  "borderColor": "#13111e",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "HorizontalBox",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 46,
+                      "label": "Stat_Mana_Key",
+                      "x": 562,
+                      "y": 750,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "魔法",
+                        "textColor": "#4a4060",
+                        "fontSize": 9,
+                        "align": "left",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 47,
+                      "label": "Stat_Mana_Val",
+                      "x": 670,
+                      "y": 750,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "340 / 480",
+                        "textColor": "#9a80c0",
+                        "fontSize": 9,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 51,
+                  "label": "Stat_Atk",
+                  "x": 562,
+                  "y": 792,
+                  "w": 216,
+                  "h": 42,
+                  "borderColor": "#13111e",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "HorizontalBox",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 49,
+                      "label": "Stat_Atk_Key",
+                      "x": 562,
+                      "y": 792,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "攻击",
+                        "textColor": "#4a4060",
+                        "fontSize": 9,
+                        "align": "left",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 50,
+                      "label": "Stat_Atk_Val",
+                      "x": 670,
+                      "y": 792,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "185 ~ 240",
+                        "textColor": "#9a80c0",
+                        "fontSize": 9,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 54,
+                  "label": "Stat_Def",
+                  "x": 562,
+                  "y": 834,
+                  "w": 216,
+                  "h": 42,
+                  "borderColor": "#13111e",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "HorizontalBox",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 52,
+                      "label": "Stat_Def_Key",
+                      "x": 562,
+                      "y": 834,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "防御",
+                        "textColor": "#4a4060",
+                        "fontSize": 9,
+                        "align": "left",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 53,
+                      "label": "Stat_Def_Val",
+                      "x": 670,
+                      "y": 834,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "312",
+                        "textColor": "#9a80c0",
+                        "fontSize": 9,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 57,
+                  "label": "Stat_Speed",
+                  "x": 562,
+                  "y": 876,
+                  "w": 216,
+                  "h": 42,
+                  "borderColor": "#13111e",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "HorizontalBox",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 55,
+                      "label": "Stat_Speed_Key",
+                      "x": 562,
+                      "y": 876,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "速度",
+                        "textColor": "#4a4060",
+                        "fontSize": 9,
+                        "align": "left",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 56,
+                      "label": "Stat_Speed_Val",
+                      "x": 670,
+                      "y": 876,
+                      "w": 108,
+                      "h": 42,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "88",
+                        "textColor": "#9a80c0",
+                        "fontSize": 9,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "label": "Win_RightPanel",
+          "x": 790,
+          "y": 194,
+          "w": 580,
+          "h": 736,
+          "borderColor": "#1e1830",
+          "bgColor": "transparent",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "CanvasPanel",
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 66,
+              "label": "Tabs_Bar",
+              "x": 804,
+              "y": 208,
+              "w": 552,
+              "h": 36,
+              "borderColor": "#1e1830",
+              "bgColor": "transparent",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 60,
+                  "label": "Tab_All",
+                  "x": 804,
+                  "y": 212,
+                  "w": 70,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "全部",
+                    "textColor": "#c8b0ff",
+                    "fontSize": 10,
+                    "align": "left",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 61,
+                  "label": "Tab_Weapon",
+                  "x": 876,
+                  "y": 212,
+                  "w": 70,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "武器",
+                    "textColor": "#3a3055",
+                    "fontSize": 10,
+                    "align": "left",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 62,
+                  "label": "Tab_Armor",
+                  "x": 948,
+                  "y": 212,
+                  "w": 70,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "护甲",
+                    "textColor": "#3a3055",
+                    "fontSize": 10,
+                    "align": "left",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 63,
+                  "label": "Tab_Consume",
+                  "x": 1020,
+                  "y": 212,
+                  "w": 70,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "消耗",
+                    "textColor": "#3a3055",
+                    "fontSize": 10,
+                    "align": "left",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 64,
+                  "label": "Tab_Material",
+                  "x": 1092,
+                  "y": 212,
+                  "w": 70,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "材料",
+                    "textColor": "#3a3055",
+                    "fontSize": 10,
+                    "align": "left",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 65,
+                  "label": "Tabs_SearchInput",
+                  "x": 1236,
+                  "y": 212,
+                  "w": 120,
+                  "h": 28,
+                  "borderColor": "#1e1830",
+                  "bgColor": "#09080f",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "EditableText",
+                  "widgetProps": {
+                    "text": "搜索...",
+                    "textColor": "#9a80c0",
+                    "fontSize": 10
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 70,
+              "label": "Grid_ItemGrid",
+              "x": 804,
+              "y": 254,
+              "w": 552,
+              "h": 596,
+              "borderColor": "#18162a",
+              "bgColor": "#08070e",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "TileView",
+              "widgetProps": {
+                "gridPreviewNum": 8,
+                "entryWidth": 66,
+                "entryHeight": 66,
+                "placeHolder": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 69,
+                  "label": "EntryClass",
+                  "x": 804,
+                  "y": 254,
+                  "w": 66,
+                  "h": 66,
+                  "borderColor": "#252030",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": null,
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": true,
+                  "children": [
+                    {
+                      "id": 67,
+                      "label": "Entry_QualBorder",
+                      "x": 804,
+                      "y": 254,
+                      "w": 66,
+                      "h": 66,
+                      "borderColor": "#252030",
+                      "bgColor": "#08070e",
+                      "borderWidth": 1,
+                      "opacity": 1,
+                      "widgetType": "Border",
+                      "widgetProps": {},
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 68,
+                      "label": "Entry_CountLabel",
+                      "x": 852,
+                      "y": 306,
+                      "w": 16,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "1",
+                        "textColor": "#5a5078",
+                        "fontSize": 7,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 87,
+              "label": "Belt_Bar",
+              "x": 804,
+              "y": 860,
+              "w": 552,
+              "h": 56,
+              "borderColor": "#1e1830",
+              "bgColor": "transparent",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "HorizontalBox",
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 73,
+                  "label": "Belt_Slot1",
+                  "x": 804,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 71,
+                      "label": "Belt_Slot1_Icon",
+                      "x": 808,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🧪",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 72,
+                      "label": "Belt_Slot1_Qty",
+                      "x": 834,
+                      "y": 898,
+                      "w": 16,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "3",
+                        "textColor": "#5a5078",
+                        "fontSize": 7,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 76,
+                  "label": "Belt_Slot2",
+                  "x": 855,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 74,
+                      "label": "Belt_Slot2_Icon",
+                      "x": 859,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🧪",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    },
+                    {
+                      "id": 75,
+                      "label": "Belt_Slot2_Qty",
+                      "x": 885,
+                      "y": 898,
+                      "w": 16,
+                      "h": 12,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "2",
+                        "textColor": "#5a5078",
+                        "fontSize": 7,
+                        "align": "right",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 78,
+                  "label": "Belt_Slot3",
+                  "x": 906,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 77,
+                      "label": "Belt_Slot3_Icon",
+                      "x": 910,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "🕯️",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 80,
+                  "label": "Belt_Slot4",
+                  "x": 957,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 79,
+                      "label": "Belt_Slot4_Icon",
+                      "x": 961,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 82,
+                  "label": "Belt_Slot5",
+                  "x": 1008,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 81,
+                      "label": "Belt_Slot5_Icon",
+                      "x": 1012,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 84,
+                  "label": "Belt_Slot6",
+                  "x": 1059,
+                  "y": 864,
+                  "w": 48,
+                  "h": 48,
+                  "borderColor": "#18162a",
+                  "bgColor": "#08070e",
+                  "borderWidth": 1,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false,
+                  "children": [
+                    {
+                      "id": 83,
+                      "label": "Belt_Slot6_Icon",
+                      "x": 1063,
+                      "y": 868,
+                      "w": 40,
+                      "h": 32,
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "borderWidth": 0,
+                      "opacity": 1,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "text": "",
+                        "textColor": "#c8b0ff",
+                        "fontSize": 18,
+                        "align": "center",
+                        "bold": false,
+                        "italic": false,
+                        "wrap": false,
+                        "fontFamily": "",
+                        "letterSpacing": 0
+                      },
+                      "anchor": {
+                        "minX": 0,
+                        "minY": 0,
+                        "maxX": 0,
+                        "maxY": 0
+                      },
+                      "isEntryClass": false
+                    }
+                  ]
+                },
+                {
+                  "id": 85,
+                  "label": "Belt_Separator",
+                  "x": 1114,
+                  "y": 870,
+                  "w": 1,
+                  "h": 28,
+                  "borderColor": "transparent",
+                  "bgColor": "#1e1830",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "Border",
+                  "widgetProps": {},
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 86,
+                  "label": "Belt_SlotInfo",
+                  "x": 1206,
+                  "y": 876,
+                  "w": 150,
+                  "h": 16,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "格位 30/48   货币 6",
+                    "textColor": "#3a3055",
+                    "fontSize": 9,
+                    "align": "right",
+                    "bold": false,
+                    "italic": false,
+                    "wrap": false,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

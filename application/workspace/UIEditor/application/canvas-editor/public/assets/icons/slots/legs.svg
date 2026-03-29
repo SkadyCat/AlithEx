@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#0c0e14"/><stop offset="100%" stop-color="#020304"/>
+    </radialGradient>
+    <radialGradient id="metal" cx="35%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#b0b8c8"/>
+      <stop offset="40%" stop-color="#6878a0"/>
+      <stop offset="100%" stop-color="#1e2838"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8a830"/><stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <linearGradient id="knee" cx="40%" cy="30%" r="60%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#c0c8d8"/><stop offset="100%" stop-color="#384058"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Left greave -->
+  <path d="M14,8 Q14,6 20,6 Q26,6 26,8 L28,46 Q28,52 21,54 Q14,52 13,46 Z" fill="url(#metal)"/>
+  <path d="M14,8 Q20,5 26,8 L24,14 Q20,12 16,14Z" fill="white" opacity="0.2"/>
+  <!-- Left knee cap -->
+  <ellipse cx="20" cy="32" rx="7" ry="6" fill="url(#metal)" stroke="#c0a030" stroke-width="1"/>
+  <ellipse cx="19" cy="30" rx="3" ry="2.5" fill="white" opacity="0.2"/>
+  <!-- Left trim lines -->
+  <path d="M14,20 Q20,18 26,20" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M13,46 Q21,44 28,46" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <!-- Right greave -->
+  <path d="M50,8 Q50,6 44,6 Q38,6 38,8 L36,46 Q36,52 43,54 Q50,52 51,46 Z" fill="url(#metal)"/>
+  <path d="M50,8 Q44,5 38,8 L40,14 Q44,12 48,14Z" fill="white" opacity="0.2"/>
+  <!-- Right knee cap -->
+  <ellipse cx="44" cy="32" rx="7" ry="6" fill="url(#metal)" stroke="#c0a030" stroke-width="1"/>
+  <ellipse cx="43" cy="30" rx="3" ry="2.5" fill="white" opacity="0.2"/>
+  <!-- Right trim lines -->
+  <path d="M50,20 Q44,18 38,20" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M51,46 Q43,44 36,46" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <!-- Belt/hip connector -->
+  <rect x="20" y="5" width="24" height="5" rx="2" fill="url(#metal)" stroke="url(#gold)" stroke-width="1"/>
+  <rect x="28" y="5" width="8" height="5" fill="#c08020" opacity="0.5" rx="1"/>
+  <!-- Foot plates -->
+  <path d="M13,52 Q21,58 28,52" fill="url(#metal)" stroke="url(#gold)" stroke-width="1"/>
+  <path d="M51,52 Q43,58 36,52" fill="url(#metal)" stroke="url(#gold)" stroke-width="1"/>
+</svg>

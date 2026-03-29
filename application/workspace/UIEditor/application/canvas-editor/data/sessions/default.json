@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "savedAt": "2026-03-12T10:36:55.944Z",
+  "nextId": 2,
+  "boxes": [
+    {
+      "id": 1,
+      "x": 100,
+      "y": 80,
+      "w": 660,
+      "h": 330,
+      "label": "Box1",
+      "borderColor": "#7c6af7",
+      "bgColor": "rgba(124,106,247,0.06)",
+      "borderWidth": 2,
+      "opacity": 1,
+      "widgetType": null,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-17T15:08:48.328Z",
+  "nextId": 300,
+  "boxes": [
+    {
+      "anchor": {
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0
+      },
+      "h": 540,
+      "bgColor": "rgba(8,6,4,0.98)",
+      "borderColor": "#4a3818",
+      "widgetType": "Border",
+      "id": 1,
+      "opacity": 1,
+      "widgetProps": {
+        "bgImage": "",
+        "bgSize": "cover"
+      },
+      "w": 800,
+      "borderWidth": 1,
+      "y": 40,
+      "label": "背包窗口",
+      "x": 100,
+      "children": [
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 42,
+          "bgColor": "rgba(20,14,8,0.99)",
+          "borderColor": "#4a3818",
+          "widgetType": "Border",
+          "id": 2,
+          "opacity": 1,
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "w": 800,
+          "borderWidth": 0,
+          "y": 40,
+          "label": "标题栏",
+          "x": 100,
+          "children": [
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 42,
+              "bgColor": "transparent",
+              "borderColor": "transparent",
+              "widgetType": "TextBlock",
+              "id": 3,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 15,
+                "text": "⸸  背 包  ⸸",
+                "bold": true,
+                "align": "left",
+                "textColor": "#c8a045",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "w": 320,
+              "borderWidth": 0,
+              "y": 40,
+              "label": "⸸  背 包  ⸸",
+              "x": 118
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 42,
+              "bgColor": "transparent",
+              "borderColor": "transparent",
+              "widgetType": "TextBlock",
+              "id": 4,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 10,
+                "text": "负重  67.3 / 100 kg",
+                "bold": false,
+                "align": "center",
+                "textColor": "#6b5020",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "w": 200,
+              "borderWidth": 0,
+              "y": 40,
+              "label": "负重  67.3 / 100 kg",
+              "x": 590
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 42,
+              "bgColor": "transparent",
+              "borderColor": "transparent",
+              "widgetType": "TextBlock",
+              "id": 5,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 11,
+                "text": "◈ 1,347",
+                "bold": false,
+                "align": "center",
+                "textColor": "#c8a045",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "w": 72,
+              "borderWidth": 0,
+              "y": 40,
+              "label": "◈ 1,347",
+              "x": 798
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 26,
+              "bgColor": "rgba(20,8,8,0.9)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 6,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 11,
+                "text": "✕",
+                "align": "center",
+                "textColor": "#6b2020",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 28,
+              "borderWidth": 1,
+              "y": 48,
+              "label": "✕",
+              "x": 864
+            }
+          ]
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 1,
+          "bgColor": "#3a2c10",
+          "borderColor": "#3a2c10",
+          "widgetType": null,
+          "id": 7,
+          "opacity": 0.4,
+          "widgetProps": {},
+          "w": 800,
+          "borderWidth": 0,
+          "y": 82,
+          "label": "sep",
+          "x": 100
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 497,
+          "bgColor": "rgba(12,10,7,0.96)",
+          "borderColor": "#3a2c10",
+          "widgetType": "Border",
+          "id": 10,
+          "opacity": 1,
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "w": 228,
+          "borderWidth": 0,
+          "y": 83,
+          "label": "纸娃娃面板",
+          "x": 100,
+          "children": [
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(8,6,4,0.85)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 20,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "⛑",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 87,
+              "label": "头部",
+              "x": 192
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(10,8,5,0.92)",
+              "borderColor": "#4a1010",
+              "widgetType": "Button",
+              "id": 21,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "📿",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 143,
+              "label": "项链",
+              "x": 284
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(10,8,5,0.92)",
+              "borderColor": "#4a1010",
+              "widgetType": "Button",
+              "id": 22,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "🗡",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 195,
+              "label": "主武",
+              "x": 104
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(10,8,5,0.92)",
+              "borderColor": "#4a3818",
+              "widgetType": "Button",
+              "id": 24,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "🛡",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 195,
+              "label": "副手",
+              "x": 284
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(8,6,4,0.85)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 25,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "🧤",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 263,
+              "label": "手套",
+              "x": 104
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(8,6,4,0.85)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 26,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "👢",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 263,
+              "label": "靴子",
+              "x": 284
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(10,8,5,0.92)",
+              "borderColor": "#4a3818",
+              "widgetType": "Button",
+              "id": 28,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "💍",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 379,
+              "label": "戒指",
+              "x": 104
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(8,6,4,0.85)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 29,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "💍",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 379,
+              "label": "戒指",
+              "x": 284
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 44,
+              "bgColor": "rgba(8,6,4,0.85)",
+              "borderColor": "#3a2c10",
+              "widgetType": "Button",
+              "id": 30,
+              "opacity": 1,
+              "widgetProps": {
+                "fontSize": 18,
+                "text": "🩱",
+                "align": "center",
+                "textColor": "#e2cfa0",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "w": 44,
+              "borderWidth": 1,
+              "y": 427,
+              "label": "腿甲",
+              "x": 192
+            }
+          ]
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 36,
+          "bgColor": "transparent",
+          "borderColor": "transparent",
+          "widgetType": "TextBlock",
+          "id": 31,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 9,
+            "text": "⸸  第 VII 层  深渊界",
+            "bold": false,
+            "align": "center",
+            "textColor": "#6b5020",
+            "italic": false,
+            "wrap": true,
+            "fontFamily": "",
+            "letterSpacing": 0
+          },
+          "w": 228,
+          "borderWidth": 0,
+          "y": 542,
+          "label": "⸸  第 VII 层  深渊界",
+          "x": 104
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 497,
+          "bgColor": "#4a3818",
+          "borderColor": "#4a3818",
+          "widgetType": null,
+          "id": 39,
+          "opacity": 0.5,
+          "widgetProps": {},
+          "w": 1,
+          "borderWidth": 0,
+          "y": 83,
+          "label": "竖分隔",
+          "x": 329
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 497,
+          "bgColor": "rgba(10,8,5,0.94)",
+          "borderColor": "#3a2c10",
+          "widgetType": "Border",
+          "id": 40,
+          "opacity": 1,
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "w": 570,
+          "borderWidth": 0,
+          "y": 83,
+          "label": "背包格子面板",
+          "x": 330,
+          "children": [
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 34,
+              "bgColor": "rgba(14,11,7,0.98)",
+              "borderColor": "#3a2c10",
+              "widgetType": "HorizontalBox",
+              "id": 41,
+              "opacity": 1,
+              "widgetProps": {},
+              "w": 570,
+              "borderWidth": 0,
+              "y": 83,
+              "label": "分类栏",
+              "x": 330,
+              "children": [
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "rgba(30,20,8,0.98)",
+                  "borderColor": "#6a5028",
+                  "widgetType": "Button",
+                  "id": 42,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "全部",
+                    "bold": true,
+                    "align": "center",
+                    "textColor": "#c8a045",
+                    "fontFamily": ""
+                  },
+                  "w": 100,
+                  "borderWidth": 1,
+                  "y": 83,
+                  "label": "全部",
+                  "x": 330
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "rgba(14,11,7,0.9)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 43,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "武器",
+                    "bold": false,
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "fontFamily": ""
+                  },
+                  "w": 90,
+                  "borderWidth": 1,
+                  "y": 83,
+                  "label": "武器",
+                  "x": 430
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "rgba(14,11,7,0.9)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 44,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "药剂",
+                    "bold": false,
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "fontFamily": ""
+                  },
+                  "w": 90,
+                  "borderWidth": 1,
+                  "y": 83,
+                  "label": "药剂",
+                  "x": 520
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "rgba(14,11,7,0.9)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 45,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "诅咒",
+                    "bold": false,
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "fontFamily": ""
+                  },
+                  "w": 90,
+                  "borderWidth": 1,
+                  "y": 83,
+                  "label": "诅咒",
+                  "x": 610
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "rgba(14,11,7,0.9)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 46,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "材料",
+                    "bold": false,
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "fontFamily": ""
+                  },
+                  "w": 90,
+                  "borderWidth": 1,
+                  "y": 83,
+                  "label": "材料",
+                  "x": 700
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 34,
+                  "bgColor": "transparent",
+                  "borderColor": "transparent",
+                  "widgetType": "TextBlock",
+                  "id": 47,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 9,
+                    "text": "🔍 搜索",
+                    "bold": false,
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "italic": false,
+                    "wrap": true,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "w": 110,
+                  "borderWidth": 0,
+                  "y": 83,
+                  "label": "🔍 搜索",
+                  "x": 790
+                }
+              ]
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 1,
+              "bgColor": "#3a2c10",
+              "borderColor": "#3a2c10",
+              "widgetType": null,
+              "id": 50,
+              "opacity": 0.4,
+              "widgetProps": {},
+              "w": 570,
+              "borderWidth": 0,
+              "y": 117,
+              "label": "sep",
+              "x": 330
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 412,
+              "bgColor": "rgba(8,6,4,0.92)",
+              "borderColor": "#3a2c10",
+              "widgetType": "TileView",
+              "id": 60,
+              "opacity": 1,
+              "widgetProps": {
+                "entryHeight": 66,
+                "entryWidth": 66,
+                "gridPreviewNum": 48,
+                "placeHolder": {
+                  "x": 3,
+                  "y": 3
+                }
+              },
+              "w": 570,
+              "borderWidth": 1,
+              "y": 118,
+              "label": "物品格 TileView",
+              "x": 330
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 1,
+              "bgColor": "#3a2c10",
+              "borderColor": "#3a2c10",
+              "widgetType": null,
+              "id": 69,
+              "opacity": 0.4,
+              "widgetProps": {},
+              "w": 570,
+              "borderWidth": 0,
+              "y": 530,
+              "label": "sep",
+              "x": 330
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0
+              },
+              "h": 49,
+              "bgColor": "rgba(14,11,7,0.98)",
+              "borderColor": "#3a2c10",
+              "widgetType": "HorizontalBox",
+              "id": 70,
+              "opacity": 1,
+              "widgetProps": {},
+              "w": 570,
+              "borderWidth": 0,
+              "y": 531,
+              "label": "快捷腰带",
+              "x": 330,
+              "children": [
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 71,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 18,
+                    "text": "🧪",
+                    "align": "center",
+                    "textColor": "#e2cfa0",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q1",
+                  "x": 334
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 72,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 18,
+                    "text": "🧪",
+                    "align": "center",
+                    "textColor": "#e2cfa0",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q2",
+                  "x": 379
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 73,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 18,
+                    "text": "🕯",
+                    "align": "center",
+                    "textColor": "#e2cfa0",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q3",
+                  "x": 424
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 74,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "4",
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q4",
+                  "x": 469
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 75,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "5",
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q5",
+                  "x": 514
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "rgba(10,8,5,0.92)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "Button",
+                  "id": 76,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 10,
+                    "text": "6",
+                    "align": "center",
+                    "textColor": "#6b5020",
+                    "bold": false,
+                    "fontFamily": ""
+                  },
+                  "w": 42,
+                  "borderWidth": 1,
+                  "y": 536,
+                  "label": "Q6",
+                  "x": 559
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 39,
+                  "bgColor": "transparent",
+                  "borderColor": "transparent",
+                  "widgetType": "TextBlock",
+                  "id": 77,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "fontSize": 9,
+                    "text": "格位  30/48    诅咒  3",
+                    "bold": false,
+                    "align": "right",
+                    "textColor": "#6b5020",
+                    "italic": false,
+                    "wrap": true,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "w": 286,
+                  "borderWidth": 0,
+                  "y": 536,
+                  "label": "格位  30/48    诅咒  3",
+                  "x": 610
+                },
+                {
+                  "anchor": {
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0
+                  },
+                  "h": 8,
+                  "bgColor": "rgba(20,14,8,0.8)",
+                  "borderColor": "#3a2c10",
+                  "widgetType": "ProgressBar",
+                  "id": 80,
+                  "opacity": 1,
+                  "widgetProps": {
+                    "percent": 0.67,
+                    "barColor": "rgba(20,12,6,0.9)",
+                    "fillColor": "#8b2222"
+                  },
+                  "w": 562,
+                  "borderWidth": 1,
+                  "y": 569,
+                  "label": "负重条",
+                  "x": 334
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0
+      },
+      "h": 290,
+      "bgColor": "rgba(18,14,9,0.97)",
+      "borderColor": "#3a2c10",
+      "widgetType": "Border",
+      "id": 11,
+      "opacity": 1,
+      "widgetProps": {
+        "bgImage": "",
+        "bgSize": "cover"
+      },
+      "w": 208,
+      "borderWidth": 1,
+      "y": 91,
+      "label": "角色剪影区",
+      "x": 110,
+      "children": [
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 290,
+          "bgColor": "transparent",
+          "borderColor": "transparent",
+          "widgetType": "TextBlock",
+          "id": 12,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 72,
+            "text": "☠",
+            "bold": false,
+            "align": "center",
+            "textColor": "rgba(200,160,69,0.12)",
+            "italic": false,
+            "wrap": true,
+            "fontFamily": "",
+            "letterSpacing": 0
+          },
+          "w": 208,
+          "borderWidth": 0,
+          "y": 91,
+          "label": "☠",
+          "x": 110
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 44,
+          "bgColor": "rgba(8,6,4,0.85)",
+          "borderColor": "#3a2c10",
+          "widgetType": "Button",
+          "id": 23,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 18,
+            "text": "🥋",
+            "align": "center",
+            "textColor": "#e2cfa0",
+            "bold": false,
+            "fontFamily": ""
+          },
+          "w": 44,
+          "borderWidth": 1,
+          "y": 191,
+          "label": "胸甲",
+          "x": 192
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 44,
+          "bgColor": "rgba(8,6,4,0.85)",
+          "borderColor": "#3a2c10",
+          "widgetType": "Button",
+          "id": 27,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 18,
+            "text": "🪢",
+            "align": "center",
+            "textColor": "#e2cfa0",
+            "bold": false,
+            "fontFamily": ""
+          },
+          "w": 44,
+          "borderWidth": 1,
+          "y": 331,
+          "label": "腰带",
+          "x": 192
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0
+      },
+      "h": 66,
+      "bgColor": "rgba(12,10,7,0.9)",
+      "borderColor": "#3a2c10",
+      "widgetType": null,
+      "id": 61,
+      "opacity": 1,
+      "widgetProps": {},
+      "w": 66,
+      "borderWidth": 1,
+      "y": 122,
+      "isEntryClass": true,
+      "label": "EntryClass",
+      "x": 334,
+      "children": [
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 66,
+          "bgColor": "transparent",
+          "borderColor": "transparent",
+          "widgetType": "TextBlock",
+          "id": 62,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 26,
+            "text": "⚔",
+            "bold": false,
+            "align": "center",
+            "textColor": "rgba(200,160,69,0.35)",
+            "italic": false,
+            "wrap": true,
+            "fontFamily": "",
+            "letterSpacing": 0
+          },
+          "w": 66,
+          "borderWidth": 0,
+          "y": 122,
+          "label": "⚔",
+          "x": 334
+        },
+        {
+          "anchor": {
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0
+          },
+          "h": 16,
+          "bgColor": "transparent",
+          "borderColor": "transparent",
+          "widgetType": "TextBlock",
+          "id": 63,
+          "opacity": 1,
+          "widgetProps": {
+            "fontSize": 8,
+            "text": "1",
+            "bold": false,
+            "align": "right",
+            "textColor": "#6b5020",
+            "italic": false,
+            "wrap": true,
+            "fontFamily": "",
+            "letterSpacing": 0
+          },
+          "w": 20,
+          "borderWidth": 0,
+          "y": 172,
+          "label": "1",
+          "x": 380
+        }
+      ]
+    }
+  ]
+}

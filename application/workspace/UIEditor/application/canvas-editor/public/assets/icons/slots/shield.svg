@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#0e1208"/>
+      <stop offset="100%" stop-color="#030401"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="20%" stop-color="#6a3818"/>
+      <stop offset="50%" stop-color="#8a4820"/>
+      <stop offset="80%" stop-color="#5a2c12"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c0a030"/>
+      <stop offset="40%" stop-color="#f0d060"/>
+      <stop offset="100%" stop-color="#6a4808"/>
+    </linearGradient>
+    <radialGradient id="boss" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#e8e0d0"/>
+      <stop offset="50%" stop-color="#b0a080"/>
+      <stop offset="100%" stop-color="#404030"/>
+    </radialGradient>
+    <linearGradient id="emblem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8a040"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Shield body (kite shape) -->
+  <path d="M32,6 L52,14 L52,36 Q52,50 32,58 Q12,50 12,36 L12,14 Z" fill="url(#wood)"/>
+  <!-- Wood grain lines -->
+  <path d="M20,10 Q32,8 44,10 L44,38 Q32,54 20,38Z" fill="none" stroke="#2a1008" stroke-width="0.5" opacity="0.5"/>
+  <path d="M24,10 L24,45" stroke="#9a5020" stroke-width="0.3" opacity="0.3"/>
+  <path d="M32,7 L32,57" stroke="#9a5020" stroke-width="0.3" opacity="0.3"/>
+  <path d="M40,10 L40,45" stroke="#9a5020" stroke-width="0.3" opacity="0.3"/>
+  <!-- Metal rim -->
+  <path d="M32,6 L52,14 L52,36 Q52,50 32,58 Q12,50 12,36 L12,14 Z" fill="none" stroke="url(#rim)" stroke-width="2.5"/>
+  <!-- Rim highlight -->
+  <path d="M32,6 L52,14 L52,24" fill="none" stroke="#f8e898" stroke-width="0.8" opacity="0.7"/>
+  <!-- Central boss (round metal knob) -->
+  <circle cx="32" cy="30" r="10" fill="#3a3828" stroke="url(#rim)" stroke-width="1.5"/>
+  <circle cx="32" cy="30" r="8" fill="url(#boss)"/>
+  <circle cx="29" cy="27" r="3" fill="white" opacity="0.2"/>
+  <!-- Rivets -->
+  <circle cx="18" cy="20" r="1.5" fill="#c8a030"/><circle cx="18" cy="20" r="0.7" fill="#f0d060"/>
+  <circle cx="46" cy="20" r="1.5" fill="#c8a030"/><circle cx="46" cy="20" r="0.7" fill="#f0d060"/>
+  <circle cx="18" cy="38" r="1.5" fill="#c8a030"/><circle cx="18" cy="38" r="0.7" fill="#f0d060"/>
+  <circle cx="46" cy="38" r="1.5" fill="#c8a030"/><circle cx="46" cy="38" r="0.7" fill="#f0d060"/>
+  <!-- Emblem cross -->
+  <rect x="30.5" y="22" width="3" height="16" rx="1" fill="url(#emblem)" opacity="0.7"/>
+  <rect x="24" y="28.5" width="16" height="3" rx="1" fill="url(#emblem)" opacity="0.7"/>
+</svg>

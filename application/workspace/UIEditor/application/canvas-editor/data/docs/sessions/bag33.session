@@ -1,0 +1,2730 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-17T15:45:35.491Z",
+  "nextId": 110,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "Win_BagPanel",
+      "x": 580,
+      "y": 267,
+      "w": 760,
+      "h": 546,
+      "borderColor": "#4a3818",
+      "bgColor": "rgba(15,11,7,0.97)",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": "Border",
+      "widgetProps": {
+        "bgSize": "100% 100%",
+        "bgImage": ""
+      },
+      "anchor": {
+        "maxX": 0,
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0
+      },
+      "isEntryClass": false,
+      "description": "背包主窗口, 760x546, 1920x1080 设计基准",
+      "children": [
+        {
+          "id": 2,
+          "label": "Win_TitleBar",
+          "x": 580,
+          "y": 267,
+          "w": 760,
+          "h": 40,
+          "borderColor": "#3a2810",
+          "bgColor": "rgba(30,20,8,0.97)",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "100% 100%",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 3,
+              "label": "Win_TitleIcon",
+              "x": 594,
+              "y": 279,
+              "w": 22,
+              "h": 22,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 14,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "⚔",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 4,
+              "label": "Win_TitleText",
+              "x": 620,
+              "y": 278,
+              "w": 200,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 13,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": true,
+                "text": "背 包",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 5,
+              "label": "Win_GameName",
+              "x": 866,
+              "y": 282,
+              "w": 100,
+              "h": 18,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 9,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "ΔRKBORN",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 6,
+              "label": "Win_Level",
+              "x": 986,
+              "y": 282,
+              "w": 80,
+              "h": 18,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 9,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "LV 47",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 7,
+              "label": "Win_BtnClose",
+              "x": 1322,
+              "y": 279,
+              "w": 18,
+              "h": 18,
+              "borderColor": "#3a2810",
+              "bgColor": "rgba(100,40,20,0.4)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "bold": false,
+                "align": "center",
+                "fontSize": 10,
+                "text": "✕",
+                "textColor": "#cc3333",
+                "fontFamily": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "label": "Win_LeftPanel",
+          "x": 580,
+          "y": 324,
+          "w": 220,
+          "h": 472,
+          "borderColor": "transparent",
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "CanvasPanel",
+          "widgetProps": {},
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 12,
+              "label": "Eq_Head",
+              "x": 700,
+              "y": 330,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#3a2e14",
+              "bgColor": "rgba(14,11,7,0.92)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 13,
+                  "label": "Icon_Head",
+                  "x": 700,
+                  "y": 340,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "⛑️",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 14,
+                  "label": "Lbl_Head",
+                  "x": 700,
+                  "y": 360,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "头盔",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "label": "Eq_LSho",
+              "x": 630,
+              "y": 380,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#3a2e14",
+              "bgColor": "rgba(14,11,7,0.92)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 19,
+                  "label": "Icon_LSho",
+                  "x": 630,
+                  "y": 390,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🛡️",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 20,
+                  "label": "Lbl_LSho",
+                  "x": 630,
+                  "y": 410,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "护肩",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 24,
+              "label": "Eq_LArm",
+              "x": 630,
+              "y": 430,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#3a2e14",
+              "bgColor": "rgba(14,11,7,0.92)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 25,
+                  "label": "Icon_LArm",
+                  "x": 630,
+                  "y": 430,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🗡️",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 26,
+                  "label": "Lbl_LArm",
+                  "x": 630,
+                  "y": 460,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "主手",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "label": "Eq_Ring1",
+              "x": 630,
+              "y": 500,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#261e0e",
+              "bgColor": "rgba(8,6,4,0.88)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 31,
+                  "label": "Icon_Ring1",
+                  "x": 630,
+                  "y": 500,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "💍",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 32,
+                  "label": "Lbl_Ring1",
+                  "x": 630,
+                  "y": 530,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "戒指",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 39,
+              "label": "Eq_Legs",
+              "x": 700,
+              "y": 560,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#3a2e14",
+              "bgColor": "rgba(14,11,7,0.92)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 40,
+                  "label": "Icon_Legs",
+                  "x": 700,
+                  "y": 570,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🦿",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 41,
+                  "label": "Lbl_Legs",
+                  "x": 700,
+                  "y": 590,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "护腿",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 42,
+              "label": "CharInfo",
+              "x": 580,
+              "y": 642,
+              "w": 220,
+              "h": 154,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "CanvasPanel",
+              "widgetProps": {},
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 43,
+                  "label": "Char_Name",
+                  "x": 580,
+                  "y": 644,
+                  "w": 220,
+                  "h": 20,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 13,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": true,
+                    "text": "Nyxara",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 44,
+                  "label": "Char_Class",
+                  "x": 580,
+                  "y": 666,
+                  "w": 220,
+                  "h": 14,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 9,
+                    "textColor": "#6b5020",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "暗刺客 · 暗影系",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 45,
+                  "label": "Stat_HPLbl",
+                  "x": 582,
+                  "y": 688,
+                  "w": 30,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "left",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#4a3818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "生命",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 46,
+                  "label": "Stat_HP",
+                  "x": 616,
+                  "y": 691,
+                  "w": 130,
+                  "h": 5,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "ProgressBar",
+                  "widgetProps": {
+                    "barColor": "rgba(255,255,255,0.08)",
+                    "percent": 0.72,
+                    "fillColor": "#cc2222"
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 47,
+                  "label": "Stat_HPVal",
+                  "x": 750,
+                  "y": 688,
+                  "w": 50,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "1440/2000",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 48,
+                  "label": "Stat_MPLbl",
+                  "x": 582,
+                  "y": 704,
+                  "w": 30,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "left",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#4a3818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "法力",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 49,
+                  "label": "Stat_MP",
+                  "x": 616,
+                  "y": 707,
+                  "w": 130,
+                  "h": 5,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "ProgressBar",
+                  "widgetProps": {
+                    "barColor": "rgba(255,255,255,0.08)",
+                    "percent": 0.55,
+                    "fillColor": "#3366cc"
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 50,
+                  "label": "Stat_MPVal",
+                  "x": 750,
+                  "y": 704,
+                  "w": 50,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "330/600",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 51,
+                  "label": "Stat_STALbl",
+                  "x": 582,
+                  "y": 720,
+                  "w": 30,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "left",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#4a3818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "耐力",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 52,
+                  "label": "Stat_STA",
+                  "x": 616,
+                  "y": 723,
+                  "w": 130,
+                  "h": 5,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "ProgressBar",
+                  "widgetProps": {
+                    "barColor": "rgba(255,255,255,0.08)",
+                    "percent": 0.88,
+                    "fillColor": "#2a9e1e"
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 53,
+                  "label": "Stat_STAVal",
+                  "x": 750,
+                  "y": 720,
+                  "w": 50,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "88/100",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "label": "Eq_Neck",
+          "x": 760,
+          "y": 370,
+          "w": 42,
+          "h": 42,
+          "borderColor": "#261e0e",
+          "bgColor": "rgba(8,6,4,0.88)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "cover",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 16,
+              "label": "Icon_Neck",
+              "x": 760,
+              "y": 380,
+              "w": 40,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 18,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "📿",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 17,
+              "label": "Lbl_Neck",
+              "x": 760,
+              "y": 400,
+              "w": 40,
+              "h": 10,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 6,
+                "textColor": "#3d3010",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "项链",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "label": "Eq_RArm",
+          "x": 760,
+          "y": 420,
+          "w": 42,
+          "h": 42,
+          "borderColor": "#3a2e14",
+          "bgColor": "rgba(14,11,7,0.92)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "cover",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 28,
+              "label": "Icon_RArm",
+              "x": 760,
+              "y": 420,
+              "w": 40,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 18,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "🔮",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 29,
+              "label": "Lbl_RArm",
+              "x": 760,
+              "y": 450,
+              "w": 40,
+              "h": 10,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 6,
+                "textColor": "#3d3010",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "副手",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "label": "Eq_Ring2",
+          "x": 760,
+          "y": 490,
+          "w": 42,
+          "h": 42,
+          "borderColor": "#3a2e14",
+          "bgColor": "rgba(14,11,7,0.92)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "cover",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 34,
+              "label": "Icon_Ring2",
+              "x": 760,
+              "y": 490,
+              "w": 40,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 18,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "💍",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 35,
+              "label": "Lbl_Ring2",
+              "x": 760,
+              "y": 520,
+              "w": 40,
+              "h": 10,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 6,
+                "textColor": "#3d3010",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "戒指",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "label": "Win_RightPanel",
+      "x": 814,
+      "y": 311,
+      "w": 532,
+      "h": 502,
+      "borderColor": "transparent",
+      "bgColor": "transparent",
+      "borderWidth": 0,
+      "opacity": 1,
+      "widgetType": "CanvasPanel",
+      "widgetProps": {},
+      "anchor": {
+        "maxX": 0,
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0
+      },
+      "isEntryClass": false,
+      "children": [
+        {
+          "id": 98,
+          "label": "Right_BeltBar",
+          "x": 846,
+          "y": 739,
+          "w": 468,
+          "h": 38,
+          "borderColor": "transparent",
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "HorizontalBox",
+          "widgetProps": {},
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 74,
+              "label": "BeltSlot_1",
+              "x": 846,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 75,
+                  "label": "BSlot_Ico_1",
+                  "x": 848,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🧪",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 76,
+                  "label": "BSlot_Num_1",
+                  "x": 878,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "1",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 77,
+              "label": "BeltSlot_2",
+              "x": 904,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 78,
+                  "label": "BSlot_Ico_2",
+                  "x": 906,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🧪",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 79,
+                  "label": "BSlot_Num_2",
+                  "x": 936,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "2",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 80,
+              "label": "BeltSlot_3",
+              "x": 962,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 81,
+                  "label": "BSlot_Ico_3",
+                  "x": 964,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🔥",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 82,
+                  "label": "BSlot_Num_3",
+                  "x": 994,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "3",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 83,
+              "label": "BeltSlot_4",
+              "x": 1020,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 84,
+                  "label": "BSlot_Ico_4",
+                  "x": 1022,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "⚡",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 85,
+                  "label": "BSlot_Num_4",
+                  "x": 1052,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "4",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 86,
+              "label": "BeltSlot_5",
+              "x": 1078,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 87,
+                  "label": "BSlot_Ico_5",
+                  "x": 1080,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "❄️",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 88,
+                  "label": "BSlot_Num_5",
+                  "x": 1110,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "5",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 89,
+              "label": "BeltSlot_6",
+              "x": 1136,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 90,
+                  "label": "BSlot_Ico_6",
+                  "x": 1138,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 91,
+                  "label": "BSlot_Num_6",
+                  "x": 1168,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "6",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 92,
+              "label": "BeltSlot_7",
+              "x": 1194,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 93,
+                  "label": "BSlot_Ico_7",
+                  "x": 1196,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 94,
+                  "label": "BSlot_Num_7",
+                  "x": 1226,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "7",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 95,
+              "label": "BeltSlot_8",
+              "x": 1252,
+              "y": 739,
+              "w": 52,
+              "h": 38,
+              "borderColor": "#1e1810",
+              "bgColor": "rgba(8,6,4,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 96,
+                  "label": "BSlot_Ico_8",
+                  "x": 1254,
+                  "y": 744,
+                  "w": 46,
+                  "h": 30,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 97,
+                  "label": "BSlot_Num_8",
+                  "x": 1284,
+                  "y": 767,
+                  "w": 14,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "right",
+                    "wrap": true,
+                    "fontSize": 7,
+                    "textColor": "#5a4818",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "8",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "label": "Right_Footer",
+          "x": 834,
+          "y": 787,
+          "w": 492,
+          "h": 22,
+          "borderColor": "transparent",
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "CanvasPanel",
+          "widgetProps": {},
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 100,
+              "label": "Footer_WeightLbl",
+              "x": 834,
+              "y": 790,
+              "w": 40,
+              "h": 12,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 7,
+                "textColor": "#4a3818",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "负重",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 101,
+              "label": "Footer_WeightBar",
+              "x": 878,
+              "y": 794,
+              "w": 270,
+              "h": 5,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "ProgressBar",
+              "widgetProps": {
+                "barColor": "rgba(20,16,8,0.8)",
+                "percent": 0.62,
+                "fillColor": "#7aad2e"
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 102,
+              "label": "Footer_WeightVal",
+              "x": 1152,
+              "y": 790,
+              "w": 50,
+              "h": 12,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "right",
+                "wrap": true,
+                "fontSize": 7,
+                "textColor": "#8a7040",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "62/100",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 103,
+              "label": "Footer_GoldIco",
+              "x": 1212,
+              "y": 790,
+              "w": 14,
+              "h": 12,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 10,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "🪙",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 104,
+              "label": "Footer_GoldVal",
+              "x": 1228,
+              "y": 790,
+              "w": 80,
+              "h": 12,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "left",
+                "wrap": true,
+                "fontSize": 9,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "34,720",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "label": "Right_TabsBar",
+          "x": 834,
+          "y": 319,
+          "w": 492,
+          "h": 40,
+          "borderColor": "#1e1810",
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "cover",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "children": [
+            {
+              "id": 59,
+              "label": "Tab_All",
+              "x": 840,
+              "y": 328,
+              "w": 36,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#c8a045",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "全部",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 60,
+              "label": "Tab_Weapon",
+              "x": 878,
+              "y": 328,
+              "w": 36,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "武器",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 61,
+              "label": "Tab_Armor",
+              "x": 916,
+              "y": 328,
+              "w": 36,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "防具",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 62,
+              "label": "Tab_Consume",
+              "x": 954,
+              "y": 328,
+              "w": 44,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "消耗",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 63,
+              "label": "Tab_Quest",
+              "x": 1000,
+              "y": 328,
+              "w": 36,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "任务",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 64,
+              "label": "Tab_Misc",
+              "x": 1038,
+              "y": 328,
+              "w": 36,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "align": "center",
+                "wrap": true,
+                "fontSize": 8,
+                "textColor": "#5a4820",
+                "fontFamily": "",
+                "letterSpacing": 0,
+                "bold": false,
+                "text": "杂项",
+                "italic": false
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            },
+            {
+              "id": 65,
+              "label": "Tabs_Search",
+              "x": 1214,
+              "y": 328,
+              "w": 100,
+              "h": 22,
+              "borderColor": "#2a2010",
+              "bgColor": "rgba(10,8,6,0.8)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "EditableText",
+              "widgetProps": {
+                "textColor": "#c8a045",
+                "placeholder": "搜索…",
+                "fontSize": 9
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "label": "Right_ItemGrid",
+          "x": 822,
+          "y": 370,
+          "w": 492,
+          "h": 369,
+          "borderColor": "#2a2010",
+          "bgColor": "rgba(10,8,6,0.3)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "TileView",
+          "widgetProps": {
+            "gridPreviewNum": 35,
+            "entryHeight": 68,
+            "placeHolder": {
+              "x": 4,
+              "y": 4
+            },
+            "entryWidth": 64
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false,
+          "description": "Item grid, 7 cols x 5 rows",
+          "children": [
+            {
+              "id": 21,
+              "label": "Eq_Chest",
+              "x": 840,
+              "y": 410,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#3a2e14",
+              "bgColor": "rgba(14,11,7,0.92)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 22,
+                  "label": "Icon_Chest",
+                  "x": 840,
+                  "y": 410,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🥋",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 23,
+                  "label": "Lbl_Chest",
+                  "x": 840,
+                  "y": 440,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "胸甲",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            },
+            {
+              "id": 36,
+              "label": "Eq_Belt2",
+              "x": 840,
+              "y": 490,
+              "w": 42,
+              "h": 42,
+              "borderColor": "#261e0e",
+              "bgColor": "rgba(8,6,4,0.88)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Border",
+              "widgetProps": {
+                "bgSize": "cover",
+                "bgImage": ""
+              },
+              "anchor": {
+                "maxX": 0,
+                "maxY": 0,
+                "minX": 0,
+                "minY": 0
+              },
+              "isEntryClass": false,
+              "children": [
+                {
+                  "id": 37,
+                  "label": "Icon_Belt2",
+                  "x": 840,
+                  "y": 500,
+                  "w": 40,
+                  "h": 24,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 18,
+                    "textColor": "#c8a045",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "🔗",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                },
+                {
+                  "id": 38,
+                  "label": "Lbl_Belt2",
+                  "x": 840,
+                  "y": 520,
+                  "w": 40,
+                  "h": 10,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "align": "center",
+                    "wrap": true,
+                    "fontSize": 6,
+                    "textColor": "#3d3010",
+                    "fontFamily": "",
+                    "letterSpacing": 0,
+                    "bold": false,
+                    "text": "腰带",
+                    "italic": false
+                  },
+                  "anchor": {
+                    "maxX": 0,
+                    "maxY": 0,
+                    "minX": 0,
+                    "minY": 0
+                  },
+                  "isEntryClass": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "label": "Grid_EntryClass",
+      "x": 834,
+      "y": 363,
+      "w": 64,
+      "h": 68,
+      "borderColor": "#2a2416",
+      "bgColor": "rgba(12,10,7,0.8)",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": null,
+      "widgetProps": {},
+      "anchor": {
+        "maxX": 0,
+        "maxY": 0,
+        "minX": 0,
+        "minY": 0
+      },
+      "isEntryClass": false,
+      "children": [
+        {
+          "id": 71,
+          "label": "Entry_Count",
+          "x": 872,
+          "y": 409,
+          "w": 24,
+          "h": 14,
+          "borderColor": "transparent",
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "TextBlock",
+          "widgetProps": {
+            "align": "right",
+            "wrap": true,
+            "fontSize": 8,
+            "textColor": "#8a7040",
+            "fontFamily": "",
+            "letterSpacing": 0,
+            "bold": false,
+            "text": "x1",
+            "italic": false
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false
+        },
+        {
+          "id": 72,
+          "label": "Entry_QualBorder",
+          "x": 834,
+          "y": 363,
+          "w": 64,
+          "h": 68,
+          "borderColor": "#c8a045",
+          "bgColor": "transparent",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgSize": "cover",
+            "bgImage": ""
+          },
+          "anchor": {
+            "maxX": 0,
+            "maxY": 0,
+            "minX": 0,
+            "minY": 0
+          },
+          "isEntryClass": false
+        }
+      ]
+    }
+  ]
+}

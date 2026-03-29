@@ -1,0 +1,744 @@
+{
+  "version": "1.0",
+  "sessionName": "bag10",
+  "savedAt": "2026-03-21T13:04:53Z",
+  "root": {
+    "id": "bagWidget",
+    "data": {},
+    "children": [
+      {
+        "id": "titleBar",
+        "data": {},
+        "children": [
+          {
+            "id": "titleText",
+            "data": {
+              "text": "背包"
+            },
+            "children": []
+          },
+          {
+            "id": "decorLeft",
+            "data": {},
+            "children": [
+              {
+                "id": "charName",
+                "data": {
+                  "text": "艾丽丝·史东"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "decorRight",
+            "data": {},
+            "children": [
+              {
+                "id": "closeBtn",
+                "data": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "statPanel",
+        "data": {},
+        "children": [
+          {
+            "id": "statTitle",
+            "data": {
+              "text": "角色属性"
+            },
+            "children": []
+          },
+          {
+            "id": "statDiv0",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "strLabel",
+            "data": {
+              "text": "力量"
+            },
+            "children": []
+          },
+          {
+            "id": "strValue",
+            "data": {
+              "text": "42"
+            },
+            "children": []
+          },
+          {
+            "id": "dexLabel",
+            "data": {
+              "text": "敏捷"
+            },
+            "children": []
+          },
+          {
+            "id": "dexValue",
+            "data": {
+              "text": "35"
+            },
+            "children": []
+          },
+          {
+            "id": "intLabel",
+            "data": {
+              "text": "智力"
+            },
+            "children": []
+          },
+          {
+            "id": "intValue",
+            "data": {
+              "text": "67"
+            },
+            "children": []
+          },
+          {
+            "id": "vitLabel",
+            "data": {
+              "text": "体力"
+            },
+            "children": []
+          },
+          {
+            "id": "vitValue",
+            "data": {
+              "text": "55"
+            },
+            "children": []
+          },
+          {
+            "id": "statDiv1",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "hpLabel",
+            "data": {
+              "text": "生命值"
+            },
+            "children": []
+          },
+          {
+            "id": "hpValue",
+            "data": {
+              "text": "750 / 1000"
+            },
+            "children": []
+          },
+          {
+            "id": "hpBar",
+            "data": {
+              "percent": 0.75
+            },
+            "children": []
+          },
+          {
+            "id": "mpLabel",
+            "data": {
+              "text": "魔法值"
+            },
+            "children": []
+          },
+          {
+            "id": "mpValue",
+            "data": {
+              "text": "250 / 500"
+            },
+            "children": []
+          },
+          {
+            "id": "mpBar",
+            "data": {
+              "percent": 0.5
+            },
+            "children": []
+          },
+          {
+            "id": "statDiv2",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "wtLabel",
+            "data": {
+              "text": "负重"
+            },
+            "children": []
+          },
+          {
+            "id": "wtValue",
+            "data": {
+              "text": "48.5 / 120 kg"
+            },
+            "children": []
+          },
+          {
+            "id": "wtBar",
+            "data": {
+              "percent": 0.4
+            },
+            "children": []
+          },
+          {
+            "id": "armorLabel",
+            "data": {
+              "text": "护甲"
+            },
+            "children": []
+          },
+          {
+            "id": "armorValue",
+            "data": {
+              "text": "185"
+            },
+            "children": []
+          },
+          {
+            "id": "goldLabel",
+            "data": {
+              "text": "金币"
+            },
+            "children": []
+          },
+          {
+            "id": "goldValue",
+            "data": {
+              "text": "9,999"
+            },
+            "children": []
+          },
+          {
+            "id": "statDiv3",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "lvLabel",
+            "data": {
+              "text": "等级"
+            },
+            "children": []
+          },
+          {
+            "id": "lvValue",
+            "data": {
+              "text": "42"
+            },
+            "children": []
+          },
+          {
+            "id": "expLabel",
+            "data": {
+              "text": "经验"
+            },
+            "children": []
+          },
+          {
+            "id": "expValue",
+            "data": {
+              "text": "32%"
+            },
+            "children": []
+          },
+          {
+            "id": "expBar",
+            "data": {
+              "percent": 0.32
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "paperdollPanel",
+        "data": {},
+        "children": [
+          {
+            "id": "equipTitle",
+            "data": {
+              "text": "装备栏"
+            },
+            "children": []
+          },
+          {
+            "id": "equipDiv",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "headSlot",
+            "data": {
+              "icon": "helmet_iron",
+              "tooltip": "铁头盔"
+            },
+            "children": [
+              {
+                "id": "headSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "headSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_helm.png"
+                },
+                "children": []
+              },
+              {
+                "id": "headSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "neckSlot",
+            "data": {
+              "icon": "",
+              "tooltip": "（空）"
+            },
+            "children": [
+              {
+                "id": "neckSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "neckSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_neck.png"
+                },
+                "children": []
+              },
+              {
+                "id": "neckSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "weaponSlot",
+            "data": {
+              "icon": "sword_iron",
+              "tooltip": "铁剑"
+            },
+            "children": [
+              {
+                "id": "weaponSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "weaponSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_sword.png"
+                },
+                "children": []
+              },
+              {
+                "id": "weaponSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "chestSlot",
+            "data": {
+              "icon": "chest_leather",
+              "tooltip": "皮甲"
+            },
+            "children": [
+              {
+                "id": "chestSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "chestSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_chest.png"
+                },
+                "children": []
+              },
+              {
+                "id": "chestSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "offhandSlot",
+            "data": {
+              "icon": "shield_wood",
+              "tooltip": "木盾"
+            },
+            "children": [
+              {
+                "id": "offhandSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "offhandSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_shield.png"
+                },
+                "children": []
+              },
+              {
+                "id": "offhandSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "gloveSlot",
+            "data": {
+              "icon": "",
+              "tooltip": "（空）"
+            },
+            "children": [
+              {
+                "id": "gloveSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "gloveSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_gloves.png"
+                },
+                "children": []
+              },
+              {
+                "id": "gloveSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "equipBeltSlot",
+            "data": {
+              "icon": "belt_leather",
+              "tooltip": "皮带"
+            },
+            "children": [
+              {
+                "id": "equipBeltSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "equipBeltSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_belt.png"
+                },
+                "children": []
+              },
+              {
+                "id": "equipBeltSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ringLSlot",
+            "data": {
+              "icon": "ring_silver",
+              "tooltip": "银戒指"
+            },
+            "children": [
+              {
+                "id": "ringLSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "ringLSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_ring_l.png"
+                },
+                "children": []
+              },
+              {
+                "id": "ringLSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ringRSlot",
+            "data": {
+              "icon": "",
+              "tooltip": "（空）"
+            },
+            "children": [
+              {
+                "id": "ringRSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "ringRSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_ring_r.png"
+                },
+                "children": []
+              },
+              {
+                "id": "ringRSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "legSlot",
+            "data": {
+              "icon": "legs_leather",
+              "tooltip": "皮腿甲"
+            },
+            "children": [
+              {
+                "id": "legSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "legSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_legs.png"
+                },
+                "children": []
+              },
+              {
+                "id": "legSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "amuletSlot",
+            "data": {
+              "icon": "",
+              "tooltip": "（空）"
+            },
+            "children": [
+              {
+                "id": "amuletSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "amuletSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_amulet.png"
+                },
+                "children": []
+              },
+              {
+                "id": "amuletSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "bootSlot",
+            "data": {
+              "icon": "boots_leather",
+              "tooltip": "皮靴"
+            },
+            "children": [
+              {
+                "id": "bootSlot_bg",
+                "data": "",
+                "children": []
+              },
+              {
+                "id": "bootSlot_icon",
+                "data": {
+                  "imagePath": "/images/bag/equip_boots.png"
+                },
+                "children": []
+              },
+              {
+                "id": "bootSlot_label",
+                "data": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "invPanel",
+        "data": {},
+        "children": [
+          {
+            "id": "invTitle",
+            "data": {
+              "text": "物品栏"
+            },
+            "children": []
+          },
+          {
+            "id": "invCount",
+            "data": {
+              "text": "6 / 49"
+            },
+            "children": []
+          },
+          {
+            "id": "invDivider",
+            "data": {},
+            "children": []
+          },
+          {
+            "id": "invGrid",
+            "data": {
+              "items": [
+                {
+                  "icon": "sword_iron",
+                  "count": 1,
+                  "label": "铁剑",
+                  "rarity": "common"
+                },
+                {
+                  "icon": "potion_red",
+                  "count": 5,
+                  "label": "红药水",
+                  "rarity": "common"
+                },
+                {
+                  "icon": "potion_blue",
+                  "count": 3,
+                  "label": "蓝药水",
+                  "rarity": "common"
+                },
+                {
+                  "icon": "shield_wood",
+                  "count": 1,
+                  "label": "木盾",
+                  "rarity": "common"
+                },
+                {
+                  "icon": "bow_short",
+                  "count": 1,
+                  "label": "短弓",
+                  "rarity": "uncommon"
+                },
+                {
+                  "icon": "arrow_normal",
+                  "count": 99,
+                  "label": "普通箭",
+                  "rarity": "common"
+                }
+              ]
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "beltPanel",
+        "data": {},
+        "children": [
+          {
+            "id": "beltQuick",
+            "data": {
+              "items": [
+                {
+                  "icon": "potion_red",
+                  "key": "1",
+                  "count": 5
+                },
+                {
+                  "icon": "potion_blue",
+                  "key": "2",
+                  "count": 3
+                },
+                {
+                  "icon": "bomb_smoke",
+                  "key": "3",
+                  "count": 2
+                },
+                {
+                  "icon": "",
+                  "key": "4",
+                  "count": 0
+                },
+                {
+                  "icon": "",
+                  "key": "5",
+                  "count": 0
+                },
+                {
+                  "icon": "",
+                  "key": "6",
+                  "count": 0
+                },
+                {
+                  "icon": "",
+                  "key": "7",
+                  "count": 0
+                },
+                {
+                  "icon": "",
+                  "key": "8",
+                  "count": 0
+                }
+              ]
+            },
+            "children": []
+          },
+          {
+            "id": "beltGoldLbl",
+            "data": {
+              "text": "金币"
+            },
+            "children": []
+          },
+          {
+            "id": "beltGoldVal",
+            "data": {
+              "text": "9,999 G"
+            },
+            "children": []
+          },
+          {
+            "id": "beltWtLbl",
+            "data": {
+              "text": "负重"
+            },
+            "children": []
+          },
+          {
+            "id": "beltWtVal",
+            "data": {
+              "text": "48.5 kg"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

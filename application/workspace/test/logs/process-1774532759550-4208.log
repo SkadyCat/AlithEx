@@ -1,0 +1,17 @@
+2026-03-26T13:46:00.303Z [INFO] Starting Copilot CLI: 1.0.11
+2026-03-26T13:46:00.303Z [INFO] Node.js version: v24.11.1
+2026-03-26T13:46:00.304Z [INFO] Registering foreground session: 5c981d24-6ff4-46a2-8607-fd0f211c4e6c
+2026-03-26T13:46:00.308Z [INFO] Workspace initialized: 5c981d24-6ff4-46a2-8607-fd0f211c4e6c (checkpoints: 0)
+2026-03-26T13:46:00.828Z [INFO] Login status unknown
+2026-03-26T13:46:00.828Z [INFO] Registering foreground session: 5c981d24-6ff4-46a2-8607-fd0f211c4e6c
+2026-03-26T13:46:00.847Z [INFO] Remote session access enabled
+2026-03-26T13:46:00.860Z [INFO] Welcome SkadyCat!
+2026-03-26T13:46:00.897Z [INFO] Init suggestion check completed
+2026-03-26T13:46:00.922Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-03-26T13:46:00.922Z [ERROR] Creating MCP client for github-mcp-server...
+2026-03-26T13:46:00.922Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-03-26T13:46:01.053Z [INFO] No update needed, current version is 1.0.11, fetched latest release is v1.0.11
+2026-03-26T13:46:02.975Z [ERROR] MCP client for github-mcp-server connected, took 2053ms
+2026-03-26T13:46:02.975Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-03-26T13:46:02.976Z [ERROR] GitHub MCP server configured after authentication
+2026-03-26T13:46:06.021Z [INFO] Unregistering foreground session: 5c981d24-6ff4-46a2-8607-fd0f211c4e6c

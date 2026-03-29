@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>背包 — DARKRIFT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;user-select:none;
+  background:#050308;font-family:'Segoe UI',Arial,sans-serif}
+
+/* ══ 背景层 ══ */
+#bg{position:fixed;inset:0;z-index:0;
+  background:radial-gradient(ellipse 120% 80% at 50% 100%,#1a0e2a 0%,#050308 55%)}
+#bg canvas{position:absolute;inset:0;width:100%;height:100%}
+
+/* ══ 主窗口 ══ */
+#win{
+  position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:820px;
+  background:linear-gradient(170deg,#12101a 0%,#0d0b14 50%,#090810 100%);
+  border:1px solid #3a2e55;
+  box-shadow:0 0 0 1px #000,0 0 80px #00000099,
+    inset 0 1px 0 rgba(180,140,255,.12),inset 0 -1px 0 #1a1428;
+  display:flex;flex-direction:column;
+}
+
+/* 角装饰 */
+#win::before,#win::after{
+  content:'';position:absolute;
+  width:18px;height:18px;
+  border-color:#5a3e80;border-style:solid;pointer-events:none;
+}
+#win::before{top:-1px;left:-1px;border-width:2px 0 0 2px}
+#win::after{top:-1px;right:-1px;border-width:2px 2px 0 0}
+.win-corner-bl,.win-corner-br{
+  position:absolute;bottom:-1px;
+  width:18px;height:18px;
+  border-color:#5a3e80;border-style:solid;pointer-events:none;
+}
+.win-corner-bl{left:-1px;border-width:0 0 2px 2px}
+.win-corner-br{right:-1px;border-width:0 2px 2px 0}
+
+/* ── 标题栏 ── */
+#wintop{
+  height:44px;display:flex;align-items:center;padding:0 16px;
+  background:linear-gradient(180deg,#1c1830 0%,#14121e 100%);
+  border-bottom:1px solid #2e2448;
+  position:relative;flex-shrink:0;
+}
+#wintop::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,#7c6af720,#7c6af750,#7c6af720,transparent);
+}
+.top-back{
+  width:28px;height:28px;border:1px solid #2e2448;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;color:#5a4e7a;cursor:pointer;margin-right:12px;
+  transition:all .15s;
+}
+.top-back:hover{border-color:#7c6af7;color:#a090e0}
+.win-title-wrap{display:flex;align-items:baseline;gap:8px}
+.win-title-cn{font-size:17px;letter-spacing:6px;color:#c8b0ff;
+  text-shadow:0 0 20px #7c6af755;font-weight:300}
+.win-title-en{font-size:9px;letter-spacing:3px;color:#3e3460;margin-left:4px}
+.win-meta{margin-left:auto;display:flex;align-items:center;gap:18px;
+  font-size:10px;color:#4a4060;letter-spacing:.5px}
+.win-meta em{color:#9a8cc0;font-style:normal}
+.win-meta .gold{color:#c8a045}
+.win-close{
+  width:24px;height:24px;border:1px solid #2e2448;margin-left:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:10px;color:#4a3870;cursor:pointer;transition:all .15s;
+}
+.win-close:hover{border-color:#8b1515;color:#cc3333;background:#1a0505}
+
+/* ══ 主体 ══ */
+#winbody{display:flex;flex:1;overflow:hidden}
+
+/* ──────────────────────────────────────────
+   左：装备区
+   ────────────────────────────────────────── */
+#leftpanel{
+  width:240px;flex-shrink:0;
+  background:linear-gradient(180deg,#0e0c18 0%,#0a0910 100%);
+  border-right:1px solid #1e1830;
+  display:flex;flex-direction:column;
+  padding:12px;gap:0;
+  position:relative;
+}
+#leftpanel::after{
+  content:'';position:absolute;top:0;right:-1px;bottom:0;width:1px;
+  background:linear-gradient(180deg,transparent,#4a3870 30%,#4a3870 70%,transparent);
+}
+
+/* 纸娃娃区 */
+#dollzone{
+  position:relative;flex:1;
+  background:radial-gradient(ellipse at 50% 45%,#1a1428 0%,#0a0910 65%);
+  border:1px solid #1e1830;overflow:hidden;
+}
+#dollzone::before{
+  content:'';position:absolute;inset:0;
+  background:repeating-linear-gradient(
+    0deg,transparent,transparent 24px,
+    rgba(100,80,180,.04) 24px,rgba(100,80,180,.04) 25px
+  );pointer-events:none;
+}
+
+/* 角色轮廓 */
+#dollchar{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-46%);
+  width:70px;height:150px;opacity:.2;pointer-events:none;
+}
+
+/* 装备槽 */
+.eq{
+  position:absolute;
+  width:48px;height:48px;
+  background:#09080f;
+  border:1px solid #252030;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:2px;cursor:pointer;transition:border-color .15s,box-shadow .15s;
+}
+.eq:hover{border-color:#5a3e80;box-shadow:0 0 14px #7c6af722,inset 0 0 8px #7c6af710}
+.eq.has{border-color:#3a2e55;background:#0e0c18}
+.eq.has:hover{border-color:#9a70d0;box-shadow:0 0 16px #7c6af733}
+.eq.red{border-color:#4a1414;animation:redpulse 2.5s ease-in-out infinite}
+@keyframes redpulse{0%,100%{border-color:#4a1414}50%{border-color:#8b2020;box-shadow:0 0 12px #8b202033}}
+.eq-icon{font-size:20px;line-height:1}
+.eq-lbl{font-size:6px;color:#3a3055;letter-spacing:.5px;text-transform:uppercase}
+.eq-name{font-size:6.5px;color:#9a80c0;max-width:44px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
+
+/* 槽位布局 */
+.eq-head  {top:12px; left:96px}
+.eq-neck  {top:12px; left:150px}
+.eq-lsho  {top:72px; left:20px}
+.eq-rsho  {top:72px; left:172px}
+.eq-chest {top:74px; left:96px}
+.eq-lhand {top:140px;left:20px}
+.eq-rhand {top:140px;left:172px}
+.eq-ring1 {top:200px;left:20px}
+.eq-ring2 {top:200px;left:172px}
+.eq-belt  {top:202px;left:96px}
+.eq-legs  {top:262px;left:96px}
+
+/* 角色信息条 */
+#charinfo{
+  padding:8px 0 0;flex-shrink:0;
+}
+.stat-row{
+  display:flex;justify-content:space-between;
+  font-size:9px;padding:3px 4px;border-bottom:1px solid #13111e;
+}
+.stat-row:last-child{border-bottom:none}
+.stat-k{color:#4a4060;letter-spacing:.5px}
+.stat-v{color:#9a80c0}
+.stat-v.hi{color:#c8b080}
+
+/* ──────────────────────────────────────────
+   右：背包区
+   ────────────────────────────────────────── */
+#rightpanel{
+  flex:1;display:flex;flex-direction:column;padding:14px;gap:10px;
+  overflow:hidden;
+}
+
+/* 标签栏 */
+#tabs{
+  display:flex;align-items:flex-end;gap:1px;flex-shrink:0;
+  border-bottom:1px solid #1e1830;padding-bottom:0;
+}
+.tab{
+  padding:7px 16px;font-size:9.5px;letter-spacing:2px;
+  color:#3a3055;cursor:pointer;position:relative;top:1px;
+  border-bottom:2px solid transparent;transition:color .15s,border-color .15s;
+  white-space:nowrap;
+}
+.tab:hover{color:#7a6aa0}
+.tab.on{color:#c8b0ff;border-bottom-color:#7c6af7}
+.tab.on::after{
+  content:'';position:absolute;bottom:-1px;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,#7c6af760,transparent);
+}
+#tab-search{
+  margin-left:auto;
+  background:#09080f;border:1px solid #1e1830;
+  color:#9a80c0;font-size:10px;
+  padding:4px 12px;outline:none;width:120px;
+  transition:border-color .2s;
+}
+#tab-search:focus{border-color:#5a3e80}
+#tab-search::placeholder{color:#2a2040;font-style:italic}
+
+/* 格子区 */
+#gridwrap{flex:1;overflow:hidden;display:flex;flex-direction:column;gap:6px}
+#grid{
+  flex:1;
+  display:grid;
+  grid-template-columns:repeat(8,1fr);
+  gap:3px;
+  overflow-y:auto;
+  padding:2px;
+  scrollbar-width:thin;
+  scrollbar-color:#2a2040 transparent;
+}
+#grid::-webkit-scrollbar{width:4px}
+#grid::-webkit-scrollbar-track{background:transparent}
+#grid::-webkit-scrollbar-thumb{background:#2a2040;border-radius:2px}
+
+.cell{
+  aspect-ratio:1;
+  background:#08070e;
+  border:1px solid #18162a;
+  position:relative;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;transition:border-color .1s,background .1s,box-shadow .1s;overflow:hidden;
+}
+.cell::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.03) 0%,transparent 50%);
+  pointer-events:none;
+}
+.cell:hover{border-color:#5a3e80;background:#0f0d1c;z-index:5;
+  box-shadow:0 0 0 1px #7c6af720}
+.cell.empty{cursor:default}
+.cell.empty:hover{border-color:#18162a;background:#08070e;box-shadow:none}
+.cell.sel{border-color:#9a70d0!important;background:#14102a!important;
+  box-shadow:0 0 12px #7c6af733,inset 0 0 8px #7c6af715!important}
+
+/* 稀有度 */
+.rc{border-color:#201e30}
+.ru{border-color:#162418}
+.rr{border-color:#101828}
+.re{border-color:#1a0e30}
+.rl{border-color:#302410;box-shadow:0 0 5px #c8a04515}
+.rl:hover{box-shadow:0 0 16px #c8a04535,inset 0 0 8px #c8a04510!important}
+.rk{border-color:#2a0a0a;animation:kpulse 2.2s ease-in-out infinite}
+@keyframes kpulse{0%,100%{box-shadow:0 0 3px #8b151520}50%{box-shadow:0 0 14px #b5222244;border-color:#6a1212}}
+.rk:hover{border-color:#aa2020;box-shadow:0 0 18px #b5222255!important}
+.ru:hover{border-color:#204020;box-shadow:0 0 10px #30603033!important}
+.rr:hover{border-color:#203060;box-shadow:0 0 10px #3060b030!important}
+.re:hover{border-color:#3a1860;box-shadow:0 0 12px #6040c035!important}
+
+.ci{font-size:22px;line-height:1;position:relative;z-index:1;
+  filter:drop-shadow(0 2px 6px #000a)}
+.cq{position:absolute;bottom:1px;right:3px;font-size:7px;
+  color:#5a5078;font-family:monospace}
+.ck{position:absolute;top:1px;left:2px;font-size:7px;color:#9a2222;opacity:.7}
+
+/* ─ 快捷栏 ─ */
+#belt{
+  display:flex;align-items:center;gap:3px;flex-shrink:0;
+  padding-top:8px;border-top:1px solid #1e1830;
+}
+.bslot{
+  width:48px;height:48px;
+  background:#08070e;border:1px solid #18162a;
+  display:flex;align-items:center;justify-content:center;
+  font-size:18px;cursor:pointer;transition:border-color .15s,box-shadow .15s;
+  position:relative;
+}
+.bslot:hover{border-color:#4a3870;box-shadow:0 0 10px #7c6af720}
+.bslot.bhas{border-color:#2a2040}
+.bslot .bq{
+  position:absolute;bottom:1px;right:3px;
+  font-size:7px;color:#5a5078;font-family:monospace
+}
+.belt-sep{width:1px;height:36px;background:#1e1830;margin:0 4px;flex-shrink:0}
+.belt-info{margin-left:auto;font-size:9px;color:#3a3055;letter-spacing:.5px;text-align:right}
+.belt-info em{color:#6a5e8a;font-style:normal}
+
+/* ══ 悬浮提示 ══ */
+#tooltip{
+  position:fixed;z-index:999;pointer-events:none;display:none;
+  min-width:160px;max-width:220px;
+  background:linear-gradient(160deg,#16132a,#0e0c1a);
+  border:1px solid #3a2e55;
+  box-shadow:0 8px 32px #000000bb,0 0 0 1px #000;
+  padding:10px 12px;
+}
+#tooltip::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,#7c6af7,transparent);
+}
+.tt-name{font-size:12px;color:#d0b8ff;margin-bottom:6px;letter-spacing:.5px}
+.tt-type{font-size:9px;color:#5a4e7a;letter-spacing:1px;margin-bottom:6px;text-transform:uppercase}
+.tt-sep{border:none;border-top:1px solid #2a2040;margin:6px 0}
+.tt-stat{display:flex;justify-content:space-between;font-size:9.5px;margin:2px 0}
+.tt-stat .k{color:#4a4060}
+.tt-stat .v{color:#9a80c0}
+.tt-stat .v.pos{color:#6aaa55}
+.tt-stat .v.neg{color:#cc3333}
+.tt-desc{font-size:9px;color:#4a4060;font-style:italic;margin-top:6px;line-height:1.5}
+.tt-rarity{font-size:8.5px;margin-top:6px;letter-spacing:1px}
+.tt-rarity.rc{color:#7a7090}
+.tt-rarity.ru{color:#4a8040}
+.tt-rarity.rr{color:#4060aa}
+.tt-rarity.re{color:#8040c0}
+.tt-rarity.rl{color:#c8a045}
+.tt-rarity.rk{color:#cc3333}
+</style>
+</head>
+<body>
+
+<div id="bg"><canvas id="bgc"></canvas></div>
+
+<div id="win">
+  <div class="win-corner-bl"></div><div class="win-corner-br"></div>
+
+  <!-- 标题栏 -->
+  <div id="wintop">
+    <div class="top-back">◀</div>
+    <div class="win-title-wrap">
+      <span class="win-title-cn">背 包</span>
+      <span class="win-title-en">INVENTORY</span>
+    </div>
+    <div class="win-meta">
+      <span>负重 <em>67.3</em> / 100 KG</span>
+      <span>⚙ <em class="gold">1,347</em></span>
+    </div>
+    <div class="win-close">✕</div>
+  </div>
+
+  <!-- 主体 -->
+  <div id="winbody">
+
+    <!-- 左：装备 -->
+    <div id="leftpanel">
+      <div id="dollzone">
+        <!-- 角色轮廓 SVG -->
+        <svg id="dollchar" viewBox="0 0 70 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="35" cy="18" rx="12" ry="13" fill="#8060c0" opacity=".5"/>
+          <rect x="22" y="30" width="26" height="50" rx="4" fill="#8060c0" opacity=".4"/>
+          <rect x="8" y="32" width="14" height="42" rx="3" fill="#8060c0" opacity=".3"/>
+          <rect x="48" y="32" width="14" height="42" rx="3" fill="#8060c0" opacity=".3"/>
+          <rect x="24" y="80" width="10" height="55" rx="3" fill="#8060c0" opacity=".35"/>
+          <rect x="36" y="80" width="10" height="55" rx="3" fill="#8060c0" opacity=".35"/>
+        </svg>
+
+        <!-- 装备槽 -->
+        <div class="eq eq-head has" title="头盔"><span class="eq-icon">⛑️</span><span class="eq-name">诅咒头盔</span></div>
+        <div class="eq eq-neck has" title="项链"><span class="eq-icon">📿</span><span class="eq-name">暗影之链</span></div>
+        <div class="eq eq-lsho red has" title="左肩"><span class="eq-icon">🗡️</span><span class="eq-name">腐血长剑</span></div>
+        <div class="eq eq-rsho has" title="右肩"><span class="eq-icon">🛡️</span><span class="eq-name">灵魂护盾</span></div>
+        <div class="eq eq-chest has" title="胸甲"><span class="eq-icon">👕</span><span class="eq-name">暗影护甲</span></div>
+        <div class="eq eq-lhand has" title="左手"><span class="eq-icon">🧤</span><span class="eq-name">魔纹手套</span></div>
+        <div class="eq eq-rhand" title="右手"><span class="eq-icon"></span><span class="eq-lbl">右手</span></div>
+        <div class="eq eq-ring1 has" title="戒指1"><span class="eq-icon">💍</span><span class="eq-name">魂戒</span></div>
+        <div class="eq eq-ring2" title="戒指2"><span class="eq-icon"></span><span class="eq-lbl">戒指</span></div>
+        <div class="eq eq-belt has" title="腰带"><span class="eq-icon">👗</span><span class="eq-name">骨纹腰带</span></div>
+        <div class="eq eq-legs has" title="护腿"><span class="eq-icon">👖</span><span class="eq-name">暗甲腿</span></div>
+      </div>
+
+      <!-- 人物属性 -->
+      <div id="charinfo">
+        <div class="stat-row"><span class="stat-k">生命</span><span class="stat-v hi">842 / 1200</span></div>
+        <div class="stat-row"><span class="stat-k">魔法</span><span class="stat-v">340 / 480</span></div>
+        <div class="stat-row"><span class="stat-k">攻击</span><span class="stat-v">185 ~ 240</span></div>
+        <div class="stat-row"><span class="stat-k">防御</span><span class="stat-v">312</span></div>
+        <div class="stat-row"><span class="stat-k">速度</span><span class="stat-v">88</span></div>
+      </div>
+    </div>
+
+    <!-- 右：背包格子 -->
+    <div id="rightpanel">
+      <!-- 标签 -->
+      <div id="tabs">
+        <div class="tab on" data-tab="all">全部</div>
+        <div class="tab" data-tab="weapon">武器</div>
+        <div class="tab" data-tab="armor">护甲</div>
+        <div class="tab" data-tab="consume">消耗</div>
+        <div class="tab" data-tab="material">材料</div>
+        <input type="text" id="tab-search" placeholder="搜索...">
+      </div>
+
+      <!-- 格子 -->
+      <div id="gridwrap">
+        <div id="grid"></div>
+      </div>
+
+      <!-- 快捷栏 -->
+      <div id="belt">
+        <div class="bslot bhas"><span>🧪</span><span class="bq">3</span></div>
+        <div class="bslot bhas"><span>🧪</span><span class="bq">2</span></div>
+        <div class="bslot bhas"><span>🕯️</span></div>
+        <div class="bslot"></div>
+        <div class="bslot"></div>
+        <div class="bslot"></div>
+        <div class="belt-sep"></div>
+        <div class="belt-info">格位 <em>30/48</em> &nbsp; 货币 <em>6</em></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 提示框 -->
+<div id="tooltip">
+  <div class="tt-name">—</div>
+  <div class="tt-type">—</div>
+  <hr class="tt-sep">
+  <div id="tt-stats"></div>
+  <div class="tt-desc" id="tt-desc"></div>
+  <div class="tt-rarity" id="tt-rarity"></div>
+</div>
+
+<script>
+// ══ 粒子背景 ══
+(function(){
+  const c = document.getElementById('bgc');
+  const ctx = c.getContext('2d');
+  const pts = [];
+  function resize(){ c.width=innerWidth; c.height=innerHeight; }
+  window.addEventListener('resize',resize); resize();
+  for(let i=0;i<60;i++) pts.push({
+    x:Math.random()*1400, y:Math.random()*900,
+    vx:(Math.random()-.5)*.2, vy:(Math.random()-.5)*.15,
+    r:Math.random()*1.2+.3, a:Math.random()*.5+.1,
+    hue:Math.random()<.5?270:200
+  });
+  function frame(){
+    ctx.clearRect(0,0,c.width,c.height);
+    pts.forEach(p=>{
+      p.x+=p.vx; p.y+=p.vy;
+      if(p.x<0)p.x=c.width; if(p.x>c.width)p.x=0;
+      if(p.y<0)p.y=c.height; if(p.y>c.height)p.y=0;
+      ctx.beginPath();
+      ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle=`hsla(${p.hue},60%,70%,${p.a})`;
+      ctx.fill();
+    });
+    requestAnimationFrame(frame);
+  }
+  frame();
+})();
+
+// ══ 物品数据 ══
+const ITEMS = [
+  {id:1,icon:'🗡️',name:'腐血长剑',type:'武器',rarity:'rl',qty:1,cat:'weapon',
+   stats:[['攻击','+185~240'],['暴击率','+12%'],['吸血','8%']],
+   desc:'被古老诅咒浸染，每次攻击都会窃取敌人的生命力。',cursed:true},
+  {id:2,icon:'🛡️',name:'灵魂护盾',type:'护甲',rarity:'re',qty:1,cat:'armor',
+   stats:[['防御','+180'],['魔法减免','15%'],['灵魂护盾','200点']],
+   desc:'由一千个亡魂的怨念凝结而成。'},
+  {id:3,icon:'��',name:'死亡咒符',type:'消耗',rarity:'rk',qty:1,cat:'consume',
+   stats:[['伤害','800%'],['范围','全屏']],
+   desc:'开启即死，谨慎使用。',cursed:true},
+  {id:4,icon:'🧪',name:'生命药水',type:'消耗',rarity:'rc',qty:23,cat:'consume',
+   stats:[['恢复','500点生命'],['冷却','30秒']],desc:'基础恢复药剂。'},
+  {id:5,icon:'✨',name:'魔法祭坛',type:'材料',rarity:'rr',qty:5,cat:'material',
+   stats:[['魔力值','+200'],['持续','10分钟']],desc:'神秘的魔法结晶体。'},
+  {id:6,icon:'🧙',name:'亡灵傀儡',type:'消耗',rarity:'re',qty:12,cat:'consume',
+   stats:[['召唤数量','3'],['存活','60秒']],desc:'驱使亡灵为你战斗。'},
+  {id:7,icon:'🪦',name:'墓碑碎片',type:'材料',rarity:'rc',qty:1,cat:'material',
+   stats:[['材料等级','稀有']],desc:'从古老墓地收集的石块。'},
+  {id:8,icon:'💧',name:'暗影精华',type:'材料',rarity:'ru',qty:4,cat:'material',
+   stats:[['稀有度','稀有'],['魔法亲和','暗影系']],desc:'提炼自暗影维度的纯粹能量。'},
+  {id:9,icon:'💜',name:'虚空水晶',type:'材料',rarity:'rr',qty:2,cat:'material',
+   stats:[['品质','稀有'],['用途','高级合成']],desc:'来自虚空裂缝的神秘水晶。'},
+  {id:10,icon:'🦷',name:'巨人骸骨',type:'材料',rarity:'rc',qty:6,cat:'material',
+   stats:[['品质','普通'],['重量','0.8KG']],desc:'从巨型亡灵身上取下的骨牙。'},
+  {id:11,icon:'📿',name:'诅咒项链',type:'护甲',rarity:'rk',qty:1,cat:'armor',
+   stats:[['生命','-50'],['魔法','+180'],['诅咒','永久']],
+   desc:'佩戴者将受到永恒的折磨，但魔力大增。',cursed:true},
+  {id:12,icon:'🔑',name:'冥府之钥',type:'材料',rarity:'re',qty:1,cat:'material',
+   stats:[['用途','开启冥府之门'],['唯一','是']],desc:'通往死亡之境的唯一入口。'},
+  {id:13,icon:'🎭',name:'幻象面具',type:'护甲',rarity:'re',qty:1,cat:'armor',
+   stats:[['幻术','+45'],['感知','+20'],['迷惑率','35%']],
+   desc:'佩戴此面具，汝之面容将成为幻象。'},
+  {id:14,icon:'🌿',name:'月光草',type:'消耗',rarity:'ru',qty:31,cat:'consume',
+   stats:[['恢复魔力','200点'],['冷却','15秒']],desc:'月光下盛开的神奇草药。'},
+  {id:15,icon:'💎',name:'深渊宝石',type:'材料',rarity:'rl',qty:1,cat:'material',
+   stats:[['品质','传说'],['用途','终极合成']],desc:'深渊最深处的无尽黑暗结晶。'},
+  {id:16,icon:'👟',name:'幽灵靴',type:'护甲',rarity:'rr',qty:1,cat:'armor',
+   stats:[['速度','+45'],['隐身','穿越障碍'],['鬼步','主动技能']],
+   desc:'穿上即可轻如鬼魂，穿越一切障碍。'},
+  {id:17,icon:'🧲',name:'极光磁场',type:'消耗',rarity:'rr',qty:1,cat:'consume',
+   stats:[['范围','800单位'],['吸引','所有金属']],desc:'强磁力场发生器，可吸引周围金属物体。'},
+  {id:18,icon:'🏺',name:'灵魂容器',type:'材料',rarity:'ru',qty:18,cat:'material',
+   stats:[['容量','500点灵魂'],['耐久','无限']],desc:'用于储存亡灵灵魂的古老容器。'},
+  {id:19,icon:'🕸️',name:'暗蛛之网',type:'消耗',rarity:'ru',qty:6,cat:'consume',
+   stats:[['减速','70%'],['持续','5秒'],['范围','300单位']],
+   desc:'暗影蜘蛛吐出的黏性蛛网，极度减速敌人。'},
+  {id:20,icon:'🌙',name:'月蚀符石',type:'材料',rarity:'rr',qty:4,cat:'material',
+   stats:[['月蚀之力','+60'],['暗系加成','15%']],desc:'在月蚀之夜于月下吸收月光能量形成。'},
+  {id:21,icon:'💄',name:'血色印记',type:'消耗',rarity:'rc',qty:6,cat:'consume',
+   stats:[['攻击力临时提升','+40%'],['持续','30秒']],desc:'血魔仪式的标记物。'},
+  {id:22,icon:'👁️',name:'窥视之眼',type:'消耗',rarity:'rr',qty:4,cat:'consume',
+   stats:[['侦查范围','扩大200%'],['持续','60秒']],desc:'允许使用者看穿黑暗与谎言。'},
+];
+
+const TOTAL_CELLS = 48;
+const RARITY_NAME = {rc:'普通',ru:'稀有',rr:'精良',re:'史诗',rl:'传说',rk:'诅咒'};
+
+// ══ 渲染格子 ══
+let currentTab = 'all';
+let selectedCell = -1;
+
+function buildGrid(filter=''){
+  const grid = document.getElementById('grid');
+  grid.innerHTML='';
+  const visible = ITEMS.filter(it=>{
+    if(currentTab!=='all' && it.cat!==currentTab) return false;
+    if(filter && !it.name.includes(filter) && !it.type.includes(filter)) return false;
+    return true;
+  });
+  // fill cells
+  for(let i=0;i<TOTAL_CELLS;i++){
+    const cell = document.createElement('div');
+    const item = visible[i];
+    if(item){
+      cell.className = `cell ${item.rarity}`;
+      cell.innerHTML = `<span class="ci">${item.icon}</span>
+        ${item.cursed?'<span class="ck">†</span>':''}
+        ${item.qty>1?`<span class="cq">${item.qty}</span>`:''}`;
+      cell.dataset.id = item.id;
+      cell.addEventListener('click',()=>selectCell(i,item));
+      cell.addEventListener('mousemove', e=>showTooltip(e,item));
+      cell.addEventListener('mouseleave',hideTooltip);
+      if(i===selectedCell) cell.classList.add('sel');
+    } else {
+      cell.className='cell empty';
+    }
+    grid.appendChild(cell);
+  }
+}
+
+function selectCell(i, item){
+  selectedCell = (selectedCell===i)?-1:i;
+  buildGrid(document.getElementById('tab-search').value);
+}
+
+// ══ 标签切换 ══
+document.querySelectorAll('.tab').forEach(t=>{
+  t.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    t.classList.add('on');
+    currentTab = t.dataset.tab;
+    selectedCell=-1;
+    buildGrid(document.getElementById('tab-search').value);
+  });
+});
+
+document.getElementById('tab-search').addEventListener('input',function(){
+  buildGrid(this.value.trim());
+});
+
+// ══ 悬浮提示 ══
+const tt = document.getElementById('tooltip');
+function showTooltip(e, item){
+  document.querySelector('.tt-name').textContent = item.name;
+  document.querySelector('.tt-type').textContent = item.type;
+  const stats = document.getElementById('tt-stats');
+  stats.innerHTML = item.stats.map(([k,v])=>`
+    <div class="tt-stat"><span class="k">${k}</span>
+    <span class="v ${v.startsWith('+')?'pos':v.startsWith('-')?'neg':''}">${v}</span></div>`).join('');
+  document.getElementById('tt-desc').textContent = item.desc||'';
+  const rEl = document.getElementById('tt-rarity');
+  rEl.textContent = RARITY_NAME[item.rarity]||'';
+  rEl.className = `tt-rarity ${item.rarity}`;
+  tt.style.display='block';
+  const x=e.clientX, y=e.clientY;
+  const tw=tt.offsetWidth, th=tt.offsetHeight;
+  tt.style.left=(x+tw+16>innerWidth?x-tw-8:x+14)+'px';
+  tt.style.top =(y+th+8>innerHeight?y-th:y)+'px';
+}
+function hideTooltip(){ tt.style.display='none'; }
+
+// ══ 初始化 ══
+buildGrid();
+document.querySelector('.win-close').addEventListener('click',()=>{ window.close(); });
+</script>
+</body>
+</html>

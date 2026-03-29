@@ -1,0 +1,84 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-12T15:15:19.215Z",
+  "nextId": 1,
+  "boxes": [
+    {
+      "id": 28,
+      "x": 0,
+      "y": 0,
+      "w": 120,
+      "h": 120,
+      "label": "CanvasPanel28",
+      "borderColor": "#f76a6a",
+      "bgColor": "rgba(247,106,106,0.10)",
+      "borderWidth": 2,
+      "opacity": 1,
+      "widgetType": "Image",
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "imageSrc": "",
+        "tint": "#ffffff",
+        "stretch": "ScaleToFit"
+      },
+      "children": [
+        {
+          "id": 29,
+          "x": 10,
+          "y": 10,
+          "w": 100,
+          "h": 100,
+          "label": "CanvasPanel29",
+          "borderColor": "#f7a76a",
+          "bgColor": "rgba(247,167,106,0.10)",
+          "borderWidth": 2,
+          "opacity": 1,
+          "widgetType": "Button",
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Button",
+            "textColor": "#ffffff",
+            "fontSize": 14
+          }
+        },
+        {
+          "id": 30,
+          "x": 80,
+          "y": 80,
+          "w": 40,
+          "h": 40,
+          "label": "CanvasPanel30",
+          "borderColor": "#dde8c0",
+          "bgColor": "rgba(221,232,192,0.10)",
+          "borderWidth": 2,
+          "opacity": 1,
+          "widgetType": "TextBlock",
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "TextBlock",
+            "fontSize": 16,
+            "fontColor": "#ffffff",
+            "textAlign": "Center",
+            "bold": false,
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

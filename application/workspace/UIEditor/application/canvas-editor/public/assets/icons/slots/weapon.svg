@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#050301"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a3040"/>
+      <stop offset="30%" stop-color="#8090b0"/>
+      <stop offset="50%" stop-color="#d8e8ff"/>
+      <stop offset="70%" stop-color="#7080a0"/>
+      <stop offset="100%" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="blade-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9ab0d0" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6080a0" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="guard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a030"/>
+      <stop offset="40%" stop-color="#f0d060"/>
+      <stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="40%" stop-color="#6a3818"/>
+      <stop offset="60%" stop-color="#8a4820"/>
+      <stop offset="100%" stop-color="#1a0e04"/>
+    </linearGradient>
+    <linearGradient id="pommel" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#e0c060"/>
+      <stop offset="50%" stop-color="#c09020"/>
+      <stop offset="100%" stop-color="#604808"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Blade -->
+  <polygon points="32,4 34.5,44 31.5,44 29.5,44" fill="url(#blade)"/>
+  <polygon points="32,4 33,44 32,45 31,44" fill="url(#blade-edge)" opacity="0.7"/>
+  <!-- Blood groove -->
+  <rect x="31.5" y="8" width="1" height="34" fill="#0a1020" opacity="0.6"/>
+  <!-- Blade tip glow -->
+  <circle cx="32" cy="5" r="2.5" fill="#a8c8ff" opacity="0.3" filter="url(#glow)"/>
+  <!-- Cross guard -->
+  <rect x="20" y="43" width="24" height="4" rx="2" fill="url(#guard)"/>
+  <rect x="20" y="43.5" width="24" height="1.5" fill="#f8e080" opacity="0.5" rx="1"/>
+  <!-- Handle -->
+  <rect x="30" y="47" width="4" height="10" rx="1" fill="url(#handle)"/>
+  <!-- Handle wrapping lines -->
+  <line x1="30" y1="49" x2="34" y2="49" stroke="#f0c060" stroke-width="0.5" opacity="0.5"/>
+  <line x1="30" y1="51" x2="34" y2="51" stroke="#f0c060" stroke-width="0.5" opacity="0.5"/>
+  <line x1="30" y1="53" x2="34" y2="53" stroke="#f0c060" stroke-width="0.5" opacity="0.5"/>
+  <line x1="30" y1="55" x2="34" y2="55" stroke="#f0c060" stroke-width="0.5" opacity="0.5"/>
+  <!-- Pommel -->
+  <ellipse cx="32" cy="58" rx="5" ry="3.5" fill="url(#pommel)"/>
+  <ellipse cx="31" cy="57" rx="2" ry="1" fill="#f8e898" opacity="0.4"/>
+</svg>

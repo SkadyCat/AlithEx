@@ -1,0 +1,29 @@
+﻿<svg style="background:transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(231,76,60,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a7a"/>
+      <stop offset="45%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#8b0000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <ellipse cx="256" cy="256" rx="240" ry="240" fill="url(#bgGlow)" opacity="0.5"/>
+  <g filter="url(#shadow)">
+    <g filter="url(#glow)">
+      <path fill="url(#iconGrad)" d="M196 16a30 30 0 0 0-30 30v120H46a30 30 0 0 0-30 30v120a30 30 0 0 0 30 30h120v120a30 30 0 0 0 30 30h120a30 30 0 0 0 30-30V346h120a30 30 0 0 0 30-30V196a30 30 0 0 0-30-30H346V46a30 30 0 0 0-30-30H196z"/>
+    </g>
+  </g>
+</svg>

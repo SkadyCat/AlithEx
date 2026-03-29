@@ -1,0 +1,2556 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-17T15:08:44.816Z",
+  "nextId": 300,
+  "boxes": [
+    {
+      "opacity": 1,
+      "anchor": {
+        "maxX": 0,
+        "minY": 0,
+        "maxY": 0,
+        "minX": 0
+      },
+      "id": 2,
+      "borderWidth": 0,
+      "h": 700,
+      "w": 980,
+      "x": -60,
+      "widgetType": "Border",
+      "widgetProps": {
+        "objectFit": "fill",
+        "imagePath": "",
+        "bgImage": "",
+        "bgSize": "cover"
+      },
+      "borderColor": "transparent",
+      "bgColor": "transparent",
+      "label": "氛围背景",
+      "y": -30,
+      "children": [
+        {
+          "opacity": 1,
+          "anchor": {
+            "maxX": 0,
+            "minY": 0,
+            "maxY": 0,
+            "minX": 0
+          },
+          "id": 1,
+          "borderWidth": 0,
+          "h": 600,
+          "w": 820,
+          "x": 0,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "borderColor": "transparent",
+          "bgColor": "#060402",
+          "label": "画布背景",
+          "y": 0,
+          "children": [
+            {
+              "opacity": 1,
+              "anchor": {
+                "maxX": 0,
+                "minY": 0,
+                "maxY": 0,
+                "minX": 0
+              },
+              "id": 3,
+              "borderWidth": 0,
+              "h": 544,
+              "w": 758,
+              "x": 21,
+              "widgetType": "Border",
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "",
+                "bgImage": "",
+                "bgSize": "cover"
+              },
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "label": "窗口底框",
+              "y": 21,
+              "children": [
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 10,
+                  "borderWidth": 1,
+                  "h": 40,
+                  "w": 758,
+                  "x": 21,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "borderColor": "#3a2a10",
+                  "bgColor": "rgba(14,10,5,0.96)",
+                  "label": "标题栏背景",
+                  "y": 21,
+                  "children": [
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 11,
+                      "borderWidth": 0,
+                      "h": 23,
+                      "w": 22,
+                      "x": 35,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 0,
+                        "textColor": "#6b5020",
+                        "text": "☠",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 16,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "☠",
+                      "y": 29
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 12,
+                      "borderWidth": 0,
+                      "h": 24,
+                      "w": 90,
+                      "x": 61,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 2,
+                        "textColor": "#c8a045",
+                        "text": "背  包",
+                        "align": "left",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 13,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "背  包",
+                      "y": 28
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 13,
+                      "borderWidth": 0,
+                      "h": 18,
+                      "w": 88,
+                      "x": 589,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 0,
+                        "textColor": "#6b5020",
+                        "text": "负重 67.3/100 kg",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "负重 67.3/100 kg",
+                      "y": 29,
+                      "children": [
+                        {
+                          "opacity": 1,
+                          "anchor": {
+                            "maxX": 0,
+                            "minY": 0,
+                            "maxY": 0,
+                            "minX": 0
+                          },
+                          "id": 16,
+                          "borderWidth": 0,
+                          "h": 14,
+                          "w": 38,
+                          "x": 630,
+                          "widgetType": "TextBlock",
+                          "widgetProps": {
+                            "letterSpacing": 0,
+                            "textColor": "#c8a045",
+                            "text": "67.3/100",
+                            "align": "center",
+                            "fontFamily": "Georgia,serif",
+                            "fontSize": 10,
+                            "bold": false,
+                            "italic": false,
+                            "wrap": true
+                          },
+                          "borderColor": "transparent",
+                          "bgColor": "transparent",
+                          "label": "67.3/100",
+                          "y": 30
+                        }
+                      ]
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 14,
+                      "borderWidth": 0,
+                      "h": 18,
+                      "w": 87,
+                      "x": 677,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 0,
+                        "textColor": "#6b5020",
+                        "text": "◈  1,347",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "◈  1,347",
+                      "y": 28,
+                      "children": [
+                        {
+                          "opacity": 1,
+                          "anchor": {
+                            "maxX": 0,
+                            "minY": 0,
+                            "maxY": 0,
+                            "minX": 0
+                          },
+                          "id": 15,
+                          "borderWidth": 0,
+                          "h": 16,
+                          "w": 56,
+                          "x": 697,
+                          "widgetType": "TextBlock",
+                          "widgetProps": {
+                            "letterSpacing": 0,
+                            "textColor": "#c8a045",
+                            "text": "1,347",
+                            "align": "center",
+                            "fontFamily": "Georgia,serif",
+                            "fontSize": 10,
+                            "bold": false,
+                            "italic": false,
+                            "wrap": true
+                          },
+                          "borderColor": "transparent",
+                          "bgColor": "transparent",
+                          "label": "1,347",
+                          "y": 29
+                        }
+                      ]
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 17,
+                      "borderWidth": 1,
+                      "h": 18,
+                      "w": 18,
+                      "x": 746,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#6b2020",
+                        "text": "✕",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 9,
+                        "bold": false
+                      },
+                      "borderColor": "#3a2a10",
+                      "bgColor": "rgba(20,8,8,0.0)",
+                      "label": "✕",
+                      "y": 29
+                    }
+                  ]
+                },
+                {
+                  "opacity": 0.6,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 18,
+                  "borderWidth": 0,
+                  "h": 1,
+                  "w": 758,
+                  "x": 21,
+                  "widgetType": null,
+                  "widgetProps": {},
+                  "borderColor": "#3a2a10",
+                  "bgColor": "#3a2a10",
+                  "label": "sep",
+                  "y": 61
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 20,
+                  "borderWidth": 0,
+                  "h": 310,
+                  "w": 220,
+                  "x": 37,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "objectFit": "fill",
+                    "imagePath": "",
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "纸娃娃底图",
+                  "y": 77,
+                  "children": [
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 30,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 126,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "⛑️",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "⛑️",
+                      "y": 94
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 31,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 198,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "text": "🔮",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "bold": false
+                      },
+                      "borderColor": "#7c1c1c",
+                      "bgColor": "rgb(16,14,10)",
+                      "label": "🔮",
+                      "y": 144
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 32,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 46,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "text": "🗡️",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "bold": false
+                      },
+                      "borderColor": "#7c1c1c",
+                      "bgColor": "rgb(16,14,10)",
+                      "label": "🗡️",
+                      "y": 166
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 33,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 206,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "text": "🛡️",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "bold": false
+                      },
+                      "borderColor": "#3a2e14",
+                      "bgColor": "rgb(16,14,10)",
+                      "label": "🛡️",
+                      "y": 166
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 34,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 126,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "🥋",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "🥋",
+                      "y": 198
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 35,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 46,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "🧤",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "🧤",
+                      "y": 218
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 36,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 206,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "👢",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "👢",
+                      "y": 218
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 37,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 126,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "🪢",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "🪢",
+                      "y": 276
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 38,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 46,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "text": "👁️",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "bold": false
+                      },
+                      "borderColor": "#3a2e14",
+                      "bgColor": "rgb(16,14,10)",
+                      "label": "👁️",
+                      "y": 288
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 39,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 206,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "💍",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "💍",
+                      "y": 288
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 40,
+                      "borderWidth": 1,
+                      "h": 44,
+                      "w": 44,
+                      "x": 126,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "🩱",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 14,
+                        "bold": false
+                      },
+                      "borderColor": "#2e2410",
+                      "bgColor": "rgb(10,8,6)",
+                      "label": "🩱",
+                      "y": 334
+                    }
+                  ]
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 45,
+                  "borderWidth": 0,
+                  "h": 18,
+                  "w": 220,
+                  "x": 37,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "letterSpacing": 0,
+                    "textColor": "#3a2810",
+                    "text": "⸸  第 VII 层  深渊界",
+                    "align": "center",
+                    "fontFamily": "Georgia,serif",
+                    "fontSize": 8,
+                    "bold": false,
+                    "italic": false,
+                    "wrap": true
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "⸸  第 VII 层  深渊界",
+                  "y": 495
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 49,
+                  "borderWidth": 0,
+                  "h": 504,
+                  "w": 14,
+                  "x": 257,
+                  "widgetType": null,
+                  "widgetProps": {},
+                  "borderColor": "transparent",
+                  "bgColor": "rgba(20,14,8,0.7)",
+                  "label": "竖分隔",
+                  "y": 61
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 50,
+                  "borderWidth": 0,
+                  "h": 30,
+                  "w": 492,
+                  "x": 271,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "objectFit": "fill",
+                    "imagePath": "",
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "分类栏底图",
+                  "y": 77,
+                  "children": [
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 51,
+                      "borderWidth": 1,
+                      "h": 28,
+                      "w": 46,
+                      "x": 271,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#c8a045",
+                        "text": "全部",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "全部",
+                      "y": 78
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 52,
+                      "borderWidth": 1,
+                      "h": 28,
+                      "w": 46,
+                      "x": 319,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "武器",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "武器",
+                      "y": 78
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 53,
+                      "borderWidth": 1,
+                      "h": 28,
+                      "w": 46,
+                      "x": 365,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "药剂",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "药剂",
+                      "y": 78
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 54,
+                      "borderWidth": 1,
+                      "h": 28,
+                      "w": 46,
+                      "x": 415,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "诅咒",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "诅咒",
+                      "y": 78
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 55,
+                      "borderWidth": 1,
+                      "h": 28,
+                      "w": 46,
+                      "x": 463,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#4a3818",
+                        "text": "材料",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 10,
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "材料",
+                      "y": 78
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 56,
+                      "borderWidth": 1,
+                      "h": 22,
+                      "w": 110,
+                      "x": 653,
+                      "widgetType": "EditableText",
+                      "widgetProps": {
+                        "placeholder": "搜索…",
+                        "fontSize": 10,
+                        "textColor": "#6b5020"
+                      },
+                      "borderColor": "#3a2a10",
+                      "bgColor": "rgba(8,6,4,0.8)",
+                      "label": "搜索",
+                      "y": 79
+                    }
+                  ]
+                },
+                {
+                  "opacity": 0.6,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 57,
+                  "borderWidth": 0,
+                  "h": 1,
+                  "w": 492,
+                  "x": 271,
+                  "widgetType": null,
+                  "widgetProps": {},
+                  "borderColor": "#3a2a10",
+                  "bgColor": "#3a2a10",
+                  "label": "sep",
+                  "y": 107
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 60,
+                  "borderWidth": 0,
+                  "h": 369,
+                  "w": 492,
+                  "x": 271,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "objectFit": "fill",
+                    "imagePath": "",
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "物品格底图",
+                  "y": 117,
+                  "children": [
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 100,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🗡️",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-100",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 101,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🛡️",
+                        "bold": false
+                      },
+                      "borderColor": "#4a2060",
+                      "bgColor": "rgba(20,8,40,0.9)",
+                      "label": "cell-101",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 102,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "💀7",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-102",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 103,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🧪3",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-103",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 104,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🔮",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-104",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 105,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "⚔️",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-105",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 106,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "📜2",
+                        "bold": false
+                      },
+                      "borderColor": "#4a2060",
+                      "bgColor": "rgba(20,8,40,0.9)",
+                      "label": "cell-106",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 107,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "👁️",
+                        "bold": false
+                      },
+                      "borderColor": "#6a5008",
+                      "bgColor": "rgba(28,22,4,0.9)",
+                      "label": "cell-107",
+                      "y": 119
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 108,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🦴23",
+                        "bold": false
+                      },
+                      "borderColor": "#2a2818",
+                      "bgColor": "rgba(12,10,7,0.9)",
+                      "label": "cell-108",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 109,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🕯️5",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-109",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 110,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🗝️",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-110",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 111,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🧟",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-111",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 112,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🪦12",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-112",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 113,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🩸4",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-113",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 114,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🌑2",
+                        "bold": false
+                      },
+                      "borderColor": "#4a2060",
+                      "bgColor": "rgba(20,8,40,0.9)",
+                      "label": "cell-114",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 115,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🔗18",
+                        "bold": false
+                      },
+                      "borderColor": "#2a2818",
+                      "bgColor": "rgba(12,10,7,0.9)",
+                      "label": "cell-115",
+                      "y": 180
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 116,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🐀",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-116",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 117,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "⚗️9",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-117",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 118,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🎭",
+                        "bold": false
+                      },
+                      "borderColor": "#6a5008",
+                      "bgColor": "rgba(28,22,4,0.9)",
+                      "label": "cell-118",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 119,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🌿31",
+                        "bold": false
+                      },
+                      "borderColor": "#2a2818",
+                      "bgColor": "rgba(12,10,7,0.9)",
+                      "label": "cell-119",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 120,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "💎",
+                        "bold": false
+                      },
+                      "borderColor": "#6a5008",
+                      "bgColor": "rgba(28,22,4,0.9)",
+                      "label": "cell-120",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 121,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🪤2",
+                        "bold": false
+                      },
+                      "borderColor": "#4a2060",
+                      "bgColor": "rgba(20,8,40,0.9)",
+                      "label": "cell-121",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 122,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🧲",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-122",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 123,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🏺",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-123",
+                      "y": 242
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 124,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🦷6",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-124",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 125,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "📿",
+                        "bold": false
+                      },
+                      "borderColor": "#4a2060",
+                      "bgColor": "rgba(20,8,40,0.9)",
+                      "label": "cell-125",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 126,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🕸️8",
+                        "bold": false
+                      },
+                      "borderColor": "#2a5030",
+                      "bgColor": "rgba(8,24,12,0.9)",
+                      "label": "cell-126",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 127,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🌘",
+                        "bold": false
+                      },
+                      "borderColor": "#6a5008",
+                      "bgColor": "rgba(28,22,4,0.9)",
+                      "label": "cell-127",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 128,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "🧨4",
+                        "bold": false
+                      },
+                      "borderColor": "#1a2848",
+                      "bgColor": "rgba(6,12,32,0.9)",
+                      "label": "cell-128",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 129,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "👁️",
+                        "bold": false
+                      },
+                      "borderColor": "#7a1515",
+                      "bgColor": "rgba(30,8,8,0.9)",
+                      "label": "cell-129",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 130,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-130",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 131,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-131",
+                      "y": 303
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 132,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-132",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 133,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-133",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 134,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-134",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 135,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-135",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 136,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-136",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 137,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-137",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 138,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-138",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 139,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-139",
+                      "y": 364
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 140,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 273,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-140",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 141,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 334,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-141",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 142,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 396,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-142",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 143,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 457,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-143",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 144,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 519,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-144",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 145,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 580,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-145",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 146,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 641,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-146",
+                      "y": 426
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 147,
+                      "borderWidth": 1,
+                      "h": 58,
+                      "w": 58,
+                      "x": 703,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 24,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "#2e2c1a",
+                      "bgColor": "rgba(12,10,7,0.85)",
+                      "label": "cell-147",
+                      "y": 426
+                    }
+                  ]
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 200,
+                  "borderWidth": 0,
+                  "h": 53,
+                  "w": 492,
+                  "x": 271,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "objectFit": "fill",
+                    "imagePath": "",
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "腰带底图",
+                  "y": 496,
+                  "children": [
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 210,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 271,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "🧪",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(14,10,6,0.0)",
+                      "label": "bslot-210",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 211,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 318,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "🧪",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(14,10,6,0.0)",
+                      "label": "bslot-211",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 212,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 365,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "🕯️",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(14,10,6,0.0)",
+                      "label": "bslot-212",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 213,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 412,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(10,8,5,0.0)",
+                      "label": "bslot-213",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 214,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 459,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(10,8,5,0.0)",
+                      "label": "bslot-214",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 215,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 44,
+                      "x": 506,
+                      "widgetType": "Button",
+                      "widgetProps": {
+                        "textColor": "#e2cfa0",
+                        "align": "center",
+                        "fontFamily": "",
+                        "fontSize": 20,
+                        "text": "",
+                        "bold": false
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "rgba(10,8,5,0.0)",
+                      "label": "bslot-215",
+                      "y": 505
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 219,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 80,
+                      "x": 631,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 0,
+                        "textColor": "#6b5020",
+                        "text": "格位",
+                        "align": "left",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 8,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "格位",
+                      "y": 505,
+                      "children": [
+                        {
+                          "opacity": 1,
+                          "anchor": {
+                            "maxX": 0,
+                            "minY": 0,
+                            "maxY": 0,
+                            "minX": 0
+                          },
+                          "id": 220,
+                          "borderWidth": 0,
+                          "h": 16,
+                          "w": 38,
+                          "x": 667,
+                          "widgetType": "TextBlock",
+                          "widgetProps": {
+                            "letterSpacing": 0,
+                            "textColor": "#c8a045",
+                            "text": "30/48",
+                            "align": "center",
+                            "fontFamily": "Georgia,serif",
+                            "fontSize": 8,
+                            "bold": false,
+                            "italic": false,
+                            "wrap": true
+                          },
+                          "borderColor": "transparent",
+                          "bgColor": "transparent",
+                          "label": "30/48",
+                          "y": 521
+                        }
+                      ]
+                    },
+                    {
+                      "opacity": 1,
+                      "anchor": {
+                        "maxX": 0,
+                        "minY": 0,
+                        "maxY": 0,
+                        "minX": 0
+                      },
+                      "id": 221,
+                      "borderWidth": 0,
+                      "h": 44,
+                      "w": 30,
+                      "x": 720,
+                      "widgetType": "TextBlock",
+                      "widgetProps": {
+                        "letterSpacing": 0,
+                        "textColor": "#6b5020",
+                        "text": "诅咒",
+                        "align": "center",
+                        "fontFamily": "Georgia,serif",
+                        "fontSize": 8,
+                        "bold": false,
+                        "italic": false,
+                        "wrap": true
+                      },
+                      "borderColor": "transparent",
+                      "bgColor": "transparent",
+                      "label": "诅咒",
+                      "y": 505
+                    }
+                  ]
+                },
+                {
+                  "opacity": 1,
+                  "anchor": {
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0,
+                    "minX": 0
+                  },
+                  "id": 222,
+                  "borderWidth": 0,
+                  "h": 16,
+                  "w": 12,
+                  "x": 753,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "letterSpacing": 0,
+                    "textColor": "#7a1515",
+                    "text": "3",
+                    "align": "center",
+                    "fontFamily": "Georgia,serif",
+                    "fontSize": 8,
+                    "bold": true,
+                    "italic": false,
+                    "wrap": true
+                  },
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "label": "3",
+                  "y": 521
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

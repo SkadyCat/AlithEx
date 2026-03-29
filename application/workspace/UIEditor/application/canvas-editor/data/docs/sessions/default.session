@@ -1,0 +1,67 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-13T03:10:44.05Z",
+  "nextId": 203,
+  "boxes": [
+    {
+      "id": 200,
+      "x": 520,
+      "y": 110,
+      "w": 400,
+      "h": 530,
+      "label": "Box200",
+      "borderColor": "#7c6af7",
+      "bgColor": "rgba(124,106,247,0.06)",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": "CanvasPanel",
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 201,
+      "x": 390,
+      "y": 190,
+      "w": 130,
+      "h": 350,
+      "label": "Box201",
+      "borderColor": "#7c6af7",
+      "bgColor": "rgba(124,106,247,0.06)",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": "CanvasPanel",
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 202,
+      "x": 140,
+      "y": 320,
+      "w": 140,
+      "h": 170,
+      "label": "Box202",
+      "borderColor": "#7c6af7",
+      "bgColor": "rgba(124,106,247,0.06)",
+      "borderWidth": 1,
+      "opacity": 1,
+      "widgetType": "CanvasPanel",
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    }
+  ]
+}

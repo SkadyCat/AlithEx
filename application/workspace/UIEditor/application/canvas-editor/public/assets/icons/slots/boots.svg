@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#0c0e14"/><stop offset="100%" stop-color="#020304"/>
+    </radialGradient>
+    <radialGradient id="metal" cx="35%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#b0b8c8"/><stop offset="40%" stop-color="#6878a0"/><stop offset="100%" stop-color="#1e2838"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8a830"/><stop offset="100%" stop-color="#7a5010"/>
+    </linearGradient>
+    <linearGradient id="sole" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/><stop offset="100%" stop-color="#0e0804"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Left boot upper -->
+  <path d="M12,6 Q12,4 18,4 Q24,4 24,6 L25,36" stroke="url(#metal)" stroke-width="0" fill="url(#metal)"/>
+  <path d="M12,6 Q18,3 24,6 L23,36 Q18,38 13,36Z" fill="url(#metal)"/>
+  <path d="M12,8 Q18,5 24,8" fill="none" stroke="white" stroke-width="0.6" opacity="0.3"/>
+  <!-- Left ankle -->
+  <path d="M13,36 Q18,34 23,36 L24,42 Q20,48 16,48 Q12,44 12,42Z" fill="url(#metal)"/>
+  <!-- Left foot (sabaton) -->
+  <path d="M12,42 Q12,52 20,54 Q28,54 30,50 L24,42Z" fill="url(#metal)"/>
+  <path d="M12,52 Q20,56 30,52" fill="url(#sole)" stroke="none"/>
+  <!-- Left toe plates -->
+  <path d="M12,48 Q20,46 28,50" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M12,44 Q18,42 24,44" fill="none" stroke="url(#gold)" stroke-width="1"/>
+  <!-- Left shin highlight -->
+  <path d="M14,8 Q18,6 20,10 L20,30 Q18,32 16,30Z" fill="white" opacity="0.12"/>
+  <!-- Left trim -->
+  <path d="M12,6 Q12,4 18,4 Q24,4 24,6" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <!-- Right boot upper -->
+  <path d="M40,6 Q40,4 46,4 Q52,4 52,6 L51,36 Q46,38 41,36Z" fill="url(#metal)"/>
+  <path d="M40,8 Q46,5 52,8" fill="none" stroke="white" stroke-width="0.6" opacity="0.3"/>
+  <!-- Right ankle -->
+  <path d="M41,36 Q46,34 51,36 L52,42 Q48,48 44,48 Q40,44 40,42Z" fill="url(#metal)"/>
+  <!-- Right foot -->
+  <path d="M52,42 Q52,52 44,54 Q36,54 34,50 L40,42Z" fill="url(#metal)"/>
+  <path d="M52,52 Q44,56 34,52" fill="url(#sole)"/>
+  <!-- Right toe plates -->
+  <path d="M52,48 Q44,46 36,50" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M52,44 Q46,42 40,44" fill="none" stroke="url(#gold)" stroke-width="1"/>
+  <!-- Right shin highlight -->
+  <path d="M50,8 Q46,6 44,10 L44,30 Q46,32 48,30Z" fill="white" opacity="0.12"/>
+  <!-- Right trim -->
+  <path d="M40,6 Q40,4 46,4 Q52,4 52,6" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <!-- Ankle guard spurs -->
+  <path d="M10,46 L7,50" stroke="url(#gold)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M54,46 L57,50" stroke="url(#gold)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

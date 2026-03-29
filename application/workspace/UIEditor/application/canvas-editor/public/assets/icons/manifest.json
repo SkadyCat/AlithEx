@@ -1,0 +1,515 @@
+{
+  "generated": "2026-03-13T14:54:58",
+  "icons": [
+    {
+      "size": 208034,
+      "type": "png",
+      "file": "assets/icons/amulet_slot.png",
+      "name": "amulet_slot"
+    },
+    {
+      "size": 763,
+      "type": "svg",
+      "file": "assets/icons/arrow.svg",
+      "name": "arrow"
+    },
+    {
+      "size": 1246,
+      "type": "svg",
+      "file": "assets/icons/atk.svg",
+      "name": "atk"
+    },
+    {
+      "size": 2205,
+      "type": "svg",
+      "file": "assets/icons/bag.svg",
+      "name": "bag"
+    },
+    {
+      "size": 274049,
+      "type": "png",
+      "file": "assets/icons/belt_slot.png",
+      "name": "belt_slot"
+    },
+    {
+      "size": 288551,
+      "type": "png",
+      "file": "assets/icons/boot_slot_20260313_141641.png",
+      "name": "boot_slot_20260313_141641"
+    },
+    {
+      "size": 288551,
+      "type": "png",
+      "file": "assets/icons/boot_slot.png",
+      "name": "boot_slot"
+    },
+    {
+      "size": 230870,
+      "type": "png",
+      "file": "assets/icons/boots_slot.png",
+      "name": "boots_slot"
+    },
+    {
+      "size": 2336,
+      "type": "svg",
+      "file": "assets/icons/boots.svg",
+      "name": "boots"
+    },
+    {
+      "size": 140631,
+      "type": "png",
+      "file": "assets/icons/chest_slot.png",
+      "name": "chest_slot"
+    },
+    {
+      "size": 6804,
+      "type": "svg",
+      "file": "assets/icons/coin.svg",
+      "name": "coin"
+    },
+    {
+      "size": 1855,
+      "type": "svg",
+      "file": "assets/icons/def2.svg",
+      "name": "def2"
+    },
+    {
+      "size": 856,
+      "type": "svg",
+      "file": "assets/icons/dex.svg",
+      "name": "dex"
+    },
+    {
+      "size": 1672,
+      "type": "svg",
+      "file": "assets/icons/fire.svg",
+      "name": "fire"
+    },
+    {
+      "size": 1909,
+      "type": "svg",
+      "file": "assets/icons/gear.svg",
+      "name": "gear"
+    },
+    {
+      "size": 251967,
+      "type": "png",
+      "file": "assets/icons/gloves_slot.png",
+      "name": "gloves_slot"
+    },
+    {
+      "size": 4442,
+      "type": "svg",
+      "file": "assets/icons/gloves.svg",
+      "name": "gloves"
+    },
+    {
+      "size": 130194,
+      "type": "png",
+      "file": "assets/icons/gold_icon.png",
+      "name": "gold_icon"
+    },
+    {
+      "size": 6803,
+      "type": "svg",
+      "file": "assets/icons/gold.svg",
+      "name": "gold"
+    },
+    {
+      "size": 153124,
+      "type": "png",
+      "file": "assets/icons/health_pot.png",
+      "name": "health_pot"
+    },
+    {
+      "size": 2672,
+      "type": "svg",
+      "file": "assets/icons/health.svg",
+      "name": "health"
+    },
+    {
+      "size": 287257,
+      "type": "png",
+      "file": "assets/icons/helmet_slot_20260313_141637.png",
+      "name": "helmet_slot_20260313_141637"
+    },
+    {
+      "size": 240216,
+      "type": "png",
+      "file": "assets/icons/helmet_slot.png",
+      "name": "helmet_slot"
+    },
+    {
+      "size": 1005,
+      "type": "svg",
+      "file": "assets/icons/helmet.svg",
+      "name": "helmet"
+    },
+    {
+      "size": 1315,
+      "type": "svg",
+      "file": "assets/icons/ice.svg",
+      "name": "ice"
+    },
+    {
+      "size": 1266,
+      "type": "svg",
+      "file": "assets/icons/int.svg",
+      "name": "int"
+    },
+    {
+      "size": 204626,
+      "type": "png",
+      "file": "assets/icons/legs_slot.png",
+      "name": "legs_slot"
+    },
+    {
+      "size": 390,
+      "type": "svg",
+      "file": "assets/icons/lightning.svg",
+      "name": "lightning"
+    },
+    {
+      "size": 1244,
+      "type": "svg",
+      "file": "assets/icons/mana.svg",
+      "name": "mana"
+    },
+    {
+      "size": 190241,
+      "type": "png",
+      "file": "assets/icons/offhand_slot.png",
+      "name": "offhand_slot"
+    },
+    {
+      "size": 2937,
+      "type": "svg",
+      "file": "assets/icons/poison.svg",
+      "name": "poison"
+    },
+    {
+      "size": 1338,
+      "type": "svg",
+      "file": "assets/icons/potion.svg",
+      "name": "potion"
+    },
+    {
+      "size": 270392,
+      "type": "png",
+      "file": "assets/icons/ring_slot_20260313_141640.png",
+      "name": "ring_slot_20260313_141640"
+    },
+    {
+      "size": 219096,
+      "type": "png",
+      "file": "assets/icons/ring_slot.png",
+      "name": "ring_slot"
+    },
+    {
+      "size": 764,
+      "type": "svg",
+      "file": "assets/icons/ring.svg",
+      "name": "ring"
+    },
+    {
+      "size": 195340,
+      "type": "png",
+      "file": "assets/icons/ring2_slot.png",
+      "name": "ring2_slot"
+    },
+    {
+      "size": 1961,
+      "type": "svg",
+      "file": "assets/icons/scroll.svg",
+      "name": "scroll"
+    },
+    {
+      "size": 276866,
+      "type": "png",
+      "file": "assets/icons/shield_slot_20260313_141639.png",
+      "name": "shield_slot_20260313_141639"
+    },
+    {
+      "size": 207667,
+      "type": "png",
+      "file": "assets/icons/shield_slot.png",
+      "name": "shield_slot"
+    },
+    {
+      "size": 360,
+      "type": "svg",
+      "file": "assets/icons/shield.svg",
+      "name": "shield"
+    },
+    {
+      "size": 1622,
+      "type": "svg",
+      "file": "assets/icons/skull.svg",
+      "name": "skull"
+    },
+    {
+      "size": 1265,
+      "type": "svg",
+      "file": "assets/icons/stamina.svg",
+      "name": "stamina"
+    },
+    {
+      "size": 2570,
+      "type": "svg",
+      "file": "assets/icons/str.svg",
+      "name": "str"
+    },
+    {
+      "size": 255886,
+      "type": "png",
+      "file": "assets/icons/sword_slot_20260313_141638.png",
+      "name": "sword_slot_20260313_141638"
+    },
+    {
+      "size": 255886,
+      "type": "png",
+      "file": "assets/icons/sword_slot.png",
+      "name": "sword_slot"
+    },
+    {
+      "size": 1492,
+      "type": "svg",
+      "file": "assets/icons/sword.svg",
+      "name": "sword"
+    },
+    {
+      "size": 311,
+      "type": "svg",
+      "file": "assets/icons/vit.svg",
+      "name": "vit"
+    },
+    {
+      "size": 185739,
+      "type": "png",
+      "file": "assets/icons/weapon_slot.png",
+      "name": "weapon_slot"
+    },
+    {
+      "size": 779,
+      "type": "svg",
+      "file": "assets/icons/colored/arrow.svg",
+      "name": "arrow"
+    },
+    {
+      "size": 1262,
+      "type": "svg",
+      "file": "assets/icons/colored/atk.svg",
+      "name": "atk"
+    },
+    {
+      "size": 2221,
+      "type": "svg",
+      "file": "assets/icons/colored/bag.svg",
+      "name": "bag"
+    },
+    {
+      "size": 2352,
+      "type": "svg",
+      "file": "assets/icons/colored/boots.svg",
+      "name": "boots"
+    },
+    {
+      "size": 6820,
+      "type": "svg",
+      "file": "assets/icons/colored/coin.svg",
+      "name": "coin"
+    },
+    {
+      "size": 1871,
+      "type": "svg",
+      "file": "assets/icons/colored/def2.svg",
+      "name": "def2"
+    },
+    {
+      "size": 872,
+      "type": "svg",
+      "file": "assets/icons/colored/dex.svg",
+      "name": "dex"
+    },
+    {
+      "size": 1688,
+      "type": "svg",
+      "file": "assets/icons/colored/fire.svg",
+      "name": "fire"
+    },
+    {
+      "size": 1925,
+      "type": "svg",
+      "file": "assets/icons/colored/gear.svg",
+      "name": "gear"
+    },
+    {
+      "size": 4458,
+      "type": "svg",
+      "file": "assets/icons/colored/gloves.svg",
+      "name": "gloves"
+    },
+    {
+      "size": 6819,
+      "type": "svg",
+      "file": "assets/icons/colored/gold.svg",
+      "name": "gold"
+    },
+    {
+      "size": 2688,
+      "type": "svg",
+      "file": "assets/icons/colored/health.svg",
+      "name": "health"
+    },
+    {
+      "size": 1021,
+      "type": "svg",
+      "file": "assets/icons/colored/helmet.svg",
+      "name": "helmet"
+    },
+    {
+      "size": 1331,
+      "type": "svg",
+      "file": "assets/icons/colored/ice.svg",
+      "name": "ice"
+    },
+    {
+      "size": 1282,
+      "type": "svg",
+      "file": "assets/icons/colored/int.svg",
+      "name": "int"
+    },
+    {
+      "size": 406,
+      "type": "svg",
+      "file": "assets/icons/colored/lightning.svg",
+      "name": "lightning"
+    },
+    {
+      "size": 1260,
+      "type": "svg",
+      "file": "assets/icons/colored/mana.svg",
+      "name": "mana"
+    },
+    {
+      "size": 2953,
+      "type": "svg",
+      "file": "assets/icons/colored/poison.svg",
+      "name": "poison"
+    },
+    {
+      "size": 1354,
+      "type": "svg",
+      "file": "assets/icons/colored/potion.svg",
+      "name": "potion"
+    },
+    {
+      "size": 780,
+      "type": "svg",
+      "file": "assets/icons/colored/ring.svg",
+      "name": "ring"
+    },
+    {
+      "size": 1977,
+      "type": "svg",
+      "file": "assets/icons/colored/scroll.svg",
+      "name": "scroll"
+    },
+    {
+      "size": 376,
+      "type": "svg",
+      "file": "assets/icons/colored/shield.svg",
+      "name": "shield"
+    },
+    {
+      "size": 1638,
+      "type": "svg",
+      "file": "assets/icons/colored/skull.svg",
+      "name": "skull"
+    },
+    {
+      "size": 1281,
+      "type": "svg",
+      "file": "assets/icons/colored/stamina.svg",
+      "name": "stamina"
+    },
+    {
+      "size": 2586,
+      "type": "svg",
+      "file": "assets/icons/colored/str.svg",
+      "name": "str"
+    },
+    {
+      "size": 1508,
+      "type": "svg",
+      "file": "assets/icons/colored/sword.svg",
+      "name": "sword"
+    },
+    {
+      "size": 327,
+      "type": "svg",
+      "file": "assets/icons/colored/vit.svg",
+      "name": "vit"
+    },
+    {
+      "size": 1655,
+      "type": "svg",
+      "file": "assets/icons/slots/amulet.svg",
+      "name": "amulet"
+    },
+    {
+      "size": 1591,
+      "type": "svg",
+      "file": "assets/icons/slots/belt.svg",
+      "name": "belt"
+    },
+    {
+      "size": 1253,
+      "type": "svg",
+      "file": "assets/icons/slots/boots.svg",
+      "name": "boots"
+    },
+    {
+      "size": 1418,
+      "type": "svg",
+      "file": "assets/icons/slots/chest.svg",
+      "name": "chest"
+    },
+    {
+      "size": 1300,
+      "type": "svg",
+      "file": "assets/icons/slots/gloves.svg",
+      "name": "gloves"
+    },
+    {
+      "size": 1205,
+      "type": "svg",
+      "file": "assets/icons/slots/head.svg",
+      "name": "head"
+    },
+    {
+      "size": 1378,
+      "type": "svg",
+      "file": "assets/icons/slots/legs.svg",
+      "name": "legs"
+    },
+    {
+      "size": 1491,
+      "type": "svg",
+      "file": "assets/icons/slots/ring.svg",
+      "name": "ring"
+    },
+    {
+      "size": 1167,
+      "type": "svg",
+      "file": "assets/icons/slots/shield.svg",
+      "name": "shield"
+    },
+    {
+      "size": 1137,
+      "type": "svg",
+      "file": "assets/icons/slots/weapon.svg",
+      "name": "weapon"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+
+
+在 G:\GameExPro3\AILab 创建一个 基于npm 的应用。打开是一个网页，包括left_menu, top_menu， center_area，console(bottom), right_info。我希望left_menu 可以管理 workspace下面的所有会话，也可以创建一个新的会话，创建新的会话就是 复制test文件夹，然后 然后改个名字。left_menu 有按钮管理不同的会话，点击按钮就切会话。切会话以后，可以看到这个会话的内容（在center_area），可以看到sessions(待完成)，inprocess(正在处理), processed(已处理)三种卡片区域，里面是卡片，描述文档内容。每个任务完成后会在 doc里面创建对应的文档。已完成的卡片需要关联这个文档。top_menu 右上角是运行Agent，可以直接调用 对应workspace 的run.bat。console 输出日志，console支持输入，输入提交以后，向 对应 sessions 提交一份.md 文件。

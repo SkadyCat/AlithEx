@@ -1,0 +1,54 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-13T04:55:12.324Z",
+  "nextId": 1001,
+  "boxes": [
+    {
+      "id": 38,
+      "x": 8,
+      "y": 8,
+      "w": 110,
+      "h": 110,
+      "label": "EntryClass",
+      "borderColor": "#e8a020",
+      "bgColor": "rgba(232,160,32,0.08)",
+      "borderWidth": 2,
+      "opacity": 1,
+      "widgetType": null,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {},
+      "isEntryClass": true,
+      "children": [
+        {
+          "id": 39,
+          "x": 18,
+          "y": 15,
+          "w": 96,
+          "h": 98,
+          "label": "CanvasPanel29",
+          "borderColor": "#f7a76a",
+          "bgColor": "rgba(247,167,106,0.10)",
+          "borderWidth": 2,
+          "opacity": 1,
+          "widgetType": "Button",
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Button",
+            "textColor": "#ffffff",
+            "fontSize": 14
+          }
+        }
+      ]
+    }
+  ]
+}

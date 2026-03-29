@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "prompt",
+        "prompt": "现在开始。扫描 sessions/ 中的 Markdown 任务文件，并按照仓库说明处理当前队列。队列清空后，在 doc/ 中写入本轮会话导出文件，汇总本次运行处理过的所有任务和完成的改动；然后调用 wait-for-session-doc.bat 30 continuous 进入阻塞等待，直到出现新的 Markdown 任务文件后立刻恢复处理。"
+      }
+    ]
+  }
+}

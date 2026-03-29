@@ -1,0 +1,7 @@
+[2026.03.26-23:29:00] [INFO] Resolved workspace 'test' at 'G:\GameExPro3\AILab'.
+[2026.03.26-23:29:31] [QUEUE_EMPTY] No Markdown task files found in legacy sessions queue. Entering wait loop.
+[2026.03.26-23:34:18] [INFO] Resolved workspace 'legacy-root' at 'G:\GameExPro3\AILab'.
+[2026.03.26-23:34:35] [INFO] Scanned workspace 'legacy-root' and task queue directories.
+[2026.03.26-23:35:20] [QUEUE_EMPTY] No Markdown task files found in 'G:\GameExPro3\AILab\sessions'. Switching to wait mode.
+[2026.03.26-23:35:20] [WAIT] Starting wait-for-session-doc.bat 30 continuous.
+[2026.03.26-23:50:43] [INFO] Resolved workspace: legacy

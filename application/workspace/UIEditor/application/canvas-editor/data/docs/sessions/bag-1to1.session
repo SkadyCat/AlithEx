@@ -1,0 +1,169 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-14T07:27:17.291Z",
+  "nextId": 200,
+  "boxes": [
+    {
+      "anchor": {
+        "maxY": 0,
+        "minY": 0,
+        "minX": 0,
+        "maxX": 0
+      },
+      "id": 1,
+      "w": 800,
+      "bgColor": "#080604",
+      "borderWidth": 0,
+      "widgetProps": {},
+      "y": 0,
+      "x": 0,
+      "label": "画布背景",
+      "opacity": 1,
+      "h": 590,
+      "borderColor": "transparent",
+      "widgetType": "Border",
+      "children": [
+        {
+          "anchor": {
+            "maxY": 0,
+            "minY": 0,
+            "minX": 0,
+            "maxX": 0
+          },
+          "id": 2,
+          "w": 760,
+          "bgColor": "transparent",
+          "borderWidth": 0,
+          "widgetProps": {
+            "objectFit": "fill",
+            "imagePath": "/img/bag/window.png"
+          },
+          "y": 20,
+          "x": 20,
+          "label": "窗口底层",
+          "opacity": 1,
+          "h": 546,
+          "borderColor": "transparent",
+          "widgetType": "Image",
+          "children": [
+            {
+              "anchor": {
+                "maxY": 0,
+                "minY": 0,
+                "minX": 0,
+                "maxX": 0
+              },
+              "id": 10,
+              "w": 758,
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "/img/bag/title.png"
+              },
+              "y": 20,
+              "x": 21,
+              "label": "标题栏",
+              "opacity": 1,
+              "h": 40,
+              "borderColor": "transparent",
+              "widgetType": "Image"
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minY": 0,
+                "minX": 0,
+                "maxX": 0
+              },
+              "id": 20,
+              "w": 220,
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "/img/bag/left.png"
+              },
+              "y": 77,
+              "x": 21,
+              "label": "纸娃娃",
+              "opacity": 1,
+              "h": 472,
+              "borderColor": "transparent",
+              "widgetType": "Image"
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minY": 0,
+                "minX": 0,
+                "maxX": 0
+              },
+              "id": 30,
+              "w": 492,
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "/img/bag/right-tabs.png"
+              },
+              "y": 77,
+              "x": 271,
+              "label": "分类标签栏",
+              "opacity": 1,
+              "h": 40,
+              "borderColor": "transparent",
+              "widgetType": "Image"
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minY": 0,
+                "minX": 0,
+                "maxX": 0
+              },
+              "id": 40,
+              "w": 492,
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "/img/bag/grid.png"
+              },
+              "y": 117,
+              "x": 271,
+              "label": "物品格",
+              "opacity": 1,
+              "h": 369,
+              "borderColor": "transparent",
+              "widgetType": "Image"
+            },
+            {
+              "anchor": {
+                "maxY": 0,
+                "minY": 0,
+                "minX": 0,
+                "maxX": 0
+              },
+              "id": 50,
+              "w": 492,
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "widgetProps": {
+                "objectFit": "fill",
+                "imagePath": "/img/bag/belt.png"
+              },
+              "y": 496,
+              "x": 271,
+              "label": "快捷腰带",
+              "opacity": 1,
+              "h": 53,
+              "borderColor": "transparent",
+              "widgetType": "Image"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

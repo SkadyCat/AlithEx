@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 230" fill="none">
+  <!-- Head -->
+  <ellipse cx="50" cy="18" rx="14" ry="16" fill="rgba(180,140,80,0.25)" stroke="#7a5a28" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="44" y="32" width="12" height="10" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1"/>
+  <!-- Torso -->
+  <path d="M28 42 Q24 60 22 90 L30 92 L30 120 L70 120 L70 92 L78 90 Q76 60 72 42 Z" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1.5"/>
+  <!-- Left arm -->
+  <path d="M28 44 Q18 50 14 60 Q10 78 12 100 L20 100 Q20 80 22 68 Q24 56 30 50 Z" fill="rgba(180,140,80,0.18)" stroke="#7a5a28" stroke-width="1.2"/>
+  <!-- Right arm -->
+  <path d="M72 44 Q82 50 86 60 Q90 78 88 100 L80 100 Q80 80 78 68 Q76 56 70 50 Z" fill="rgba(180,140,80,0.18)" stroke="#7a5a28" stroke-width="1.2"/>
+  <!-- Left hand -->
+  <ellipse cx="16" cy="104" rx="6" ry="8" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1"/>
+  <!-- Right hand -->
+  <ellipse cx="84" cy="104" rx="6" ry="8" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1"/>
+  <!-- Left leg -->
+  <path d="M36 120 Q34 145 33 165 Q32 185 34 210 L44 210 Q44 185 44 165 Q44 145 44 120 Z" fill="rgba(180,140,80,0.18)" stroke="#7a5a28" stroke-width="1.2"/>
+  <!-- Right leg -->
+  <path d="M64 120 Q66 145 67 165 Q68 185 66 210 L56 210 Q56 185 56 165 Q56 145 56 120 Z" fill="rgba(180,140,80,0.18)" stroke="#7a5a28" stroke-width="1.2"/>
+  <!-- Left foot -->
+  <ellipse cx="38" cy="216" rx="9" ry="6" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1"/>
+  <!-- Right foot -->
+  <ellipse cx="62" cy="216" rx="9" ry="6" fill="rgba(180,140,80,0.2)" stroke="#7a5a28" stroke-width="1"/>
+  <!-- Glow dots at slots -->
+  <circle cx="50" cy="16" r="2" fill="rgba(212,168,75,0.4)"/>
+  <circle cx="50" cy="66" r="2.5" fill="rgba(212,168,75,0.35)"/>
+</svg>

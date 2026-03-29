@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "prompt",
+        "prompt": "Start now. Scan sessions/ for Markdown task files and process the current queue according to the repository instructions. When the queue becomes empty, write a session export file to doc/ summarizing all tasks processed and changes made this run, then call wait-for-session-doc.bat 30 continuous and stay blocked there until a new Markdown task file appears, then resume processing immediately."
+      }
+    ]
+  }
+}

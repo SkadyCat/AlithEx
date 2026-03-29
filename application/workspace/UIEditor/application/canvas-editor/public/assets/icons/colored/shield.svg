@@ -1,0 +1,29 @@
+﻿<svg style="background:transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(52,152,219,0.5)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#74c7ff"/>
+      <stop offset="45%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#1a5276"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a5276" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <ellipse cx="256" cy="256" rx="240" ry="240" fill="url(#bgGlow)" opacity="0.5"/>
+  <g filter="url(#shadow)">
+    <g filter="url(#glow)">
+      <path fill="url(#iconGrad)" d="M256 32L64 128v160c0 106 80 192 192 220 112-28 192-114 192-220V128L256 32zm0 48l160 80v144c0 82-62 150-160 175-98-25-160-93-160-175V160l160-80z"/>
+    </g>
+  </g>
+</svg>

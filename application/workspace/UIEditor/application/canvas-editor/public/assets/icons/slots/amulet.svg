@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#0c0a08"/><stop offset="100%" stop-color="#020201"/>
+    </radialGradient>
+    <radialGradient id="pendant" cx="40%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#e0d0a0"/>
+      <stop offset="40%" stop-color="#b89040"/>
+      <stop offset="80%" stop-color="#705010"/>
+      <stop offset="100%" stop-color="#301c04"/>
+    </radialGradient>
+    <radialGradient id="gem" cx="38%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#ff8080"/>
+      <stop offset="30%" stop-color="#d02030"/>
+      <stop offset="70%" stop-color="#601018"/>
+      <stop offset="100%" stop-color="#200408"/>
+    </radialGradient>
+    <linearGradient id="chain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8a030"/><stop offset="50%" stop-color="#f0d060"/><stop offset="100%" stop-color="#806010"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="rune" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d060"/><stop offset="100%" stop-color="#c09020"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="6" fill="url(#bg)"/>
+  <!-- Chain left arc -->
+  <path d="M32,6 Q10,8 10,28" fill="none" stroke="url(#chain)" stroke-width="2.5"/>
+  <path d="M32,6 Q10,8 10,28" fill="none" stroke="#fff8b0" stroke-width="0.6" opacity="0.4"/>
+  <!-- Chain right arc -->
+  <path d="M32,6 Q54,8 54,28" fill="none" stroke="url(#chain)" stroke-width="2.5"/>
+  <path d="M32,6 Q54,8 54,28" fill="none" stroke="#fff8b0" stroke-width="0.6" opacity="0.4"/>
+  <!-- Chain links (left) -->
+  <circle cx="18" cy="12" r="1.5" fill="none" stroke="#d0a030" stroke-width="1"/>
+  <circle cx="12" cy="20" r="1.5" fill="none" stroke="#d0a030" stroke-width="1"/>
+  <!-- Chain links (right) -->
+  <circle cx="46" cy="12" r="1.5" fill="none" stroke="#d0a030" stroke-width="1"/>
+  <circle cx="52" cy="20" r="1.5" fill="none" stroke="#d0a030" stroke-width="1"/>
+  <!-- Pendant body (teardrop/diamond shape) -->
+  <path d="M32,25 L44,36 Q44,50 32,58 Q20,50 20,36 Z" fill="url(#pendant)"/>
+  <!-- Pendant border -->
+  <path d="M32,25 L44,36 Q44,50 32,58 Q20,50 20,36 Z" fill="none" stroke="#f0d060" stroke-width="1.5"/>
+  <!-- Filigree pattern -->
+  <path d="M26,38 Q32,32 38,38 Q32,52 26,38Z" fill="none" stroke="#c09020" stroke-width="0.7" opacity="0.7"/>
+  <!-- Gem glow -->
+  <circle cx="32" cy="40" r="10" fill="#c02020" opacity="0.25" filter="url(#glow)"/>
+  <!-- Central gem -->
+  <path d="M26,38 L32,32 L38,38 L32,50 Z" fill="url(#gem)"/>
+  <!-- Gem facets -->
+  <path d="M26,38 L32,32 L32,50" fill="none" stroke="#ff6060" stroke-width="0.5" opacity="0.5"/>
+  <path d="M38,38 L32,32 L32,50" fill="none" stroke="#800020" stroke-width="0.5" opacity="0.4"/>
+  <path d="M26,38 L38,38" stroke="#e04040" stroke-width="0.5" opacity="0.4"/>
+  <!-- Gem highlight -->
+  <ellipse cx="29" cy="35" rx="3.5" ry="2.5" fill="white" opacity="0.35"/>
+  <ellipse cx="28" cy="34" rx="1.8" ry="1.2" fill="white" opacity="0.45"/>
+  <!-- Bail (top loop of pendant) -->
+  <ellipse cx="32" cy="26" rx="4" ry="3" fill="url(#pendant)" stroke="#f0d060" stroke-width="1"/>
+  <!-- Rune marks around gem -->
+  <path d="M22,40 L24,36 M22,40 L24,44" stroke="#f0d060" stroke-width="0.7" opacity="0.5"/>
+  <path d="M42,40 L40,36 M42,40 L40,44" stroke="#f0d060" stroke-width="0.7" opacity="0.5"/>
+</svg>

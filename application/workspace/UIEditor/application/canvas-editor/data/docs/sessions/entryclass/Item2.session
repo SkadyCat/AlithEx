@@ -1,0 +1,87 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-13T06:26:54.197Z",
+  "nextId": 1,
+  "boxes": [
+    {
+      "id": 19,
+      "x": 0,
+      "y": 0,
+      "w": 190,
+      "h": 180,
+      "label": "CanvasPanel19",
+      "borderColor": "#f76a6a",
+      "bgColor": "rgba(247,106,106,0.10)",
+      "borderWidth": 2,
+      "opacity": 1,
+      "widgetType": "Image",
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "imagePath": "",
+        "tintColor": "#ffffff",
+        "imageDrawType": "Normal"
+      },
+      "children": [
+        {
+          "id": 20,
+          "x": 20,
+          "y": 20,
+          "w": 150,
+          "h": 140,
+          "label": "CanvasPanel20",
+          "borderColor": "#f7a76a",
+          "bgColor": "rgba(247,167,106,0.10)",
+          "borderWidth": 2,
+          "opacity": 1,
+          "widgetType": "Button",
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "Button",
+            "fontSize": 14,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false
+          }
+        },
+        {
+          "id": 21,
+          "x": 140,
+          "y": 140,
+          "w": 50,
+          "h": 40,
+          "label": "CanvasPanel21",
+          "borderColor": "#dde8c0",
+          "bgColor": "rgba(221,232,192,0.10)",
+          "borderWidth": 2,
+          "opacity": 1,
+          "widgetType": "TextBlock",
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {
+            "text": "文本",
+            "fontSize": 14,
+            "textColor": "#fff",
+            "textAlign": "center",
+            "bold": false,
+            "italic": false,
+            "autoWrap": true
+          }
+        }
+      ]
+    }
+  ]
+}

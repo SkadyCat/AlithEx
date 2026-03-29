@@ -1,0 +1,133 @@
+﻿{
+  "version": "1.1",
+  "boxes": [
+    {
+      "id": 1,
+      "x": 8,
+      "y": 8,
+      "w": 62,
+      "h": 62,
+      "label": "InvSlotEntry",
+      "isEntryClass": true,
+      "widgetType": "SizeBox",
+      "borderColor": "#5a4a8a",
+      "bgColor": "rgba(60,40,100,0.1)",
+      "borderWidth": 1,
+      "borderRadius": 2,
+      "boxShadow": "",
+      "opacity": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {},
+      "children": [
+        {
+          "id": 2,
+          "x": 8,
+          "y": 8,
+          "w": 62,
+          "h": 62,
+          "label": "Overlay",
+          "widgetType": "Overlay",
+          "borderColor": "rgba(0,0,0,0)",
+          "bgColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "boxShadow": "",
+          "opacity": 1,
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "widgetProps": {},
+          "children": [
+            {
+              "id": 3,
+              "x": 8,
+              "y": 8,
+              "w": 62,
+              "h": 62,
+              "label": "Background",
+              "widgetType": "Border",
+              "borderColor": "#4a3010",
+              "bgColor": "rgba(20,12,6,0.85)",
+              "borderWidth": 1,
+              "borderRadius": 2,
+              "boxShadow": "inset 0 1px 4px rgba(0,0,0,0.6)",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "widgetProps": {}
+            },
+            {
+              "id": 4,
+              "x": 15,
+              "y": 15,
+              "w": 48,
+              "h": 48,
+              "label": "Icon",
+              "widgetType": "Image",
+              "borderColor": "rgba(0,0,0,0)",
+              "bgColor": "rgba(0,0,0,0)",
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "boxShadow": "",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "widgetProps": {
+                "src": "",
+                "tint": "#ffffff"
+              }
+            },
+            {
+              "id": 5,
+              "x": 48,
+              "y": 56,
+              "w": 20,
+              "h": 12,
+              "label": "ItemCount",
+              "widgetType": "TextBlock",
+              "borderColor": "rgba(0,0,0,0)",
+              "bgColor": "rgba(0,0,0,0)",
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "boxShadow": "",
+              "opacity": 1,
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "widgetProps": {
+                "text": "1",
+                "autoWrap": false,
+                "fontSize": 10,
+                "italic": false,
+                "textAlign": "right",
+                "textColor": "#d4c890",
+                "bold": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "savedAt": "2026-03-18T16:51:45.699Z",
+  "nextId": 5
+}

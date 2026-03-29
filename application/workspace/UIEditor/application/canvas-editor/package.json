@@ -1,0 +1,12 @@
+{
+  "name": "canvas-editor",
+  "version": "1.0.0",
+  "description": "Canvas editor with movable borders",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_version": "1.1",
+  "_description": "DA_WeaponScreenData — WeaponCustomizationScreen 数据配置，驱动 WBP_SkillList 的 TypeIcon 等属性",
+  "weaponTypes": [
+    {
+      "id": "Sword",
+      "label": "剑",
+      "label_en": "Sword",
+      "color": "#c8a050",
+      "iconPath": "/assets/icons/colored/sword.svg",
+      "typeIcon": "T_UI_EG_RaiderDen_WeaponCustomization",
+      "typeIconPath": "/assets/icons/colored/sword.svg"
+    },
+    {
+      "id": "Staff",
+      "label": "法杖",
+      "label_en": "Staff",
+      "color": "#8060e0",
+      "iconPath": "/assets/icons/colored/atk.svg",
+      "typeIcon": "T_UI_EG_Staff",
+      "typeIconPath": "/assets/icons/colored/atk.svg"
+    },
+    {
+      "id": "Bow",
+      "label": "弓",
+      "label_en": "Bow",
+      "color": "#60a060",
+      "iconPath": "/assets/icons/colored/arrow.svg",
+      "typeIcon": "T_UI_EG_Bow",
+      "typeIconPath": "/assets/icons/colored/arrow.svg"
+    },
+    {
+      "id": "Shield",
+      "label": "盾",
+      "label_en": "Shield",
+      "color": "#6080c0",
+      "iconPath": "/assets/icons/colored/shield.svg",
+      "typeIcon": "T_UI_EG_Shield",
+      "typeIconPath": "/assets/icons/colored/shield.svg"
+    },
+    {
+      "id": "Dagger",
+      "label": "匕首",
+      "label_en": "Dagger",
+      "color": "#c06060",
+      "iconPath": "/assets/icons/colored/dex.svg",
+      "typeIcon": "T_UI_EG_Dagger",
+      "typeIconPath": "/assets/icons/colored/dex.svg"
+    },
+    {
+      "id": "Axe",
+      "label": "斧",
+      "label_en": "Axe",
+      "color": "#d08040",
+      "iconPath": "/assets/icons/colored/atk.svg",
+      "typeIcon": "T_UI_EG_Axe",
+      "typeIconPath": "/assets/icons/colored/atk.svg"
+    },
+    {
+      "id": "Wand",
+      "label": "魔杖",
+      "label_en": "Wand",
+      "color": "#a040c0",
+      "iconPath": "/assets/icons/colored/int.svg",
+      "typeIcon": "T_UI_EG_Wand",
+      "typeIconPath": "/assets/icons/colored/int.svg"
+    },
+    {
+      "id": "Hammer",
+      "label": "锤",
+      "label_en": "Hammer",
+      "color": "#a08060",
+      "iconPath": "/assets/icons/colored/str.svg",
+      "typeIcon": "T_UI_EG_Hammer",
+      "typeIconPath": "/assets/icons/colored/str.svg"
+    }
+  ],
+  "skillList": {
+    "_comment": "WBP_SkillList (skil_list) 控件属性配置。TypeIcon 原先硬编码在 Widget 默认值，现统一由此 DA 驱动",
+    "TypeIcon": {
+      "_comment": "skil_list 中 TypeIcon Image 控件读取此处配置。运行时按当前选中武器类型切换为 weaponTypes[n].typeIcon",
+      "defaultTexture": "T_UI_EG_RaiderDen_WeaponCustomization",
+      "defaultPath": "/assets/icons/colored/sword.svg",
+      "fallbackTexture": "T_UI_EG_RaiderDen_WeaponCustomization",
+      "fallbackPath": "/assets/icons/colored/sword.svg"
+    },
+    "TypeName": {
+      "_comment": "skil_list 中显示的武器类型名称，默认值",
+      "default": "武器定制"
+    },
+    "TypeColor": "#e0c070",
+    "maxEntries": 8,
+    "entrySize": {
+      "width": 80,
+      "height": 80
+    }
+  }
+}

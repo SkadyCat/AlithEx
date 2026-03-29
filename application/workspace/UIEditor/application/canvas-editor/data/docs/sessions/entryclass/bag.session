@@ -1,0 +1,369 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-13T04:55:14.274Z",
+  "nextId": 58,
+  "boxes": [
+    {
+      "x": 260,
+      "y": 20,
+      "id": 40,
+      "bgColor": "rgba(196,122,46,0.10)",
+      "borderWidth": 2,
+      "anchor": {
+        "maxY": 0,
+        "maxX": 0,
+        "minY": 0,
+        "minX": 0
+      },
+      "borderColor": "#c47a2e",
+      "h": 360,
+      "isEntryClass": true,
+      "opacity": 1,
+      "label": "Bag",
+      "widgetType": "CanvasPanel",
+      "w": 300,
+      "children": [
+        {
+          "x": 270,
+          "y": 20,
+          "id": 41,
+          "bgColor": "rgba(196,122,46,0.20)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#c47a2e",
+          "h": 40,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Title",
+          "widgetType": "TextBlock",
+          "w": 270
+        },
+        {
+          "x": 270,
+          "y": 70,
+          "id": 42,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot01",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 340,
+          "y": 70,
+          "id": 43,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot02",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 410,
+          "y": 70,
+          "id": 44,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot03",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 480,
+          "y": 70,
+          "id": 45,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot04",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 270,
+          "y": 140,
+          "id": 46,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot05",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 340,
+          "y": 140,
+          "id": 47,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot06",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 410,
+          "y": 140,
+          "id": 48,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot07",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 480,
+          "y": 140,
+          "id": 49,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot08",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 270,
+          "y": 210,
+          "id": 50,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot09",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 340,
+          "y": 210,
+          "id": 51,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot10",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 410,
+          "y": 210,
+          "id": 52,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot11",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 480,
+          "y": 210,
+          "id": 53,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot12",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 270,
+          "y": 280,
+          "id": 54,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot13",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 340,
+          "y": 280,
+          "id": 55,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot14",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 410,
+          "y": 280,
+          "id": 56,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot15",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        },
+        {
+          "x": 480,
+          "y": 280,
+          "id": 57,
+          "bgColor": "rgba(124,106,247,0.08)",
+          "borderWidth": 1,
+          "anchor": {
+            "maxY": 0,
+            "maxX": 0,
+            "minY": 0,
+            "minX": 0
+          },
+          "borderColor": "#7c6af7",
+          "h": 60,
+          "isEntryClass": false,
+          "opacity": 1,
+          "label": "Slot16",
+          "widgetType": "CanvasPanel",
+          "w": 60
+        }
+      ]
+    }
+  ]
+}

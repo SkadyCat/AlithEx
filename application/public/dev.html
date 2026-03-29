@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alith / dev</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="dev">
+    <div class="app-shell">
+      <aside id="left_menu" class="left-menu">
+        <div class="brand-panel">
+          <span class="eyebrow">Agent Lab</span>
+          <h1>alith / dev</h1>
+          <p>独立开发页；固定连接到根级 Alith 工作区，只处理 Alith 队列。</p>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-header">
+            <span class="panel-kicker">Workspace</span>
+          </div>
+          <div class="workspace-note">
+            <strong>固定工作区</strong>
+            <span>此页面为独立入口，仅展示并操作 `Alith`。</span>
+          </div>
+        </div>
+
+        <div id="workspace_list" class="workspace-list"></div>
+      </aside>
+
+      <main class="main-content">
+        <header id="top_menu" class="top-menu">
+          <div class="top-left">
+            <span class="eyebrow">当前工作区</span>
+            <h2 id="current_workspace_name">Alith</h2>
+          </div>
+          <div class="top-actions">
+            <div class="model-row">
+              <label class="model-label" for="model_input">模型</label>
+              <select id="model_input" name="model">
+                <option value="">使用默认</option>
+              </select>
+              <button id="save_model_button" type="button" class="btn-secondary">切换模型</button>
+            </div>
+            <button id="run_agent_button" type="button" class="btn-run">▶ 启动 Agent</button>
+            <button id="refresh_button" type="button" class="btn-secondary">↻ 刷新</button>
+          </div>
+        </header>
+
+        <div id="center_area" class="center-area">
+          <section class="bucket-section" id="section_drafts">
+            <div class="bucket-header bucket-header-actionable">
+              <div class="bucket-label">
+                <span class="bucket-dot dot-draft"></span>
+                <span class="bucket-title">草稿</span>
+                <span class="bucket-count" id="count_drafts">0</span>
+              </div>
+              <button id="new_draft_button" type="button" class="btn-secondary">+ 新建草稿</button>
+            </div>
+            <div id="drafts_cards" class="card-list"></div>
+          </section>
+
+          <section class="bucket-section" id="section_sessions">
+            <div class="bucket-header">
+              <div class="bucket-label">
+                <span class="bucket-dot dot-pending"></span>
+                <span class="bucket-title">待处理</span>
+                <span class="bucket-count" id="count_sessions">0</span>
+              </div>
+            </div>
+            <div id="sessions_cards" class="card-list"></div>
+          </section>
+
+          <section class="bucket-section" id="section_inprocess">
+            <div class="bucket-header">
+              <div class="bucket-label">
+                <span class="bucket-dot dot-active"></span>
+                <span class="bucket-title">处理中</span>
+                <span class="bucket-count" id="count_inprocess">0</span>
+              </div>
+            </div>
+            <div id="inprocess_cards" class="card-list"></div>
+          </section>
+
+          <section class="bucket-section" id="section_processed">
+            <div class="bucket-header">
+              <div class="bucket-label">
+                <span class="bucket-dot dot-done"></span>
+                <span class="bucket-title">完成处理</span>
+                <span class="bucket-count" id="count_processed">0</span>
+              </div>
+            </div>
+            <div id="processed_cards" class="card-list"></div>
+          </section>
+        </div>
+      </main>
+
+      <aside id="right_info" class="right-info">
+        <div class="right-section stats-section">
+          <div class="section-title">📊 文档统计</div>
+          <div id="stats_grid" class="stats-grid">
+            <div class="stat-item"><span class="stat-num" id="stat_drafts">0</span><span class="stat-label">草稿</span></div>
+            <div class="stat-item"><span class="stat-num" id="stat_sessions">0</span><span class="stat-label">待处理</span></div>
+            <div class="stat-item"><span class="stat-num" id="stat_inprocess">0</span><span class="stat-label">处理中</span></div>
+            <div class="stat-item"><span class="stat-num" id="stat_processed">0</span><span class="stat-label">完成处理</span></div>
+            <div class="stat-item"><span class="stat-num" id="stat_docs">0</span><span class="stat-label">文档</span></div>
+          </div>
+        </div>
+
+        <div class="right-section search-section">
+          <div class="section-title">🔍 搜索文档</div>
+          <div class="search-row">
+            <input id="search_input" type="text" placeholder="关键字搜索..." autocomplete="off" />
+            <button id="search_button" type="button" class="btn-secondary btn-icon">搜索</button>
+          </div>
+          <div id="search_results" class="search-results hidden"></div>
+        </div>
+
+        <div class="right-section detail-section">
+          <div class="section-title" id="detail_title">📄 文档详情</div>
+          <div id="detail_panel" class="detail-panel">
+            <p class="muted">点击卡片或搜索结果查看文档内容。</p>
+          </div>
+        </div>
+
+        <div class="right-section chat-section">
+          <div class="section-title">💬 新建任务</div>
+          <form id="chat_form" class="chat-form">
+            <textarea id="chat_input" placeholder="输入任务内容，按 Ctrl+Enter 或点击发送…" rows="3"></textarea>
+            <button type="submit" class="btn-full">发送 →</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+
+    <div id="toast" class="toast" hidden></div>
+    <div id="draft_modal" class="modal-backdrop hidden" hidden>
+      <div class="draft-modal" role="dialog" aria-modal="true" aria-labelledby="draft_modal_title">
+        <div class="draft-modal-header">
+          <div>
+            <span class="eyebrow">Markdown Draft</span>
+            <h3 id="draft_modal_title">草稿编辑器</h3>
+            <p id="draft_modal_meta" class="draft-modal-meta"></p>
+          </div>
+          <div class="draft-modal-actions">
+            <button id="draft_promote_button" type="button" class="btn-secondary">投递到待处理</button>
+            <button id="draft_save_button" type="button">保存草稿</button>
+            <button id="draft_close_button" type="button" class="btn-secondary">关闭</button>
+          </div>
+        </div>
+        <div class="draft-modal-body">
+          <div class="draft-pane">
+            <div class="draft-pane-title">Markdown</div>
+            <textarea id="draft_editor_input" class="draft-editor-input" placeholder="# 输入草稿标题&#10;&#10;开始写 Markdown..."></textarea>
+          </div>
+          <div class="draft-pane">
+            <div class="draft-pane-title">预览</div>
+            <div id="draft_preview" class="draft-preview empty">Markdown 预览会显示在这里。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

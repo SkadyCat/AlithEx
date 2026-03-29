@@ -1,0 +1,412 @@
+﻿{
+  "version": "1.1",
+  "boxes": [
+    {
+      "y": 0,
+      "bgColor": "rgba(10,10,20,0.95)",
+      "children": [
+        {
+          "bgColor": "transparent",
+          "bgSize": "cover",
+          "opacity": 0.15,
+          "w": 1920,
+          "h": 1080,
+          "bgImage": "/assets/icons/colored/sword.svg",
+          "borderWidth": 0,
+          "children": [],
+          "x": 0,
+          "y": 0,
+          "borderColor": "#000",
+          "id": 2,
+          "widgetType": "Image",
+          "widgetProps": {
+            "imagePath": "/assets/bag/bg_main.png",
+            "tintColor": "#1a1a2e",
+            "imageDrawType": "Normal"
+          },
+          "label": "BG (Image)"
+        },
+        {
+          "y": 80,
+          "bgColor": "rgba(15,12,8,0.85)",
+          "children": [
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 280,
+              "h": 48,
+              "borderWidth": 0,
+              "children": [],
+              "x": 50,
+              "y": 90,
+              "borderColor": "transparent",
+              "id": 4,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "left",
+                "italic": false,
+                "bold": true,
+                "text": "武器定制",
+                "textColor": "#d4a84b",
+                "fontSize": 22,
+                "autoWrap": false
+              },
+              "label": "WeaponTitle (TextBlock)"
+            },
+            {
+              "bgColor": "rgba(20,16,10,0.9)",
+              "opacity": 1,
+              "w": 240,
+              "h": 240,
+              "borderWidth": 2,
+              "children": [],
+              "x": 50,
+              "y": 148,
+              "borderColor": "#6a4a1a",
+              "id": 5,
+              "widgetType": "Image",
+              "widgetProps": {
+                "imagePath": "/assets/icons/colored/sword.svg",
+                "tintColor": "#c8a050",
+                "imageDrawType": "Normal"
+              },
+              "label": "WeaponIcon (Image)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 280,
+              "h": 40,
+              "borderWidth": 0,
+              "children": [],
+              "x": 50,
+              "y": 400,
+              "borderColor": "transparent",
+              "id": 6,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "center",
+                "italic": false,
+                "bold": true,
+                "text": "长剑 +5",
+                "textColor": "#e8d080",
+                "fontSize": 16,
+                "autoWrap": false
+              },
+              "label": "WeaponName (TextBlock)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 280,
+              "h": 32,
+              "borderWidth": 0,
+              "children": [],
+              "x": 50,
+              "y": 446,
+              "borderColor": "transparent",
+              "id": 7,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "center",
+                "italic": false,
+                "bold": false,
+                "text": "单手剑",
+                "textColor": "#a08050",
+                "fontSize": 13,
+                "autoWrap": false
+              },
+              "label": "WeaponType (TextBlock)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 280,
+              "h": 20,
+              "borderWidth": 0,
+              "children": [],
+              "x": 50,
+              "y": 490,
+              "borderColor": "transparent",
+              "id": 8,
+              "widgetType": "ProgressBar",
+              "widgetProps": {
+                "percent": 0.72,
+                "barColor": "#2a2010",
+                "fillColor": "#d4802a"
+              },
+              "label": "DamageBar (ProgressBar)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 280,
+              "h": 24,
+              "borderWidth": 0,
+              "children": [],
+              "x": 50,
+              "y": 514,
+              "borderColor": "transparent",
+              "id": 9,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "left",
+                "italic": false,
+                "bold": false,
+                "text": "伤害  218 / 300",
+                "textColor": "#a08060",
+                "fontSize": 11,
+                "autoWrap": false
+              },
+              "label": "DamageLabel (TextBlock)"
+            }
+          ],
+          "label": "PanelLeft (VerticalBox)",
+          "id": 3,
+          "widgetType": "VerticalBox",
+          "x": 40,
+          "borderColor": "#3a2a10",
+          "w": 300,
+          "borderWidth": 1,
+          "h": 900,
+          "opacity": 1
+        },
+        {
+          "_daRef": "DA_WeaponScreenData.skillList",
+          "bgColor": "rgba(15,12,8,0.85)",
+          "opacity": 1,
+          "w": 720,
+          "h": 880,
+          "borderWidth": 1,
+          "children": [
+            {
+              "_parentTileView": 10,
+              "children": [
+                {
+                  "bgColor": "transparent",
+                  "opacity": 1,
+                  "w": 156,
+                  "h": 156,
+                  "borderWidth": 0,
+                  "children": [],
+                  "x": 392,
+                  "y": 92,
+                  "borderColor": "transparent",
+                  "id": 12,
+                  "widgetType": "Image",
+                  "widgetProps": {
+                    "imagePath": "/assets/icons/colored/sword.svg",
+                    "tintColor": "#3a2a10",
+                    "imageDrawType": "Normal"
+                  },
+                  "label": "SlotBG (Image)"
+                },
+                {
+                  "bgColor": "transparent",
+                  "_daPath": "DA_WeaponScreenData.skillList.TypeIcon.defaultPath",
+                  "opacity": 1,
+                  "w": 112,
+                  "h": 112,
+                  "widgetProps": {
+                    "imagePath": "/assets/icons/colored/sword.svg",
+                    "tintColor": "#d4a84b",
+                    "imageDrawType": "Normal",
+                    "_ueTexture": "T_UI_EG_RaiderDen_WeaponCustomization",
+                    "_daSource": "DA_WeaponScreenData.skillList.TypeIcon.defaultTexture"
+                  },
+                  "borderWidth": 0,
+                  "children": [],
+                  "x": 414,
+                  "y": 114,
+                  "borderColor": "transparent",
+                  "id": 13,
+                  "widgetType": "Image",
+                  "_daBinding": "DA_WeaponScreenData.skillList.TypeIcon",
+                  "label": "TypeIcon (Image)"
+                },
+                {
+                  "bgColor": "transparent",
+                  "opacity": 1,
+                  "w": 156,
+                  "h": 24,
+                  "borderWidth": 0,
+                  "children": [],
+                  "x": 392,
+                  "y": 222,
+                  "borderColor": "transparent",
+                  "id": 14,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "textAlign": "center",
+                    "italic": false,
+                    "bold": false,
+                    "text": "技能名称",
+                    "textColor": "#c8a050",
+                    "fontSize": 11,
+                    "autoWrap": false
+                  },
+                  "label": "SkillName (TextBlock)"
+                }
+              ],
+              "bgColor": "rgba(20,16,8,0.9)",
+              "opacity": 1,
+              "w": 160,
+              "h": 160,
+              "borderWidth": 2,
+              "_isEntryClass": true,
+              "x": 390,
+              "y": 90,
+              "borderColor": "#5a4a20",
+              "id": 11,
+              "widgetType": "Canvas",
+              "label": "EntryClass (Canvas)"
+            }
+          ],
+          "x": 380,
+          "y": 80,
+          "borderColor": "#3a3010",
+          "id": 10,
+          "widgetType": "TileView",
+          "label": "skill_list (TileView)"
+        },
+        {
+          "y": 80,
+          "bgColor": "rgba(15,12,8,0.85)",
+          "children": [
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 710,
+              "h": 48,
+              "borderWidth": 0,
+              "children": [],
+              "x": 1155,
+              "y": 90,
+              "borderColor": "transparent",
+              "id": 21,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "left",
+                "italic": false,
+                "bold": true,
+                "text": "技能详情",
+                "textColor": "#d4a84b",
+                "fontSize": 20,
+                "autoWrap": false
+              },
+              "label": "SkillDetail_Title (TextBlock)"
+            },
+            {
+              "bgColor": "rgba(20,16,8,0.9)",
+              "opacity": 1,
+              "w": 120,
+              "h": 120,
+              "borderWidth": 2,
+              "children": [],
+              "x": 1155,
+              "y": 148,
+              "borderColor": "#5a4a20",
+              "id": 22,
+              "widgetType": "Image",
+              "widgetProps": {
+                "imagePath": "/assets/icons/colored/sword.svg",
+                "tintColor": "#d4a84b",
+                "imageDrawType": "Normal"
+              },
+              "label": "SkillIcon (Image)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 580,
+              "h": 36,
+              "borderWidth": 0,
+              "children": [],
+              "x": 1285,
+              "y": 155,
+              "borderColor": "transparent",
+              "id": 23,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "left",
+                "italic": false,
+                "bold": true,
+                "text": "剑刃风暴",
+                "textColor": "#e8d080",
+                "fontSize": 18,
+                "autoWrap": false
+              },
+              "label": "SkillName (TextBlock)"
+            },
+            {
+              "bgColor": "transparent",
+              "opacity": 1,
+              "w": 710,
+              "h": 120,
+              "borderWidth": 0,
+              "children": [],
+              "x": 1155,
+              "y": 280,
+              "borderColor": "transparent",
+              "id": 24,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "textAlign": "left",
+                "italic": false,
+                "bold": false,
+                "text": "以旋风之势连续挥舞武器，对周围敌人造成 3 次物理伤害，每次伤害为武器攻击力的 85%。",
+                "textColor": "#c0a870",
+                "fontSize": 13,
+                "autoWrap": true
+              },
+              "label": "SkillDesc (TextBlock)"
+            },
+            {
+              "bgColor": "rgba(80,50,10,0.9)",
+              "opacity": 1,
+              "w": 320,
+              "h": 56,
+              "borderWidth": 2,
+              "children": [],
+              "x": 1155,
+              "y": 840,
+              "borderColor": "#8a6020",
+              "id": 25,
+              "widgetType": "Button",
+              "widgetProps": {
+                "bold": true,
+                "textAlign": "center",
+                "fontSize": 16,
+                "textColor": "#f0d060",
+                "text": "强化技能"
+              },
+              "label": "UpgradeBtn (Button)"
+            }
+          ],
+          "label": "PanelRight (VerticalBox)",
+          "id": 20,
+          "widgetType": "VerticalBox",
+          "x": 1140,
+          "borderColor": "#3a2a10",
+          "w": 740,
+          "borderWidth": 1,
+          "h": 900,
+          "opacity": 1
+        }
+      ],
+      "label": "WeaponCustomizationScreen (Canvas)",
+      "id": 1,
+      "widgetType": "Canvas",
+      "x": 0,
+      "borderColor": "#2a2a3e",
+      "w": 1920,
+      "borderWidth": 1,
+      "h": 1080,
+      "opacity": 1
+    }
+  ],
+  "name": "WeaponCustomization",
+  "dataAsset": "DA_WeaponScreenData",
+  "canvasHeight": 1080,
+  "canvasWidth": 1920
+}

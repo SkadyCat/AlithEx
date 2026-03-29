@@ -1,0 +1,867 @@
+{
+  "version": "1.1",
+  "savedAt": "2026-03-17T15:04:48.373Z",
+  "nextId": 60,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "背包面板",
+      "x": 160,
+      "y": 30,
+      "w": 940,
+      "h": 660,
+      "borderColor": "#6b4fa0",
+      "bgColor": "rgba(10,7,22,0.97)",
+      "borderWidth": 2,
+      "opacity": 1,
+      "widgetType": "Border",
+      "widgetProps": {
+        "bgImage": "",
+        "bgSize": "cover"
+      },
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "description": "背包主面板容器，Dark Fantasy 风格",
+      "children": [
+        {
+          "id": 2,
+          "label": "标题栏",
+          "x": 160,
+          "y": 30,
+          "w": 940,
+          "h": 52,
+          "borderColor": "#3a2060",
+          "bgColor": "rgba(28,16,50,0.95)",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "标题栏背景",
+          "children": [
+            {
+              "id": 3,
+              "label": "背包",
+              "x": 160,
+              "y": 30,
+              "w": 840,
+              "h": 52,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "⚔  背  包",
+                "fontSize": 22,
+                "fontColor": "#e8c86a",
+                "textAlign": "center",
+                "bold": true,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "背包标题文字"
+            },
+            {
+              "id": 4,
+              "label": "关闭按钮",
+              "x": 1058,
+              "y": 40,
+              "w": 32,
+              "h": 32,
+              "borderColor": "#6b3060",
+              "bgColor": "rgba(100,30,60,0.8)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "✕",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "关闭背包"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "分隔线",
+          "x": 160,
+          "y": 82,
+          "w": 940,
+          "h": 2,
+          "borderColor": "#6b4fa0",
+          "bgColor": "#6b4fa0",
+          "borderWidth": 0,
+          "opacity": 0.6,
+          "widgetType": null,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "标题与标签栏分隔线"
+        },
+        {
+          "id": 6,
+          "label": "标签栏",
+          "x": 160,
+          "y": 84,
+          "w": 940,
+          "h": 40,
+          "borderColor": "#2a1840",
+          "bgColor": "rgba(20,10,38,0.9)",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "HorizontalBox",
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "物品分类标签栏",
+          "children": [
+            {
+              "id": 7,
+              "label": "全部",
+              "x": 160,
+              "y": 84,
+              "w": 183,
+              "h": 40,
+              "borderColor": "#7c4fa0",
+              "bgColor": "rgba(90,50,140,0.9)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "全 部",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "显示所有物品"
+            },
+            {
+              "id": 8,
+              "label": "武器",
+              "x": 347,
+              "y": 84,
+              "w": 183,
+              "h": 40,
+              "borderColor": "#3a2460",
+              "bgColor": "rgba(30,18,50,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "⚔ 武 器",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "武器类物品"
+            },
+            {
+              "id": 9,
+              "label": "防具",
+              "x": 534,
+              "y": 84,
+              "w": 183,
+              "h": 40,
+              "borderColor": "#3a2460",
+              "bgColor": "rgba(30,18,50,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "🛡 防 具",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "防具类物品"
+            },
+            {
+              "id": 10,
+              "label": "材料",
+              "x": 721,
+              "y": 84,
+              "w": 183,
+              "h": 40,
+              "borderColor": "#3a2460",
+              "bgColor": "rgba(30,18,50,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "🌿 材 料",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "材料类物品"
+            },
+            {
+              "id": 11,
+              "label": "消耗品",
+              "x": 908,
+              "y": 84,
+              "w": 192,
+              "h": 40,
+              "borderColor": "#3a2460",
+              "bgColor": "rgba(30,18,50,0.7)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "🧪 消耗品",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "消耗品类物品"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "label": "分隔线2",
+          "x": 160,
+          "y": 124,
+          "w": 940,
+          "h": 2,
+          "borderColor": "#4a3070",
+          "bgColor": "#4a3070",
+          "borderWidth": 0,
+          "opacity": 0.5,
+          "widgetType": null,
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "标签栏与内容区分隔线"
+        },
+        {
+          "id": 13,
+          "label": "物品格 TileView",
+          "x": 160,
+          "y": 126,
+          "w": 598,
+          "h": 530,
+          "borderColor": "#2a1840",
+          "bgColor": "rgba(8,4,18,0.8)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "TileView",
+          "widgetProps": {
+            "gridPreviewNum": 30,
+            "placeHolder": {
+              "x": 4,
+              "y": 4
+            },
+            "entryWidth": 92,
+            "entryHeight": 92
+          },
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "物品格列表，6列x5行，每格92x92px",
+          "children": [
+            {
+              "id": 14,
+              "label": "EntryClass",
+              "x": 160,
+              "y": 126,
+              "w": 92,
+              "h": 92,
+              "borderColor": "#5a3a80",
+              "bgColor": "rgba(30,16,50,0.85)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": null,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "物品格 EntryClass 模板",
+              "children": [
+                {
+                  "id": 15,
+                  "label": "物品图标",
+                  "x": 166,
+                  "y": 132,
+                  "w": 60,
+                  "h": 60,
+                  "borderColor": "transparent",
+                  "bgColor": "rgba(60,40,90,0.4)",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "Image",
+                  "widgetProps": {
+                    "imagePath": "",
+                    "objectFit": "contain"
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "description": "物品图标图片"
+                },
+                {
+                  "id": 16,
+                  "label": "数量",
+                  "x": 216,
+                  "y": 172,
+                  "w": 30,
+                  "h": 18,
+                  "borderColor": "transparent",
+                  "bgColor": "transparent",
+                  "borderWidth": 0,
+                  "opacity": 1,
+                  "widgetType": "TextBlock",
+                  "widgetProps": {
+                    "text": "x1",
+                    "fontSize": 10,
+                    "fontColor": "#cccccc",
+                    "textAlign": "right",
+                    "bold": false,
+                    "textColor": "#ffffff",
+                    "align": "center",
+                    "italic": false,
+                    "wrap": true,
+                    "fontFamily": "",
+                    "letterSpacing": 0
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "description": "物品堆叠数量显示"
+                },
+                {
+                  "id": 17,
+                  "label": "稀有度边框",
+                  "x": 160,
+                  "y": 126,
+                  "w": 92,
+                  "h": 92,
+                  "borderColor": "#8b6fff",
+                  "bgColor": "transparent",
+                  "borderWidth": 2,
+                  "opacity": 0.7,
+                  "widgetType": "Border",
+                  "widgetProps": {
+                    "bgImage": "",
+                    "bgSize": "cover"
+                  },
+                  "anchor": {
+                    "minX": 0,
+                    "minY": 0,
+                    "maxX": 0,
+                    "maxY": 0
+                  },
+                  "description": "稀有度颜色边框（史诗紫色示例）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "label": "信息面板",
+          "x": 762,
+          "y": 126,
+          "w": 336,
+          "h": 530,
+          "borderColor": "#3a2060",
+          "bgColor": "rgba(16,10,30,0.92)",
+          "borderWidth": 1,
+          "opacity": 1,
+          "widgetType": "Border",
+          "widgetProps": {
+            "bgImage": "",
+            "bgSize": "cover"
+          },
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "选中物品详情面板",
+          "children": [
+            {
+              "id": 21,
+              "label": "物品预览图",
+              "x": 778,
+              "y": 138,
+              "w": 304,
+              "h": 200,
+              "borderColor": "#4a3070",
+              "bgColor": "rgba(30,20,50,0.6)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Image",
+              "widgetProps": {
+                "imagePath": "",
+                "objectFit": "contain"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "物品大图预览"
+            },
+            {
+              "id": 22,
+              "label": "物品名称",
+              "x": 778,
+              "y": 348,
+              "w": 304,
+              "h": 36,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "暗影之刃",
+                "fontSize": 18,
+                "fontColor": "#e8c86a",
+                "textAlign": "center",
+                "bold": true,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "物品名称（金色加粗）"
+            },
+            {
+              "id": 23,
+              "label": "物品类型",
+              "x": 778,
+              "y": 384,
+              "w": 304,
+              "h": 24,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "史诗 · 单手剑",
+                "fontSize": 12,
+                "fontColor": "#8b6fff",
+                "textAlign": "center",
+                "bold": false,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "物品稀有度与类型"
+            },
+            {
+              "id": 24,
+              "label": "属性分隔线",
+              "x": 778,
+              "y": 414,
+              "w": 304,
+              "h": 1,
+              "borderColor": "#4a3070",
+              "bgColor": "#4a3070",
+              "borderWidth": 0,
+              "opacity": 0.6,
+              "widgetType": null,
+              "widgetProps": {},
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "分隔线"
+            },
+            {
+              "id": 25,
+              "label": "物品描述",
+              "x": 778,
+              "y": 422,
+              "w": 304,
+              "h": 120,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "由暗影精华铸造而成，传说中的杀手之刃。每次命中有10%概率附加暗影诅咒效果。",
+                "fontSize": 12,
+                "fontColor": "#aaaaaa",
+                "textAlign": "left",
+                "bold": false,
+                "wrap": true,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "物品详细描述文字"
+            },
+            {
+              "id": 26,
+              "label": "攻击力",
+              "x": 778,
+              "y": 550,
+              "w": 148,
+              "h": 28,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "⚔ 攻击力  245",
+                "fontSize": 13,
+                "fontColor": "#ff9966",
+                "textAlign": "left",
+                "bold": true,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "攻击力属性显示"
+            },
+            {
+              "id": 27,
+              "label": "暴击率",
+              "x": 934,
+              "y": 550,
+              "w": 148,
+              "h": 28,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "💥 暴击率  18%",
+                "fontSize": 13,
+                "fontColor": "#ffcc44",
+                "textAlign": "left",
+                "bold": true,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "暴击率属性显示"
+            },
+            {
+              "id": 30,
+              "label": "装备按钮",
+              "x": 778,
+              "y": 586,
+              "w": 144,
+              "h": 44,
+              "borderColor": "#4a7c59",
+              "bgColor": "rgba(40,90,60,0.9)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "⚔  装 备",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "装备选中物品按钮"
+            },
+            {
+              "id": 31,
+              "label": "丢弃按钮",
+              "x": 930,
+              "y": 586,
+              "w": 144,
+              "h": 44,
+              "borderColor": "#7a3030",
+              "bgColor": "rgba(90,30,30,0.8)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "Button",
+              "widgetProps": {
+                "text": "🗑  丢 弃",
+                "fontSize": 12,
+                "textColor": "#ffffff",
+                "align": "center",
+                "bold": false,
+                "fontFamily": ""
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "丢弃选中物品按钮"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "label": "底栏",
+          "x": 160,
+          "y": 656,
+          "w": 940,
+          "h": 34,
+          "borderColor": "#2a1840",
+          "bgColor": "rgba(20,10,38,0.9)",
+          "borderWidth": 0,
+          "opacity": 1,
+          "widgetType": "HorizontalBox",
+          "widgetProps": {},
+          "anchor": {
+            "minX": 0,
+            "minY": 0,
+            "maxX": 0,
+            "maxY": 0
+          },
+          "description": "底栏：显示金币、重量等信息",
+          "children": [
+            {
+              "id": 41,
+              "label": "金币",
+              "x": 172,
+              "y": 663,
+              "w": 180,
+              "h": 20,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "💰 金币：12,540",
+                "fontSize": 13,
+                "fontColor": "#e8c86a",
+                "textAlign": "left",
+                "bold": false,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "玩家当前金币数量"
+            },
+            {
+              "id": 42,
+              "label": "负重文字",
+              "x": 778,
+              "y": 663,
+              "w": 170,
+              "h": 20,
+              "borderColor": "transparent",
+              "bgColor": "transparent",
+              "borderWidth": 0,
+              "opacity": 1,
+              "widgetType": "TextBlock",
+              "widgetProps": {
+                "text": "⚖ 24.5 / 80 kg",
+                "fontSize": 13,
+                "fontColor": "#aaaaaa",
+                "textAlign": "right",
+                "bold": false,
+                "textColor": "#ffffff",
+                "align": "center",
+                "italic": false,
+                "wrap": true,
+                "fontFamily": "",
+                "letterSpacing": 0
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "当前负重 / 最大负重"
+            },
+            {
+              "id": 43,
+              "label": "负重进度条",
+              "x": 956,
+              "y": 666,
+              "w": 120,
+              "h": 14,
+              "borderColor": "#3a2460",
+              "bgColor": "rgba(30,18,50,0.8)",
+              "borderWidth": 1,
+              "opacity": 1,
+              "widgetType": "ProgressBar",
+              "widgetProps": {
+                "value": 0.31,
+                "percent": 0.5,
+                "fillColor": "#56cfba",
+                "barColor": "rgba(255,255,255,0.1)"
+              },
+              "anchor": {
+                "minX": 0,
+                "minY": 0,
+                "maxX": 0,
+                "maxY": 0
+              },
+              "description": "负重百分比进度条 (31%)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

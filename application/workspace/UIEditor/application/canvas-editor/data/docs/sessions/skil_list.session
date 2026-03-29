@@ -1,0 +1,727 @@
+{
+  "version": "1.0",
+  "savedAt": "2026-03-13T07:45:41.656660Z",
+  "nextId": 28,
+  "boxes": [
+    {
+      "id": 1,
+      "label": "SkillListRoot",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 0,
+      "w": 960,
+      "h": 620,
+      "bgColor": "rgba(12,10,18,1)",
+      "borderColor": "#2a1a4a",
+      "borderWidth": 2,
+      "borderRadius": 8,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": null,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 2,
+      "label": "Header",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 0,
+      "w": 960,
+      "h": 48,
+      "bgColor": "rgba(18,14,26,1)",
+      "borderColor": "#2a1a4a",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 3,
+      "label": "Title",
+      "widgetType": "TextBlock",
+      "x": 12,
+      "y": 0,
+      "w": 300,
+      "h": 48,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 2,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "技能列表",
+        "textColor": "#f0c060",
+        "fontSize": 18,
+        "bold": true,
+        "textAlign": "left",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 4,
+      "label": "TypeFilterBar",
+      "widgetType": "CanvasPanel",
+      "x": 0,
+      "y": 48,
+      "w": 960,
+      "h": 56,
+      "bgColor": "rgba(16,12,24,0.95)",
+      "borderColor": "#2a1a4a",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 5,
+      "label": "DA_Label",
+      "widgetType": "TextBlock",
+      "x": 12,
+      "y": 58,
+      "w": 140,
+      "h": 24,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "DA_WeaponScreenData",
+        "textColor": "#555577",
+        "fontSize": 10,
+        "bold": false,
+        "textAlign": "left",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 6,
+      "label": "TypeBtn_剑",
+      "widgetType": "Border",
+      "x": 160,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#c8a050",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 7,
+      "label": "TypeBtnLabel_剑",
+      "widgetType": "TextBlock",
+      "x": 164,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 6,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "剑",
+        "textColor": "#c8a050",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 8,
+      "label": "TypeBtn_法杖",
+      "widgetType": "Border",
+      "x": 256,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#8060e0",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 9,
+      "label": "TypeBtnLabel_法杖",
+      "widgetType": "TextBlock",
+      "x": 260,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 8,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "法杖",
+        "textColor": "#8060e0",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 10,
+      "label": "TypeBtn_弓",
+      "widgetType": "Border",
+      "x": 352,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#60a060",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 11,
+      "label": "TypeBtnLabel_弓",
+      "widgetType": "TextBlock",
+      "x": 356,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 10,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "弓",
+        "textColor": "#60a060",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 12,
+      "label": "TypeBtn_盾",
+      "widgetType": "Border",
+      "x": 448,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#6080c0",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 13,
+      "label": "TypeBtnLabel_盾",
+      "widgetType": "TextBlock",
+      "x": 452,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 12,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "盾",
+        "textColor": "#6080c0",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 14,
+      "label": "TypeBtn_匡首",
+      "widgetType": "Border",
+      "x": 544,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#c06060",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 15,
+      "label": "TypeBtnLabel_匡首",
+      "widgetType": "TextBlock",
+      "x": 548,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 14,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "匡首",
+        "textColor": "#c06060",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 16,
+      "label": "TypeBtn_斧",
+      "widgetType": "Border",
+      "x": 640,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#d08040",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 17,
+      "label": "TypeBtnLabel_斧",
+      "widgetType": "TextBlock",
+      "x": 644,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 16,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "斧",
+        "textColor": "#d08040",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 18,
+      "label": "TypeBtn_魔杖",
+      "widgetType": "Border",
+      "x": 736,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#a040c0",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 19,
+      "label": "TypeBtnLabel_魔杖",
+      "widgetType": "TextBlock",
+      "x": 740,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 18,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "魔杖",
+        "textColor": "#a040c0",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 20,
+      "label": "TypeBtn_锤",
+      "widgetType": "Border",
+      "x": 832,
+      "y": 52,
+      "w": 80,
+      "h": 44,
+      "bgColor": "rgba(30,24,44,0.9)",
+      "borderColor": "#a08060",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 4,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 21,
+      "label": "TypeBtnLabel_锤",
+      "widgetType": "TextBlock",
+      "x": 836,
+      "y": 58,
+      "w": 72,
+      "h": 28,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 20,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "锤",
+        "textColor": "#a08060",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "center",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 22,
+      "label": "SkillListGrid",
+      "widgetType": "TileView",
+      "x": 10,
+      "y": 112,
+      "w": 940,
+      "h": 500,
+      "bgColor": "rgba(15,12,22,0.9)",
+      "borderColor": "#3a2a5a",
+      "borderWidth": 1,
+      "borderRadius": 4,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 1,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "dataPath": "/api/data-asset/DA_WeaponScreenData"
+      }
+    },
+    {
+      "id": 23,
+      "label": "EntryClass",
+      "widgetType": "Border",
+      "x": 12,
+      "y": 114,
+      "w": 300,
+      "h": 80,
+      "bgColor": "rgba(22,18,32,0.95)",
+      "borderColor": "#3a2a4a",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "boxShadow": "0 2px 8px rgba(0,0,0,0.4)",
+      "opacity": 1,
+      "parentId": 22,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {}
+    },
+    {
+      "id": 24,
+      "label": "TypeIcon",
+      "widgetType": "Image",
+      "x": 16,
+      "y": 118,
+      "w": 48,
+      "h": 48,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 4,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 23,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "imagePath": "/assets/icons/slots/weapon.svg",
+        "dataRef": "DA_WeaponScreenData.skillList.TypeIcon.defaultPath"
+      }
+    },
+    {
+      "id": 25,
+      "label": "SkillName",
+      "widgetType": "TextBlock",
+      "x": 70,
+      "y": 118,
+      "w": 220,
+      "h": 24,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 23,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "技能名称",
+        "textColor": "#e0d8f8",
+        "fontSize": 14,
+        "bold": true,
+        "textAlign": "left",
+        "autoWrap": false
+      }
+    },
+    {
+      "id": 26,
+      "label": "SkillDesc",
+      "widgetType": "TextBlock",
+      "x": 70,
+      "y": 148,
+      "w": 220,
+      "h": 40,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 23,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "技能说明文本",
+        "textColor": "#888899",
+        "fontSize": 11,
+        "bold": false,
+        "textAlign": "left",
+        "autoWrap": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "SkillLevel",
+      "widgetType": "TextBlock",
+      "x": 256,
+      "y": 118,
+      "w": 44,
+      "h": 24,
+      "bgColor": "rgba(0,0,0,0)",
+      "borderColor": "rgba(0,0,0,0)",
+      "borderWidth": 0,
+      "borderRadius": 0,
+      "boxShadow": "",
+      "opacity": 1,
+      "parentId": 23,
+      "anchor": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 0,
+        "maxY": 0
+      },
+      "widgetProps": {
+        "text": "Lv.1",
+        "textColor": "#f0c060",
+        "fontSize": 11,
+        "bold": true,
+        "textAlign": "right",
+        "autoWrap": false
+      }
+    }
+  ],
+  "_dataAssets": {
+    "DA_WeaponScreenData": "/api/data-asset/DA_WeaponScreenData"
+  }
+}
